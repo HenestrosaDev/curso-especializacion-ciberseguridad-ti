@@ -75,37 +75,80 @@ Regístrate o accede si ya tienes una cuenta.
 
 ### Evaluación inicial
 
-Realiza una evaluación utilizando los datos de una empresa ficticia o basándote en los recursos que se te proporcionarán (puedes usar la empresa del caso de estudio "Tecnologías Innovadoras S.A.", cuyas características recibirás).
-Responde a todas las preguntas del cuestionario, reflejando la situación de ciberseguridad de la empresa según el caso proporcionado.
+>Realiza una evaluación utilizando los datos de una empresa ficticia o basándote en los recursos que se te proporcionarán (puedes usar la empresa del caso de estudio "Tecnologías Innovadoras S.A.", cuyas características recibirás).  
+>Responde a todas las preguntas del cuestionario, reflejando la situación de ciberseguridad de la empresa según el caso proporcionado.
+
+![Test alto riesgo](Capturas/test-alto-riesgo.png)
 
 ### Análisis de resultados
 
-Una vez completada la evaluación, revisa los resultados que te proporcionará la herramienta. Deberás identificar las áreas críticas de mejora en la ciberseguridad de la empresa.
+>Una vez completada la evaluación, revisa los resultados que te proporcionará la herramienta. Deberás identificar las áreas críticas de mejora en la ciberseguridad de la empresa.
+
+Atendiendo a la [evaluación inicial](#evaluación-inicial), podemos apreciar que el riesgo de ciberseguridad de la empresa es **alto**. Pese a que todas las áreas tienen un gran margen de mejora debido al elevado porcentaje de nivel de riesgo, cabe destacar el **área tecnológica** como la más afectada, con un 4,6% más respecto al área personal.
+
+Este resultado nos sugiere poner el foco en la clasificación de la información tratada en la empresa con el fin de asegurar la confidencialidad, la integridad y la disponibilidad de la información. Además, es imprescindible impartir formaciones internas a los empleados para desarrollar una cultura de seguridad, tal y como sugiere el [resumen del diagnóstico](#evaluación-inicial) generado por la herramienta de autodiagnóstico del INCIBE.
 
 ### Propuesta de medidas
 
-Elabora un informe de al menos 500 palabras en el que describas:
-- Los principales problemas detectados en la evaluación.
-- Medidas concretas que se podrían implementar para mejorar la seguridad en cada área vulnerable.
-- Recursos necesarios para llevar a cabo dichas medidas (humanos, tecnológicos, formativos, etc.).
+>Elabora un informe de al menos 500 palabras en el que describas:
+>- Los principales problemas detectados en la evaluación.
+>- Medidas concretas que se podrían implementar para mejorar la seguridad en cada área vulnerable.
+>- Recursos necesarios para llevar a cabo dichas medidas (humanos, tecnológicos, formativos, etc.).
+
+Con tal de mitigar las amenazas y vulnerabilidades de la ciberseguridad de la empresa, es conveniente tomar las siguientes medidas para las áreas de riesgo alto identificadas en el [análisis](#análisis-de-resultados):
+
+- **Personas**: 
+	- **Formar a los empleados**, ya que la mayoría de los ataques aprovechan su falta de concienciación sobre la importancia de la ciberseguridad.
+	- En la información adicional proporcionada en la tarea no se determina quién administra las cuentas de correo electrónico de la empresa Tecnologías Innovadoras S.A. No obstante, es fundamental que este rol recaiga sobre una persona o un equipo concreto para **restringir el acceso** y aumentar la seguridad en este ámbito.
+	- En caso de que la empresa disponga de una **página web**, es importante mantener actualizados tanto los contenidos como las credenciales de acceso, ya que se puede publicar material que pueda ocasionar daños de imagen a la empresa.
+	- Asignar la realización de **copias de seguridad rutinarias** a una persona o equipo antes de que sea demasiado tarde, ya que un error en algún sistema puede provocar el colapso de la infraestructura tecnológica de la empresa durante horas e incluso días.
+	- Restringir **cuentas de usuario con privilegios de administrador** a personas que estén autorizadas para este cometido.
+	- En caso de que se pueda acceder a **aplicaciones internas desde el exterior**, hay que pensar concienzudamente sobre qué permisos otorgar a los usuarios.
+	- Para los **smartphones corporativos** que usan el equipo de ventas y los directores, es necesario establecer y comunicar una política que indique los usos permitidos y no permitidos. Además, es importante instaurar medidas de seguridad como el mantenimiento, la actualización o la sincronización del dispositivo.
+	- Por último, es esencial **contratar a personal experto en ciberseguridad** para asegurar la correcta puesta en marcha de las medidas propuestas en este apartado.
+- **Procesos de negocio**: 
+	- Establecer reglas para la **actualización periódica de contraseñas**, así como medidas que comprueben su fortaleza.
+	- Establecer **políticas de destrucción de la información** para la correcta eliminación de datos sensibles.
+	- Establecer procesos para realizar **copias de seguridad** frecuentes (a poder ser, diarias).
+	- Realizar **auditorías de seguridad periódicas** de protección de datos, sobre todo teniendo en cuenta el ataque de phishing que sufrieron dos trabajadores el año pasado.
+	- Establecer los **servidores y routers** de la empresa en un lugar seguro y con acceso restringido para evitar alguna manipulación de los mismos. Como mecanismos de seguridad, se pueden instalar cámaras y elementos físicos que bloqueen la entrada al sitio en el que están alojados los materiales. Para poder acceder a ellos, se requerirán tarjetas de acceso o llaves. En casos de empresas con una infraestructura tecnológica mayor, se podría contemplar también la posibilidad de contratar a un guardia de seguridad.
+	- Establecer un **plan B** en caso de que ocurra algún imprevisto que afecte a la ciberseguridad de la empresa con el fin de poder adaptarse a las circunstancias y remediar el problema con la mayor celeridad posible.
+	- Si se contratan servicios informáticos, hay que comprobar que contemplen las condiciones de ciberseguridad necesarias para hacer que su información esté segura. Es necesario que se cumpla con la **Ley Orgánica de Protección de Datos** (LOPD).
+- **Tecnología**: 
+	- **Cifrar los datos sensibles** de clientes y empleados almacenados en los servidores.
+	- Exigir **doble factor de autenticación** (2FA) para añadir una capa extra de seguridad al binomio usuario/contraseña. También se puede contemplar la **autenticación multifactor** (MFA).
+	- **Evitar que los empleados reutilicen las contraseñas** entre sus cuentas personales y corporativas. Para conseguirlo, la empresa debería ser la responsable de generar contraseñas seguras y proporcionárselas a los empleados. Hacerlo cada 6 meses, tal y como tiene establecido la empresa, es un periodo de tiempo razonable.
+	- Tomar **medidas de protección** y analizar los intentos de ataque recibidos. Para lograrlo, se pueden establecer, por ejemplo, pruebas de penetración (pentesting).
+	- **Renovar las licencias de los antivirus** para evitar el escenario en el que las licencias estén caducadas y los equipos sean vulnerables a cualquier tipo de amenaza.
+	- **Actualización periódica** de los sistemas para tener instalados los parches de seguridad más recientes.
+
+Para implementar las medidas expuestas, es necesario contar con una combinación óptima de **recursos tecnológicos, humanos y organizativos**, los cuales se han especificado en cada medida identificada. Con carácter general, es necesario contar con **personal de TI especializado** y un **responsable o un equipo encargado de la ciberseguridad** de la empresa para formar y concienciar a los empleados sobre la importancia de este aspecto, además de implementar la estrategia de seguridad y la toma de decisiones sobre riesgos y protección. 
+
+Asimismo, es fundamental tener en mente el **cumplimiento normativo y estándares de ciberseguridad**. Aunque la empresa ya cumple con normativas como la GDPR, es necesario poner énfasis en el **cifrado de datos sensibles** almacenados en la base de datos para cumplir con la LOPD.
+
+Por otro lado, es necesario contar con los **recursos financieros** adecuados para la ejecución de dichas medidas. Para ello, es necesario formalizar un **presupuesto específico** destinado a este sector de la empresa e incluso considerar la **contratación de seguros** que cubran los riesgos asociados a posibles ciberataques.
+
+### Conclusión 
+
+Como hemos podido comprobar, Tecnologías Innovadoras S.A. contaba con numerosas lagunas en aspectos críticos de la ciberseguridad de la empresa. No obstante, si volvemos a ejecutar la herramienta de autodiagnóstico del INCIBE con las medidas propuestas, podemos apreciar la diferencia abismal de resultados, consiguiendo un porcentaje de **riesgo bajo**.
+
+![Test bajo riesgo](Capturas/test-bajo-riesgo.png)
+
+Para fomentar la aplicación de **buenas prácticas** en el ámbito de la ciberseguridad, es esencial que las compañías entiendan su importancia en la estructura empresarial y las graves consecuencias que puede acarrear un ciberataque a su estructura tecnológica.
 
 ### Entrega
 
-Subir el informe a la plataforma del curso en formato PDF en el formato correcto.
-
+>Subir el informe a la plataforma del curso en formato PDF en el formato correcto.  
 >**Asegúrate de incluir capturas de pantalla de los resultados de la herramienta de diagnóstico para sustentar tu análisis.**
 
 ---
 
 ## Resultado
 
-**Calificación**: 
+**Calificación**: 8,00 / 10
 
-Calificado el ,  de  de 2024, : por Raya Narváez, Guillermo
+Calificado el lunes, 21 de octubre de 2024, 10:52 por Raya Narváez, Guillermo
 
 **Comentarios de retroalimentación**:
-
----
-
-## Corrección por mi parte
-
+- El análisis de resultados es demasiado escaso.
+- Habría que detallar más el uso de la herramienta.
