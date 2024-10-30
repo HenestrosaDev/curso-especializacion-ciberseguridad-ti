@@ -1,6 +1,7 @@
 <div id="top"></div>
 
-<h1 align="center">Curso de Especialización en Ciberseguridad en Entornos de las Tecnologías de la Información</h1>
+<div align="center">
+	<h1 align="center">Curso de Especialización en Ciberseguridad en Entornos de las Tecnologías de la Información</h1>
 	<p align="center">
 		Repositorio con todos los materiales, apuntes y ejercicios realizados durante el curso 24/25 y 25/26 del Curso de Especialización en Ciberseguridad en Entornos de las Tecnologías de la Información en la modalidad a distancia en Andalucía.
 	</p>
@@ -57,7 +58,7 @@
 	<tr>
 		<td rowspan="9">
 			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Bastionado%20de%20Redes%20y%20Sistemas">
-				Bastionado de Redes y Sistemas
+				Bastionado de Redes y Sistemas (24/25)
 			</a>
 		</td>
 		<td>
@@ -125,7 +126,7 @@
 	<tr>
 		<td rowspan="7">
 			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Incidentes%20de%20Ciberseguridad">
-				Incidentes de Ciberseguridad
+				Incidentes de Ciberseguridad (24/25)
 			</a>
 		</td>
 		<td>
@@ -179,7 +180,7 @@
 	<tr>
 		<td rowspan="4">
 			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Normativa%20de%20Ciberseguridad">
-				Normativa de Ciberseguridad
+				Normativa de Ciberseguridad (24/25)
 			</a>
 		</td>
 		<td>
