@@ -77,3 +77,14 @@ Con los puntos anteriores en mente, el proceso de la diligencia debida se distin
 - **Análisis de antecedentes** del comportamiento de LaravelTech. Es necesario para valorar la información financiera, los responsables de las organizaciones, las relaciones con la administración pública y los problemas con la administración o problemas legales previos.
 - **Formalización de la compra** de LaravelTech por parte de FlutterTech a través de un contrato. Este debe establecer cláusulas relacionadas con el cumplimiento legal de LaravelTech con sus servicios, la veracidad de la información que proporcionan, los valores de la organización, y la existencia de procesos de gestión de cumplimiento, además de la posibilidad de ser auditados.
 - **Monitorización del tercero** para asegurar que se cumple el contrato estipulado.
+
+---
+
+## Resultado
+
+**Calificación**: 9,00 / 10,00
+
+Calificado el domingo, 27 de octubre de 2024, 19:30 por Hormigo Ramírez, David
+
+**Comentario de retroalimentación**:
+- En el apartado 2, propone seis iniciativas que se alinean con los principios de buen gobierno y ética, pero algunas explicaciones carecen de profundidad (2 puntos sobre 3)
