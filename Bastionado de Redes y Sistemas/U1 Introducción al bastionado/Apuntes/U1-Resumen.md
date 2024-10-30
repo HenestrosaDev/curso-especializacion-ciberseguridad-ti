@@ -7,7 +7,7 @@ La ciberseguridad se apoya en tres elementos principales:
 
 ## 1. Orígenes
 
-En los 70 y 80, los _malware_ no eran tan populares. Uno de los primeros fue el [gusano Morris](https://es.wikipedia.org/wiki/Gusano_Morris), lo que motivó la creación del Computer Emergency Response Team (CERT) para contener amenazas similares futuras. A partir de finales de los años 80, prolifera el cibercrimen y problemas de ciberseguridad.
+En los 70 y 80, los _malware_ no eran tan populares. Uno de los primeros fue el [gusano Morris](https://es.wikipedia.org/wiki/Gusano_Morris), lo que motivó la creación del Computer Emergency Response Team (CERT) para contener amenazas similares futuras. A partir de finales de los años 80, prolifera el cibercrimen y problemas de ciberseguridad y en los 2000 se empieza a descontrolar la complejidad de dichos problemas.
 
 ### 1.1. Necesidad
 
@@ -64,6 +64,6 @@ El **análisis de riesgos** es el primer paso para elevar el nivel de cibersegur
 
 ## 3. Plan director de seguridad
 
-Conjunto de actividades para **elevar el nivel de ciberseguridad**. Su ejecución resultará satisfactoria cuando, tras los **análisis de riesgos**, se consideren que los riesgos se han reducido hasta un nivel aceptable. No olvidar que **la ciberseguridad apoya al negocio**.
+Conjunto de actividades para **elevar el nivel de ciberseguridad**. Su ejecución resultará satisfactoria cuando, tras los **análisis de riesgos**, se consideren que los riesgos se han reducido hasta un nivel aceptable. No hay que olvidar que **la ciberseguridad apoya al negocio**, por lo el plan **no** es único y estándar para todas las empresas.
 
 El plan tiene que incluir **medidas técnicas como medidas organizativas** en su ejecución con el fin de incrementar la seguridad en los **procesos más críticos**. Se basa en **ciclos de mejora continua**, ya que la situación de las empresas y otros factores cambian con el tiempo.
