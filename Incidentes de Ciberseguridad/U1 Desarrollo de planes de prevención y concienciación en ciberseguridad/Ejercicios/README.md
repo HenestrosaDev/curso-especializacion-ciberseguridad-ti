@@ -7,61 +7,57 @@
 >- El diseño deberá ser imaginativo para que se puedan tratar los temas relevantes en una auditoría de prevención.
 
 ```mermaid
-
 flowchart TD
-	A[Internet] -->|Conexión WAN| B(Firewall)
+	W[CONSULTORÍA PACO S.L.] --> A[Internet]
+	A[Internet] -->|Conexión WAN| B[Firewall]
 	B --> C{Switch Principal}
-	
+
 	%% Empleados locales
-	C --> D1[Puesto de trabajo 1 - Local]
-	C --> D2[Puesto de trabajo 2 - Local]
-	C --> D3[Puesto de trabajo 3 - Local]
-	C --> E[Servidor Local]
+	C -->|<span style="color:red">Vulnerabilidad: Puertos abiertos</span>| D1[Equipos de Trabajo Locales]
+	C -->|<span style="color:red">Vulnerabilidad: Tráfico no cifrado</span>| E[Servidor Local]
 
 	%% Bases de datos y aplicaciones
-	E --> F[Base de Datos de Clientes y Proyectos]
-	E --> G[Aplicaciones Internas]
-	E --> H[Backup Local]
+	E -->|<span style="color:red">Vulnerabilidad: Datos de clientes no encriptados</span>| F[Base de Datos de Clientes y Proyectos]
+	E --> G[Aplicaciones de Gestión Interna]
+	E -->|<span style="color:red">Vulnerabilidad: Malware dirigido al backup</span>| H[Backup Local]
 
 	%% Servidores en la nube
 	A --> I[Servidor en la Nube]
-	I --> J[Backup en la Nube]
+	I -->|<span style="color:red">Vulnerabilidad: Fugas de datos</span>| J[Backup en la Nube]
 	I --> K[Aplicaciones SaaS]
-	
+
 	%% Empleados remotos
-	A --> L(VPN)
-	L --> M1[Puesto de trabajo 1 - Remoto]
-	L --> M2[Puesto de trabajo 2 - Remoto]
-	L --> M3[Puesto de trabajo 3 - Remoto]
+	A --> L{VPN}
+	L -->|<span style="color:red">Vulnerabilidad: Fugas de direcciones IP</span>| M1[Equipos de Trabajo Remotos]
 
 	%% Correo y herramientas colaborativas
-	A --> N[Correo Electrónico]
+	A -->|<span style="color:red">Amenaza: Phishing</span>| N[Correo Electrónico]
 	A --> O["Herramientas de Colaboración (Teams, Slack)"]
 
 	%% Seguridad y monitoreo
 	C --> P[Sistema de Monitoreo]
-	P --> Q[Alertas de Seguridad]
+	P -->|<span style="color:red">Vulnerabilidad: Acceso no autorizado por falta de MFA/2FA</span>| Q[Alertas de Seguridad]
 
 	%% Cumplimiento y Auditoría
 	P --> R[Auditorías de Seguridad]
 
 	%% Comentarios adicionales
+	E:::vulnerable
 	F:::vulnerable
-	G:::vulnerable
+	H:::vulnerable
+	J:::vulnerable
+	N:::vulnerable
+	Q:::vulnerable
 	D1:::vulnerable
-	D2:::vulnerable
-	D3:::vulnerable
 	M1:::vulnerable
-	M2:::vulnerable
-	M3:::vulnerable
+  style E fill:#ffcccc,stroke:#ff0000,stroke-width:2px,color:black
 	style F fill:#ffcccc,stroke:#ff0000,stroke-width:2px,color:black
-	style G fill:#ffcccc,stroke:#ff0000,stroke-width:2px,color:black
+	style H fill:#ffcccc,stroke:#ff0000,stroke-width:2px,color:black
+	style J fill:#ffcccc,stroke:#ff0000,stroke-width:2px,color:black
+	style N fill:#ffcccc,stroke:#ff0000,stroke-width:2px,color:black
+	style Q fill:#ffcccc,stroke:#ff0000,stroke-width:2px,color:black
 	style D1 fill:#ffcccc,stroke:#ff0000,stroke-width:2px,color:black
-	style D2 fill:#ffcccc,stroke:#ff0000,stroke-width:2px,color:black
-	style D3 fill:#ffcccc,stroke:#ff0000,stroke-width:2px,color:black
 	style M1 fill:#ffcccc,stroke:#ff0000,stroke-width:2px,color:black
-	style M2 fill:#ffcccc,stroke:#ff0000,stroke-width:2px,color:black
-	style M3 fill:#ffcccc,stroke:#ff0000,stroke-width:2px,color:black
 ```
 
 ---
@@ -73,102 +69,60 @@ flowchart TD
 >- A continuación, identificar escenarios de riesgo de los elementos esenciales anteriormente indicados (entre 8-15 escenarios, aunque el listado anterior sea superior).
 >- Para cada escenario de riesgo, plantear una medida de seguridad adaptada.
 
-Para comenzar el análisis de seguridad de la empresa, primero identificamos los activos esenciales del negocio, desglosados en categorías clave. Dichos activos son críticos para el funcionamiento de la empresa y deben ser protegidos mediante medidas adecuadas de ciberseguridad:
+De acuerdo con el esquema presentado en el [apartado 1](#apartado-1-diseño-de-una-empresa-ficticia), el desglose de los activos mencionados según su categoría es el siguiente:
 
 - **Hardware**
-	- Servidores locales: Almacenamiento de datos críticos de la empresa y de los clientes, junto con datos de aplicaciones internas y backups locales.
-	- Equipos de trabajo: Equipos de los empleados para desarrollo, gestión y operación, tanto locales como remotos.
-	- Switches y routers: Gestión de la red interna y acceso a internet.
-	- Firewalls: Dispositivos de seguridad perimetral que controlan el tráfico de entrada y salida.
-	- Dispositivos móviles: Tablets y smartphones utilizados por empleados para acceder remotamente.
+	- **Servidor local**.
+	- **Equipos de trabajo locales y remotos** (incluyendo tanto ordenadores como dispositivos móviles).
+	- **Switch principal**.
+	- **Firewall** (físico).
+
 - **Software**
-	- **Sistemas operativos**: Windows, Linux y/o macOS en servidores y estaciones de trabajo.
-	- **Aplicaciones de gestión interna**: Herramientas desarrolladas para la gestión de proyectos y clientes, como ERPs o CRMs.
-	- **Aplicaciones SaaS**: Aplicaciones de terceros como Office 365 o Google Workspace.
-	- **Software de seguridad**: Antivirus, firewalls, sistemas de detección de intrusiones (IDS)...
-	- **Software de backup**: Soluciones para realizar copias de seguridad automatizadas.
+	- **Aplicaciones de gestión interna**: ERPs, CRMs, etc.
+	- **Aplicaciones SaaS**: Aplicaciones de terceros como Office 365 o Google Workspace).
+	- **Sistemas de monitoreo**: Esto incluye a las auditorías de seguridad y a las alertas de seguridad.
+	- **Servidor en la nube**: Servicio basado en software que se ejecuta sobre infraestructura de hardware. La distinción entre software y hardware en el contexto de la nube puede ser un poco difusa, pero lo clasifico como software ya que no está físicamente en las oficinas de la empresa.
+
 - **Comunicaciones**
-	- **VPN**: Red privada virtual para acceso remoto seguro de los empleados.
-	- **Red local (LAN)**: Interconexión de los servidores, estaciones de trabajo y otros dispositivos.
-	- **Conexión a Internet**: Acceso a servicios en la nube y comunicaciones externas.
-	- **Correo electrónico**: Servicio de comunicaciones interno y externo.
-	- **Herramientas de colaboración**: Utilizadas para la comunicación y coordinación de proyectos.
-- **Instalaciones**
-	- **Centro de datos local**: Instalaciones físicas donde se encuentran los servidores y equipos críticos.
+	- **VPN**.
+	- **Internet**.
+	- **Correo electrónico** (también podría catalogarse como software).
+	- **Herramientas de colaboración** (también podrían catalogarse como software).
+
+- **Instalaciones** (no especificadas en el esquema)
+	- **Centro de datos local**: Instalaciones físicas donde se encuentran los servidores que alojan la base de datos local de clientes y proyectos y las aplicaciones de gestión interna.
 	- **Oficinas**: Espacios de trabajo para los empleados locales.
-	- **Sistemas de climatización y energía**: Infraestructura que mantiene la operación de los servidores (UPS, generadores…).
+	- **Sistemas de climatización y energía**: Infraestructura que mantiene la operación de los servidores y los equipos de los trabajadores locales.
+
 - **Datos**
 	- **Base de datos de clientes y proyectos**: Información crítica sobre los clientes y contratos en curso.
-	- **Datos de recursos humanos**: Información sensible sobre los empleados.
-	- **Datos financieros**: Información sobre ingresos, gastos y facturación.
+	- **Datos de la empresa**: Información sensible sobre los empleados, las finanzas de la empresa y los clientes y proveedores.
 	- **Datos en la nube**: Almacenamiento de datos y backups en servidores externos.
-- **Personas**
-	- **Equipo de TI**: Encargado de la gestión de sistemas, redes y seguridad.
-	- **Empleados de administración**: Gestión de clientes, proyectos y finanzas.
-	- **Empleados remotos**: Contribuyen al desarrollo y gestión desde distintas ubicaciones.
-	- **Socios y proveedores**: Acceso a partes del sistema para servicios de soporte o integración.
 
-Una vez identificados los activos esenciales de la empresa, procedemos a identificar los principales escenarios de riesgo que pueden comprometer la integridad, la disponibilidad o la confidencialidad de dichos activos:
+- **Personas** (no especificadas en el esquema)
+	- **Auditores de seguridad**: Realizan las auditorías de seguridad.
+	- **Equipo de TI**: Encargado de la gestión de sistemas, redes y seguridad. Trabajan en remoto.
+	- **Empleados de administración**: Gestionan clientes, proyectos y finanzas. Usan sistemas de monitoreo, aplicaciones SaaS y aplicaciones de gestión interna.
+	- **Socios y proveedores**: Acceden a partes del sistema para servicios de soporte o integración.
 
-1. **Fallo en el servidor local**
-	- **Riesgo**: Pérdida de acceso a datos y aplicaciones internas, interrumpiendo la operación.
-	- **Medida de seguridad**: Implementar redundancia con servidores de respaldo y backups automáticos diarios.
+Ahora que tenemos el inventario de los activos de la empresa clasificados por categoría, identificamos posibles escenarios de riesgo de los elementos esenciales anteriormente indicados:
 
-2. **Acceso no autorizado a la red local**
-	- **Riesgo**: Intrusión en la red interna que comprometa datos sensibles.
-	- **Medida de seguridad**: Configurar el firewall adecuadamente, restringir accesos por VPN, implementar sistemas IDS y segmentación de red.
+1. **Fallo en el servidor local**. Puede ocasionar una pérdida de acceso a datos y aplicaciones internas, interrumpiendo la operación. Para prevenirlo, podemos activar backups automáticos diarios.
+2. **Fuga de datos en el backup de la nube**. Puede darse durante la transferencia de datos, lo que puede llevar a que datos sensibles sean expuestos. Para mitigar este riesgo, podemos configurar el cifrado de los datos para prevenir cualquier posible fuga durante el proceso de respaldo. También es importante contemplar otras medidas, como la correcta configuración del firewall o restringir los accesos por VPN.
+3. **Fugas de direcciones IP**. La incorrecta configuración de la VPN de la empresa genera fugas de IP, lo cual expone la ubicación real del usuario. Para solucionar este problema, podemos cambiar al uso de una VPN de alta calidad y confiable que tenga funciones avanzadas de seguridad, como cifrado robusto y protocolos seguros. También es importante que el proveedor de VPN no almacene logs para evitar cualquier fuga por su parte.
+4. **Ataque de phishing en el correo electrónico**. Esto puede conllevar la revelación de información confidencial y sensible, la cual se puede usar por un ciberdelincuente con un fin perjudicial para la empresa. Para evitar esto, es esencial impartir una formación constante a los empleados sobre detección de correos fraudulentos y software de análisis de correos.
+5. **Puertos abiertos en equipos de trabajo locales**. Permiten conexiones de red entrantes y salientes, lo que implica que los atacantes accedan a los equipos de la empresa y puedan, por ejemplo, escanear la red y mapear los servicios en ejecución. Para prevenirlo, se tienen que cerrar los puertos no necesarios y escanear regularmente los puertos en uso para minimizar la superficie de ataque.
+6. **Tráfico no cifrado en el servidor local**. Los datos transmitidos pueden ser interceptados y leídos por atacantes, especialmente en el entorno de red de una empresa. Esto implica que un ataque intercepte la información entre el servidor y el cliente con el fin de modificarla o usarla a su favor. Como solución, podemos implementar un protocolo de cifrado TLS para asegurar que los datos sean transmitidos de forma cifrada.
+7. **Acceso no autorizado por falta de 2FA/MFA al sistema de monitoreo**. Sin estas medidas de seguridad en el acceso al sistema de monitoreo, las auditorías de seguridad y las alertas de seguridad quedan vulnerables al acceso no autorizado. Para prevenir esto, es esencial la implementación de autenticación multifactor (MFA) o autenticación en dos pasos (2FA) para evitar que una persona pueda acceder al sistema con las credenciales básicas de un empleado de Consultoría Paco S.L.
+8. **Datos sensibles de clientes no cifrados en la base de datos de clientes y proyectos**. Cualquier acceso no autorizado, tanto interno como externo, podría resultar en la exposición de información confidencial, lo cual es un riesgo importante en términos de seguridad y cumplimiento normativo. Para proteger esta información, se tendría que implantar un algoritmo de cifrado robusto en la base de datos. Adicionalmente, se puede implementar un sistema seguro de gestión de claves de cifrado que controle y proteja las claves utilizadas para el cifrado de los datos.
 
-3. **Fallo en la VPN de acceso remoto**
-	- **Riesgo**: Imposibilidad de acceder remotamente a los sistemas corporativos.
-	- **Medida de seguridad**: Implementar un segundo canal de conexión VPN y monitorización continua del servicio.
+A su vez, se pueden dar los siguientes escenarios de riesgo a partir de los activos con los que cuenta la empresa, los cuales no están explícitamente detallados en el esquema.
 
-4. **Ataque de phishing en el correo electrónico**
-	- **Riesgo**: Robo de credenciales o infección con malware a través de correos falsificados.
-	- **Medida de seguridad**: Formación constante a los empleados sobre detección de correos fraudulentos y software de análisis de correos.
-
-5. **Malware en equipos de trabajo**
-	- Riesgo: Infección de los equipos que afecte a su funcionamiento y/o que robe información confidencial.
-	- Medida de seguridad: Antivirus y software de detección de malware actualizados en todos los dispositivos, con políticas de control de acceso.
-
-6. **Pérdida o robo de dispositivos móviles**
-	- **Riesgo**: Exposición de información corporativa al perder acceso a tablets o teléfonos móviles.
-	- **Medida de seguridad**: Habilitar el cifrado de datos en dispositivos móviles y activar la capacidad de borrado remoto.
-
-7. **Filtración de datos desde las aplicaciones SaaS**
-	- **Riesgo**: Pérdida de datos sensibles al utilizar servicios en la nube sin suficientes medidas de seguridad.
-	- **Medida de seguridad**: Control de acceso basado en roles (RBAC) y auditoría continua del acceso a los servicios en la nube.
-
-8. **Fallo en el sistema de backup**
-	- **Riesgo**: Imposibilidad de restaurar información crítica en caso de una interrupción de los servicios.
-	- **Medida de seguridad**: Verificar y probar periódicamente los backups. Tener sistemas de copia local y en la nube.
-
-9. **Sobrecarga en la red local por tráfico malicioso**
-	- **Riesgo**: Ataques DDoS o infecciones que saturan la red e impiden el acceso a servicios.
-	- **Medida de seguridad**: Implementar firewalls con protección DDoS y configurar sistemas de detección y respuesta ante anomalías.
-
-10. **Fallo en el suministro eléctrico del centro de datos**
-	- **Riesgo**: Pérdida de servicios si el suministro eléctrico es interrumpido en las instalaciones.
-	- **Medida de seguridad**: Instalar sistemas de alimentación ininterrumpida (UPS) y generadores de respaldo.
-
-11. **Pérdida de datos en la base de datos de clientes**
-	- **Riesgo**: Pérdida o corrupción de información crítica de clientes.
-	- **Medida de seguridad**: Realizar copias de seguridad automáticas y duplicar la base de datos en servidores alternos.
-
-12. **Fugas de información por despidos o personal externo**
-	- **Riesgo**: Filtración de datos confidenciales por empleados o terceros con acceso a la información.
-	- **Medida de seguridad**: Implementar políticas de control de acceso estrictas y deshabilitar credenciales inmediatamente al finalizar la relación contractual.
-
-13. **Incumplimiento de la normativa GDPR**
-	- **Riesgo**: Multas y sanciones por no proteger adecuadamente los datos personales de los clientes.
-	- **Medida de seguridad**: Auditar los sistemas regularmente para asegurar el cumplimiento y mejorar el cifrado de datos.
-
-14. **Desastres naturales en las oficinas o centros de datos**
-	- **Riesgo**: Daños físicos a los servidores o interrupciones en el negocio.
-	- **Medida de seguridad**: Tener un plan de recuperación ante desastres (DRP) y replicar servicios en diferentes ubicaciones geográficas.
-
-15. **Falta de conciencia sobre seguridad en el personal**
-	- **Riesgo**: Malas prácticas en la gestión de contraseñas o manejo de datos.
-	- **Medida de seguridad**: Crear programas de formación continua en ciberseguridad y concienciación de riesgos.
+9. **Pérdida o robo de dispositivos móviles**. Esto conlleva la exposición de información corporativa, por lo que es conveniente habilitar el cifrado de datos en dispositivos móviles y activar la capacidad de borrado remoto.
+10. **Fallo en el sistema de backup**. Significa la imposibilidad de restaurar la información de la empresa. Como medida, es importante verificar y probar periódicamente los backups, así como tener sistemas de copia local y en la nube.
+11. **Sobrecarga en la red local por tráfico malicioso**. Puede darse por ataques DDoS que saturan la red e impiden el acceso a servicios. Para prevenirlo, es importante Implementar firewalls con protección DDoS y configurar sistemas de detección y respuestas automáticas para actuar rápidamente ante estos ataques.
+12. **Fallo en el suministro eléctrico del centro de datos**. Esto puede suponer pérdida de datos y la caída de los servicios informáticos de la empresa. Para poder hacer frente a estas situaciones, es importante instalar sistemas de alimentación ininterrumpida (UPS) y generadores de respaldo.
+13. **Falta de conciencia sobre seguridad en el personal**. Es un escenario extenso que puede derivar a multitud de riesgos, como ataques de phishing, como se ha apuntado anteriormente. Para educar al personal de la empresa sobre este ámbito y concienciar sobre la importancia de este aspecto, es necesario crear programas de formación continua sobre este ámbito, así como la concienciación de riesgos derivados de ciberataques.
 
 ---
 
@@ -195,52 +149,63 @@ El plan de formación contará con los siguientes objetivos:
 
 ### Evaluación de las necesidades de la formación
 
-Para determinar las necesidades formativas, se debe realizar una evaluación previa de los niveles de conocimiento y de los riesgos asociados a cada puesto de trabajo dentro de la empresa:
+Para determinar las necesidades formativas, se debe realizar una evaluación previa de los niveles de conocimiento y de los riesgos asociados a cada puesto de trabajo dentro de la empresa. Entre ellos, distinguimos los siguientes:
 - **Personal técnico (TI)**: Necesitan formación avanzada en ciberseguridad, detección de intrusiones, y protección de infraestructuras críticas.
-- **Empleados administrativos y de recursos humanos**: Se centran en el manejo seguro de datos personales y financieros.
+- **Personal administrativo y de recursos humanos**: Se centran en el manejo seguro de datos personales y financieros.
 - **Personal en remoto**: Necesitan formación específica sobre el uso seguro de las redes públicas, las VPNs, y la correcta gestión de los dispositivos móviles.
 - **Alta dirección**: Necesitan formación en toma de decisiones en ciberseguridad, cumplimiento normativo y riesgos relacionados con la protección de datos.
-- **Usuarios generales**: Deben adquirir conocimientos básicos sobre amenazas como el phishing, el uso seguro de contraseñas y la gestión de datos confidenciales.
+- **Todos los trabajadores**: Deben adquirir conocimientos básicos sobre amenazas como el phishing, el uso seguro de contraseñas y la gestión de datos confidenciales.
 
-### Roles incluidos
+### Roles incluidos (concreción del plan)
 
-Los roles específicos incluidos en el plan, con sus correspondientes áreas de enfoque, son:
+Los roles que identificamos para impartir la formación son los siguientes:
 
-- **Equipo de TI**: Gestión de redes, servidores y ciberseguridad a nivel técnico.
-- **Personal administrativo**: Manejo de datos confidenciales y seguridad en el correo electrónico.
-- **Personal en remoto**: Acceso seguro a sistemas desde redes externas y uso de dispositivos móviles.
-- **Alta dirección**: Toma de decisiones estratégicas y cumplimiento de normativas.
-- **Usuarios generales**: Uso básico de herramientas digitales y concienciación sobre ciberamenazas.
+- **Personal de TI**.
+- **Personal administrativo**.
+- **Personal de recursos humanos**.
+- **Personal en remoto**.
+- **Alta dirección**.
+- **Todos los trabajadores**.
 
-### Contenidos de la formación y los criterios
+### Contenidos (de la formación y los criterios)
 
 La formación se adaptará a las necesidades de cada grupo, cubriendo los siguientes puntos clave:
 
-1. **Ciberseguridad básica** (para todos los empleados):
+1. **Ciberseguridad básica**:
 	- Reconocimiento de correos de phishing y malware.
 	- Gestión segura de contraseñas.
 	- Políticas de uso de dispositivos USB y redes externas.
 	- Buenas prácticas en el manejo de datos personales y corporativos.
 
-2. **Protección de datos personales y GDPR** (especialmente para administrativos y recursos humanos):
+2. **Protección de datos personales y GDPR**:
 	- Manejo seguro de datos sensibles.
 	- Cumplimiento con la GDPR y protección de la privacidad de los clientes y empleados.
 	- Políticas de retención y eliminación de datos.
 
-3. **Uso seguro de redes y dispositivos móviles** (para empleados en remoto):
+3. **Uso seguro de redes y dispositivos móviles**:
 	- Conexiones seguras a través de VPN.
 	- Seguridad en el uso de redes Wi-Fi públicas.
 	- Cifrado de datos en dispositivos móviles y uso de aplicaciones seguras.
 
-4. **Gestión avanzada de ciberseguridad** (para el equipo de TI):
+4. **Gestión avanzada de ciberseguridad**:
 	- Gestión de firewalls, antivirus y sistemas de detección de intrusos.
 	- Auditorías de seguridad de red y sistemas.
 	- Implementación de políticas de acceso seguro y segmentación de red.
 
-5. **Toma de decisiones estratégicas en seguridad** (para la alta dirección):
+5. **Toma de decisiones estratégicas en seguridad**:
 	- Evaluación de riesgos y gestión de incidentes.
 	- Cumplimiento normativo y su impacto en la empresa.
 	- Planes de recuperación ante desastres y continuidad del negocio.
+
+### Asociación de roles y contenidos (adecuados a los distintos puestos de trabajo)
+
+Primero se menciona el contenido y, a continuación, se procede a asociar el personal correspondiente:
+
+- **Ciberseguridad básica**: Todos los empleados de la empresa.
+- **Protección de datos personales y GDPR**: Personal administrativo y de recursos humanos.
+- **Uso seguro de redes y dispositivos móviles**: Personal en remoto.
+- **Gestión avanzada de ciberseguridad**: Personal de TI.
+- **Toma de decisiones estratégicas en seguridad**: Alta dirección.
 
 ### Metodologías formativas
 
@@ -281,87 +246,11 @@ Para medir la efectividad del plan de formación y concienciación, se aplicará
 
 >Describir los materiales planteados con su contenido (al **menos 3 distintos**) tanto para la fase de formación como para la de evaluación. Debe ser un material inteligible por sí solo, es decir, que sea lo que uses para formar o concienciar a tus empleados. Pueden ser consejos, carteles, emails, vídeos, cuestionarios, etc. relacionados con cualquier elemento involucrado en la ciberseguridad.
 
-A continuación, se detallan los materiales propuestos para el plan de formación y concienciación en seguridad de la información de TechCorp Solutions, tanto para la fase de formación como para la de evaluación. Estos materiales son esenciales para garantizar la comprensión y el cumplimiento de las medidas de ciberseguridad por parte de todos los empleados de la empresa.
+He aquí materiales adecuados tanto para la fase de formación y evaluación para formar o concienciar a los empleados de Consultoría Paco S.L.:
 
-### 1. Manual de ciberseguridad (fase de formación)
-
-**Formato**: Documento en PDF interactivo y disponible online en el portal interno de la empresa.  
-
-**Audiencia**: Todos los empleados, incluyendo personal administrativo, técnico, en remoto y alta dirección.  
-
-**Contenido**:
-- **Conceptos clave de ciberseguridad**: Definiciones básicas de amenazas como phishing, malware, ransomware, y ataques DDoS.
-- **Buenas prácticas para el manejo de contraseñas**: Uso de gestores de contraseñas, habilitación de autenticación multifactor (MFA) y políticas de rotación de contraseñas.
-- **Manejo de datos sensibles**: Instrucciones sobre cómo clasificar y manejar la información personal y corporativa de acuerdo con la GDPR y otras normativas.
-- **Políticas de acceso seguro**: Normas sobre el uso de redes Wi-Fi, VPN, y dispositivos personales en el entorno de trabajo.
-- **Protocolo de respuesta a incidentes**: Procedimientos a seguir en caso de detectar una brecha de seguridad o ciberincidente.
-
-**Objetivo**: Ofrecer a todos los empleados una referencia clara y accesible sobre las mejores prácticas de seguridad en sus actividades cotidianas, así como las normativas vigentes que deben respetar.
-
-### 2. Presentaciones interactivas (fase de formación)
-
-**Formato**: Presentaciones dinámicas con videos explicativos, gráficos, y actividades interactivas disponibles tanto presencialmente como online.
-
-**Audiencia**: Personal en remoto, equipo de TI, usuarios generales y alta dirección.
-
-**Contenido**:
-- **Introducción a las amenazas cibernéticas**: Videos cortos que describen situaciones reales de ciberataques (p. ej., simulaciones de phishing, ransomware) con ejemplos visuales de cómo suceden.
-- **Segmentos interactivos**: Ejercicios en los que los empleados deben identificar las amenazas en correos electrónicos falsos o situaciones simuladas.
-- **Configuración de redes seguras y dispositivos móviles**: Guía práctica para empleados remotos y técnicos sobre cómo usar VPNs, configurar cortafuegos personales y cifrar dispositivos móviles.
-
-**Objetivo**: Proporcionar una experiencia de aprendizaje interactiva y práctica para reforzar el conocimiento sobre ciberseguridad, aumentando la participación y retención del contenido formativo.
-
-### 3. Guía rápida de seguridad (fase de formación)
-
-**Formato**: Folleto en formato digital y físico (distribuido en áreas comunes y enviado por correo electrónico).
-
-**Audiencia**: Usuarios generales y empleados en remoto.
-
-**Contenido**:
-- **Top 10 consejos de seguridad**: Incluyendo no compartir contraseñas, reconocer correos sospechosos, bloquear dispositivos cuando no están en uso, etc.
-- **Acceso seguro a la red**: Pasos rápidos para conectarse de forma segura desde ubicaciones externas, uso de VPNs y evitar conexiones Wi-Fi no seguras.
-- **Protección de datos confidenciales**: Consejos sobre cómo manejar correctamente documentos físicos y digitales, incluyendo el uso de cifrado para archivos sensibles. - **Qué hacer en caso de sospecha**: Instrucciones rápidas para reportar incidentes de seguridad al equipo de TI.
-
-**Objetivo**: Brindar un recordatorio rápido y fácil de consultar para reforzar las políticas de ciberseguridad en el día a día de los empleados, facilitando la implementación de hábitos seguros.
-
-### 4. Simulaciones de ataques phishing (fase de evaluación)
-
-**Formato**: Simulaciones de correos electrónicos fraudulentos enviadas a todos los empleados de manera periódica.
-
-**Audiencia**: Todos los empleados.
-
-**Contenido**:
-- **Envío de correos electrónicos simulando ataques de phishing**: Los empleados reciben correos diseñados para parecer reales, que simulan intentos de robo de credenciales u otros ataques.
-- **Registro y análisis de respuestas**: Se monitoriza cuántos empleados clican en los enlaces sospechosos o comparten información sensible.
-- **Retroalimentación y refuerzo**: Aquellos que fallen recibirán una explicación detallada de por qué el correo era peligroso y cómo deberían haber actuado.
-
-**Objetivo**: Evaluar la capacidad de los empleados para identificar amenazas reales de phishing y corregir comportamientos inseguros, mejorando su habilidad para detectar intentos de ataque.
-
-### 5. Cuestionarios de evaluación (fase de evaluación)
-
-**Formato**: Test de opción múltiple y preguntas abiertas disponibles online, con puntuación automática.
-
-**Audiencia**: Todos los empleados, diferenciados por rol.
-
-**Contenido**:
-
-- **Evaluación de conocimientos**: Preguntas que cubren desde la seguridad básica (uso de contraseñas, phishing) hasta conceptos avanzados para el personal de TI (configuración de firewalls, gestión de vulnerabilidades).
-- **Escenarios hipotéticos**: Preguntas basadas en situaciones reales o simuladas. Por ejemplo, "Recibes un correo inesperado con un archivo adjunto, ¿qué haces?".
-- **Retroalimentación automática**: Al finalizar, los empleados reciben comentarios sobre sus respuestas incorrectas con explicaciones detalladas.
-
-**Objetivo**: Medir la comprensión de los empleados sobre los contenidos enseñados y detectar áreas que necesiten reforzarse en futuras sesiones de formación.
-
-### 6. Campañas de prácticas de seguridad (fase de evaluación)
-
-**Formato**: Campañas mensuales centradas en áreas específicas de seguridad. Por ejemplo, "Mes del manejo seguro de contraseñas".
-
-**Audiencia**: Todos los empleados.
-
-**Contenido**:
-- **Prácticas sugeridas**: Durante un mes, se lleva a cabo una campaña con mensajes y recordatorios sobre una práctica específica, como la rotación de contraseñas o la habilitación de autenticación multifactor.
-- **Desafíos de seguridad**: Los empleados son incentivados a participar en desafíos, como cambiar sus contraseñas o configurar MFA en sus cuentas de trabajo, y reciben premios o reconocimientos simbólicos.
-
-**Objetivo**: Fomentar el cambio de hábitos mediante la participación activa de los empleados en la implementación de medidas de seguridad.
+- [Kit de concienciación del INCIBE](https://www.incibe.es/empresas/formacion/kit-concienciacion), el cual cuenta con recursos didácticos y herramientas de entrenamiento.
+- [Vídeo del INCIBE sobre un caso de éxito en una compañía farmacéutica sobre cómo desarrollar una cultura de seguridad](https://www.youtube.com/watch?v=zK34B2G2ce4).
+- Una vez impartida la formación y proporcionados los dos anteriores recursos a los empleados, podemos medir el nivel de concienciación adquirido al evaluarlos con [este test de ciberseguridad para los empleados realizado por Dolbuck](https://dolbuck.net/test-ciberseguridad-empleados/).
 
 ---
 
@@ -387,103 +276,141 @@ A continuación, se detallan los materiales propuestos para el plan de formació
 
 A continuación, se comprueba si los elementos esenciales del sistema de TechCorp Solutions disponen de las medidas de seguridad necesarias y se propone la auditoría requerida para cada caso junto con los indicadores de logro necesarios para determinar si los controles son aptos o no.
 
-### 1. Sistemas antimalware
+### 1. Equipos de trabajo (locales y remotos)
 
-**Elementos aplicables**:
-- Equipos de trabajo (locales y remotos).
-- Servidores.
-
-**Medida de seguridad**:
-- Verificación de que todos los dispositivos cuentan con software antimalware actualizado, configurado correctamente y activo en todo momento.
-
-**Auditoría requerida**:
-- **Auditoría de seguridad perimetral** para evaluar la efectividad de los sistemas antimalware instalados en los servidores y dispositivos individuales.
-
-**Indicadores de logro**:
-- **Apto**: Todos los dispositivos cuentan con protección antimalware activa, con actualizaciones automáticas habilitadas.
-- **No apto**: Falta de protección activa en algunos dispositivos o desactualización del software.
-
-### 2. Procesos de gestión de permisos
-
-**Elementos aplicables**:
-- Bases de datos.
-- Equipos de trabajo (locales y remotos).
-- Aplicaciones de gestión interna.
-
-**Medida de seguridad**:
-- Control riguroso del acceso a los sistemas y bases de datos. Revisión de que los usuarios solo tienen permisos necesarios para desempeñar sus tareas.
+**Medidas de seguridad**:
+- Sistemas antimalware: ✅
+- Procesos de gestión de permisos: ✅
+- Procesos de cumplimiento legal (compliance): ❌
+- Políticas de prevención de fraude y de fuga de datos: ❌
+- Sistema de actualizaciones: ✅
+- Sistemas de monitorización de recursos: ❌
 
 **Auditoría requerida**:
-- Auditoría de red para verificar la correcta implementación de los procesos de control de acceso y permisos.
+- **Auditoría de seguridad perimetral** para verificar la efectividad del antimalware, gestión de permisos, y la aplicación de actualizaciones.
 
 **Indicadores de logro**:
-- **Apto**: Los permisos están bien definidos y se aplican políticas de acceso basadas en roles (RBAC) con controles de autenticación multifactor (MFA).
-- **No apto**: Acceso indiscriminado a sistemas, sin restricción adecuada ni auditorías de acceso.
+- **Apto**: El equipo cuenta con protección antimalware activa, permisos ajustados a las necesidades de cada usuario, y un sistema de actualizaciones automático habilitado.
+- **No apto**: Antimalware desactivado, permisos sin restricciones adecuadas, o falta de actualizaciones regulares, lo que deja el equipo expuesto a vulnerabilidades.
 
-### 3. Procesos de cumplimiento legal (compliance)
+### 2. Firewall
 
-**Elementos aplicables**:
-- Sistemas de gestión de datos.
-- Servidores y bases de datos.
-
-**Medida de seguridad**:
-- Cumplimiento con normativas como GDPR, PCI-DSS, o leyes locales de protección de datos.
+**Medidas de seguridad**:
+- Sistemas antimalware: ❌
+- Procesos de gestión de permisos: ✅
+- Procesos de cumplimiento legal (compliance): ✅
+- Políticas de prevención de fraude y de fuga de datos: ✅
+- Sistema de actualizaciones: ✅
+- Sistemas de monitorización de recursos: ❌
 
 **Auditoría requerida**:
-- Auditoría legal para asegurar el cumplimiento de las normativas aplicables a la gestión de datos.
+- **Auditoría de seguridad perimetral** para evaluar la configuración de políticas de acceso, cumplimiento legal, y protección frente a fuga de datos.
 
 **Indicadores de logro**:
-- **Apto**: Se cumplen las normativas aplicables, y se dispone de procedimientos de cumplimiento actualizados.
-- **No apto**: Falta de procesos establecidos para cumplir con normativas de protección de datos o incumplimiento de requisitos legales.
+- **Apto**: El firewall cuenta con políticas de acceso seguras, cumple con normativas legales y tiene reglas efectivas de prevención de fugas de datos. Además, las actualizaciones están automatizadas.
+- **No apto**: Configuración de acceso inadecuada, falta de cumplimiento con normativas legales, o reglas de prevención de fugas no implementadas correctamente.
 
-### 4. Políticas de prevención de fraude y fuga de datos
-
-**Elementos aplicables**:
-- Bases de datos.
-- Servidores de aplicaciones.
+### 3. Sistema de monitoreo
 
 **Medida de seguridad**:
-- Políticas documentadas y mecanismos implementados para la prevención de fugas de datos y fraude interno o externo.
+- Sistemas antimalware: ❌
+- Procesos de gestión de permisos: ✅
+- Procesos de cumplimiento legal (compliance): ✅
+- Políticas de prevención de fraude y de fuga de datos: ✅
+- Sistema de actualizaciones: ✅
+- Sistemas de monitorización de recursos: ✅
 
 **Auditoría requerida**:
-- **Test de penetración o de Hacking Ético** para evaluar la vulnerabilidad de las bases de datos frente a posibles fugas de datos o fraudes.
+- **Auditoría de seguridad perimetral** para evaluar la configuración de las políticas de acceso y la efectividad del sistema de monitoreo en la detección de actividades sospechosas.
 
 **Indicadores de logro**:
-- **Apto**: Existencia de políticas claras de prevención y detección de fraude y fuga de datos, con herramientas activas para mitigarlo.
-- **No apto**: Políticas insuficientes o sin implementar, o inexistencia de mecanismos de detección.
+- **Apto**: El sistema de monitoreo está configurado correctamente, con políticas de acceso adecuadas, actualizado regularmente y con reglas para detectar actividades inusuales o fuga de datos.
+- **No apto**: El sistema de monitoreo no está funcionando correctamente, carece de políticas de acceso o no está actualizado, lo que impide la detección adecuada de amenazas.
 
-### 5. Sistema de actualizaciones
-
-**Elementos aplicables**:
-- Equipos de trabajo (locales y remotos).
-- Servidores.
-- Dispositivos de red.
+### 4. Correo electrónico
 
 **Medida de seguridad**:
-- Implementación de un sistema de actualizaciones automatizadas para garantizar que todos los sistemas y software estén actualizados con los últimos parches de seguridad.
+- Sistemas antimalware: ✅
+- Procesos de gestión de permisos: ✅
+- Procesos de cumplimiento legal (compliance): ✅
+- Políticas de prevención de fraude y de fuga de datos: ✅
+- Sistema de actualizaciones: ✅
+- Sistemas de monitorización de recursos: ✅
+
+**Auditoría requerida**:
+- **Auditoría de red** para revisar la seguridad de la infraestructura de red que soporta el sistema de correo electrónico y garantizar que no existan vulnerabilidades a nivel de comunicación.
+
+**Indicadores de logro**:
+- **Apto**: El sistema de correo electrónico cuenta con protección antimalware activa, políticas de acceso adecuadas, filtros de phishing eficaces, actualizaciones regulares y protocolos de seguridad de red implementados correctamente.
+- **No apto**: Falta de protección antimalware, acceso sin restricciones, ausencia de filtros para phishing, falta de actualización o vulnerabilidades en la infraestructura de red que podrían poner en riesgo los datos.
+
+### 5. Aplicaciones de gestión interna
+
+**Medida de seguridad**:
+- Sistemas antimalware: ✅
+- Procesos de gestión de permisos: ✅
+- Procesos de cumplimiento legal (compliance): ✅
+- Políticas de prevención de fraude y de fuga de datos: ✅
+- Sistema de actualizaciones: ✅
+- Sistemas de monitorización de recursos: ✅
 
 **Auditoría requerida**:  
-- **Auditoría de seguridad perimetral** para evaluar el estado de actualización de los sistemas.
+- **Auditoría de seguridad perimetral** para evaluar la seguridad de la infraestructura de la aplicación y garantizar que las conexiones entre la aplicación y los sistemas externos estén protegidas adecuadamente.
 
 **Indicadores de logro**:
-- **Apto**: Todos los sistemas y software críticos están actualizados y las actualizaciones automáticas están activadas.
-- **No apto**: Presencia de sistemas desactualizados o falta de procedimientos claros para gestionar las actualizaciones.
+- **Apto**: Las aplicaciones de gestión interna están protegidas por antimalware, cuentan con políticas de acceso adecuadas, cumplen con las normativas legales aplicables, están actualizadas y son monitoreadas de forma proactiva.
+- **No apto**: Las aplicaciones presentan vulnerabilidades en su infraestructura, acceso no autorizado, no cumplen con normativas de seguridad, o no están protegidas adecuadamente por medidas como el antimalware y la actualización regular.
 
-### 6. Sistemas de monitorización de recursos
-
-**Elementos aplicables**:
-- Servidores.
-- Redes y dispositivos de red (conmutadores, routers, etc.).
+### 6. Aplicaciones SaaS
 
 **Medida de seguridad**:
-- Herramientas de monitorización de redes, servidores y aplicaciones para detectar comportamientos inusuales o anomalías en tiempo real.
+- Sistemas antimalware: ✅
+- Procesos de gestión de permisos: ✅
+- Procesos de cumplimiento legal (compliance): ✅
+- Políticas de prevención de fraude y de fuga de datos: ✅
+- Sistema de actualizaciones: ✅
+- Sistemas de monitorización de recursos: ✅
 
 **Auditoría requerida**:
-- Auditoría de red y auditoría de seguridad perimetral para asegurar que los sistemas de monitorización están operativos y se actúa sobre las alertas de forma proactiva.
+- **Auditoría legal** para verificar que las aplicaciones SaaS cumplen con las normativas de protección de datos (como GDPR, CCPA, etc.) y los acuerdos de nivel de servicio (SLA) de seguridad proporcionados por el proveedor de SaaS.
 
 **Indicadores de logro**:
-- **Apto**: Sistema de monitorización en tiempo real activo, con alertas configuradas y revisadas regularmente.
-- **No apto**: Ausencia de sistemas de monitorización o sistemas no configurados correctamente.
+- **Apto**: Las aplicaciones SaaS cumplen con las normativas de protección de datos y están cubiertas por contratos de seguridad adecuados con el proveedor.
+- **No apto**: Las aplicaciones SaaS no cumplen con las normativas de seguridad o protección de datos, carecen de medidas adecuadas para prevenir fraudes y fugas de datos.
+
+### 7. Servidor local
+
+**Medida de seguridad**:
+- Sistemas antimalware: ✅
+- Procesos de gestión de permisos: ✅
+- Procesos de cumplimiento legal (compliance): ✅
+- Políticas de prevención de fraude y de fuga de datos: ✅
+- Sistema de actualizaciones: ✅
+- Sistemas de monitorización de recursos: ✅
+
+**Auditoría requerida**:
+- **Test de penetración (Hacking Ético)** para evaluar las vulnerabilidades del servidor local mediante un enfoque proactivo, simulando posibles ataques externos para identificar fallos en la seguridad y en los mecanismos de protección.
+
+**Indicadores de logro**:
+- **Apto**: No se identifican vulnerabilidades significativas en el test de penetración.
+- **No apto**: Durante el test, se identifican riesgos críticos que comprometen la seguridad de los datos alojados en el servidor.
+
+### 8. Base de datos de clientes y proyectos
+
+**Medida de seguridad**:
+- Sistemas antimalware: ❌
+- Procesos de gestión de permisos: ✅
+- Procesos de cumplimiento legal (compliance): ✅
+- Políticas de prevención de fraude y de fuga de datos: ✅
+- Sistema de actualizaciones: ✅
+- Sistemas de monitorización de recursos: ✅
+
+**Auditoría requerida**:
+- **Auditoría forense** para investigar accesos no autorizados o manipulación de datos en la base de datos, revisar logs de acceso, transacciones realizadas, y determinar posibles fugas de datos.
+
+**Indicadores de logro**:
+- **Apto**: No se detectan accesos no autorizados, las políticas de acceso se aplican correctamente y no se han producido alteraciones maliciosas en los datos. Los registros de auditoría muestran que todas las actividades en la base de datos están documentadas y son legítimas.
+- **No apto**: Se han detectado accesos no autorizados, alteraciones en los datos o actividades sospechosas que no se han registrado adecuadamente. Alguien ha manipulado los datos sensibles o ha extraído información de forma maliciosa.
 
 ### Sistema de mejora continua para implementación de resultados de auditoría
 
