@@ -48,7 +48,10 @@
 	</p>
 </div>
 
----
+## Módulos
+
+>[!NOTE]
+>Los números entre paréntesis al final del nombre de cada módulo indican el curso escolar en el que se realizó.
 
 <table>
 	<tr>
@@ -224,7 +227,7 @@ Distribuido bajo la licencia **MIT**. Véase [`LICENSE`](https://github.com/Hene
 
 ## Apoyo
 
-¿Te gustaría apoyar al proyecto? ¡Muy amable por tu parte! Puedes ir a mi perfil de Ko-Fi haciendo clic en el botón de abajo.
+¿Te gustaría apoyar el proyecto? ¡Muchas gracias! Puedes ir a mi perfil de Ko-Fi haciendo clic en el botón de abajo.
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U7U5J6COZ)
 
