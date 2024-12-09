@@ -181,7 +181,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td rowspan="4">
+		<td rowspan="5">
 			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Normativa%20de%20Ciberseguridad">
 				Normativa de Ciberseguridad (24/25)
 			</a>
