@@ -48,6 +48,24 @@
 	</p>
 </div>
 
+## Índice
+
+- [Módulos](#módulos)
+- [FAQs](#faqs)
+	- [¿Cuáles son los requisitos de acceso?](#cuáles-son-los-requisitos-de-acceso)
+	- [¿Merece la pena realizar el curso?](#merece-la-pena-realizar-el-curso)
+	- [¿Los profesores imparten clases en modalidad a distancia?](#los-profesores-imparten-clases-en-modalidad-a-distancia)
+	- [¿Tiene prácticas en empresa?](#tiene-prácticas-en-empresa)
+	- [¿Necesito saber programar para hacer el curso?](#necesito-saber-programar-para-hacer-el-curso)
+	- [¿Necesito saber de sistemas para hacer el curso?](#necesito-saber-de-sistemas-para-hacer-el-curso)
+	- [¿Expiden un título oficial al completar el curso?](#expiden-un-título-oficial-al-completar-el-curso)
+	- [¿Cuántos créditos ECTS otorgan al completar el curso?](#cuántos-créditos-ects-otorgan-al-completar-el-curso)
+	- [¿Convalida créditos ECTS en las universidades?](#convalida-créditos-ects-en-las-universidades)
+	- [¿Se encuentra trabajo relacionado con el sector al terminar el curso?](#se-encuentra-trabajo-relacionado-con-el-sector-al-terminar-el-curso)
+- [Licencia](#licencia)
+- [Autores](#autores)
+- [Apoyo](#apoyo)
+
 ## Módulos
 
 >[!NOTE]
@@ -312,7 +330,7 @@ No he conseguido obtener una fuente oficial que confirme esta información, pero
 
 A la fecha de escribir esto, el curso tiene 720 horas lectivas y se le atribuyen 43 créditos ECTS.
 
-### ¿Convalida créditos en las universidades?
+### ¿Convalida créditos ECTS en las universidades?
 
 La convalidación de módulos profesionales de FP o cursos de especialización por créditos ECTS de carreras universitarias es competencia de cada universidad, por lo que tendrás que consultar la tabla de convalidaciones de cada una para la carrera que quieras estudiar.
 
