@@ -256,7 +256,7 @@ He aquí materiales adecuados tanto para la fase de formación y evaluación par
 
 ## Apartado 5: Detalle de las auditorías internas de cumplimiento en prevención
 
->Para los elementos esenciales establecidos en el [Apartado 2](#apartado-2-detalle-de-los-puntos-vulnerables-del-puesto-de-trabajo-que-se-deberán-tener-en-cuenta), comprobar si disponen de las siguientes medidas de seguridad:
+>Para los elementos esenciales establecidos en el [apartado 2](#apartado-2-detalle-de-los-puntos-vulnerables-del-puesto-de-trabajo-que-se-deberán-tener-en-cuenta), comprobar si disponen de las siguientes medidas de seguridad:
 >- Sistemas antimalware.
 >- Procesos de gestión de permisos.
 >- Procesos de cumplimiento legal (compliance).
@@ -276,141 +276,141 @@ He aquí materiales adecuados tanto para la fase de formación y evaluación par
 
 A continuación, se comprueba si los elementos esenciales del sistema de TechCorp Solutions disponen de las medidas de seguridad necesarias y se propone la auditoría requerida para cada caso junto con los indicadores de logro necesarios para determinar si los controles son aptos o no.
 
-### 1. Equipos de trabajo (locales y remotos)
+1. **EQUIPOS DE TRABAJO (LOCALES Y REMOTOS).**
 
-**Medidas de seguridad**:
-- Sistemas antimalware: ✅
-- Procesos de gestión de permisos: ✅
-- Procesos de cumplimiento legal (compliance): ❌
-- Políticas de prevención de fraude y de fuga de datos: ❌
-- Sistema de actualizaciones: ✅
-- Sistemas de monitorización de recursos: ❌
+	**Medidas de seguridad**:
+	- ✅ Sistemas antimalware.
+	- ✅ Procesos de gestión de permisos.
+	- ❌ Procesos de cumplimiento legal (compliance).
+	- ❌ Políticas de prevención de fraude y de fuga de datos.
+	- ✅ Sistema de actualizaciones.
+	- ❌ Sistemas de monitorización de recursos.
 
-**Auditoría requerida**:
-- **Auditoría de seguridad perimetral** para verificar la efectividad del antimalware, gestión de permisos, y la aplicación de actualizaciones.
+	**Auditoría requerida**:
+	- **Auditoría de seguridad perimetral** para verificar la efectividad del antimalware, gestión de permisos, y la aplicación de actualizaciones.
 
-**Indicadores de logro**:
-- **Apto**: El equipo cuenta con protección antimalware activa, permisos ajustados a las necesidades de cada usuario, y un sistema de actualizaciones automático habilitado.
-- **No apto**: Antimalware desactivado, permisos sin restricciones adecuadas, o falta de actualizaciones regulares, lo que deja el equipo expuesto a vulnerabilidades.
+	**Indicadores de logro**:
+	- **Apto**: El equipo cuenta con protección antimalware activa, permisos ajustados a las necesidades de cada usuario, y un sistema de actualizaciones automático habilitado.
+	- **No apto**: Antimalware desactivado, permisos sin restricciones adecuadas, o falta de actualizaciones regulares, lo que deja el equipo expuesto a vulnerabilidades.
 
-### 2. Firewall
+2. **FIREWALL.**
 
-**Medidas de seguridad**:
-- Sistemas antimalware: ❌
-- Procesos de gestión de permisos: ✅
-- Procesos de cumplimiento legal (compliance): ✅
-- Políticas de prevención de fraude y de fuga de datos: ✅
-- Sistema de actualizaciones: ✅
-- Sistemas de monitorización de recursos: ❌
+	**Medidas de seguridad**:
+	- ❌ Sistemas antimalware.
+	- ✅ Procesos de gestión de permisos.
+	- ✅ Procesos de cumplimiento legal (compliance).
+	- ✅ Políticas de prevención de fraude y de fuga de datos.
+	- ✅ Sistema de actualizaciones.
+	- ❌ Sistemas de monitorización de recursos.
 
-**Auditoría requerida**:
-- **Auditoría de seguridad perimetral** para evaluar la configuración de políticas de acceso, cumplimiento legal, y protección frente a fuga de datos.
+	**Auditoría requerida**:
+	- **Auditoría de seguridad perimetral** para evaluar la configuración de políticas de acceso, cumplimiento legal, y protección frente a fuga de datos.
 
-**Indicadores de logro**:
-- **Apto**: El firewall cuenta con políticas de acceso seguras, cumple con normativas legales y tiene reglas efectivas de prevención de fugas de datos. Además, las actualizaciones están automatizadas.
-- **No apto**: Configuración de acceso inadecuada, falta de cumplimiento con normativas legales, o reglas de prevención de fugas no implementadas correctamente.
+	**Indicadores de logro**:
+	- **Apto**: El firewall cuenta con políticas de acceso seguras, cumple con normativas legales y tiene reglas efectivas de prevención de fugas de datos. Además, las actualizaciones están automatizadas.
+	- **No apto**: Configuración de acceso inadecuada, falta de cumplimiento con normativas legales, o reglas de prevención de fugas no implementadas correctamente.
 
-### 3. Sistema de monitoreo
+3. **SISTEMA DE MONITOREO.**
 
-**Medida de seguridad**:
-- Sistemas antimalware: ❌
-- Procesos de gestión de permisos: ✅
-- Procesos de cumplimiento legal (compliance): ✅
-- Políticas de prevención de fraude y de fuga de datos: ✅
-- Sistema de actualizaciones: ✅
-- Sistemas de monitorización de recursos: ✅
+	**Medida de seguridad**:
+	- ❌ Sistemas antimalware.
+	- ✅ Procesos de gestión de permisos.
+	- ✅ Procesos de cumplimiento legal (compliance).
+	- ✅ Políticas de prevención de fraude y de fuga de datos.
+	- ✅ Sistema de actualizaciones.
+	- ✅ Sistemas de monitorización de recursos.
 
-**Auditoría requerida**:
-- **Auditoría de seguridad perimetral** para evaluar la configuración de las políticas de acceso y la efectividad del sistema de monitoreo en la detección de actividades sospechosas.
+	**Auditoría requerida**:
+	- **Auditoría de seguridad perimetral** para evaluar la configuración de las políticas de acceso y la efectividad del sistema de monitoreo en la detección de actividades sospechosas.
 
-**Indicadores de logro**:
-- **Apto**: El sistema de monitoreo está configurado correctamente, con políticas de acceso adecuadas, actualizado regularmente y con reglas para detectar actividades inusuales o fuga de datos.
-- **No apto**: El sistema de monitoreo no está funcionando correctamente, carece de políticas de acceso o no está actualizado, lo que impide la detección adecuada de amenazas.
+	**Indicadores de logro**:
+	- **Apto**: El sistema de monitoreo está configurado correctamente, con políticas de acceso adecuadas, actualizado regularmente y con reglas para detectar actividades inusuales o fuga de datos.
+	- **No apto**: El sistema de monitoreo no está funcionando correctamente, carece de políticas de acceso o no está actualizado, lo que impide la detección adecuada de amenazas.
 
-### 4. Correo electrónico
+4. **CORREO ELECTRÓNICO.**
 
-**Medida de seguridad**:
-- Sistemas antimalware: ✅
-- Procesos de gestión de permisos: ✅
-- Procesos de cumplimiento legal (compliance): ✅
-- Políticas de prevención de fraude y de fuga de datos: ✅
-- Sistema de actualizaciones: ✅
-- Sistemas de monitorización de recursos: ✅
+	**Medida de seguridad**:
+	- ✅ Sistemas antimalware.
+	- ✅ Procesos de gestión de permisos.
+	- ✅ Procesos de cumplimiento legal (compliance).
+	- ✅ Políticas de prevención de fraude y de fuga de datos.
+	- ✅ Sistema de actualizaciones.
+	- ✅ Sistemas de monitorización de recursos.
 
-**Auditoría requerida**:
-- **Auditoría de red** para revisar la seguridad de la infraestructura de red que soporta el sistema de correo electrónico y garantizar que no existan vulnerabilidades a nivel de comunicación.
+	**Auditoría requerida**:
+	- **Auditoría de red** para revisar la seguridad de la infraestructura de red que soporta el sistema de correo electrónico y garantizar que no existan vulnerabilidades a nivel de comunicación.
 
-**Indicadores de logro**:
-- **Apto**: El sistema de correo electrónico cuenta con protección antimalware activa, políticas de acceso adecuadas, filtros de phishing eficaces, actualizaciones regulares y protocolos de seguridad de red implementados correctamente.
-- **No apto**: Falta de protección antimalware, acceso sin restricciones, ausencia de filtros para phishing, falta de actualización o vulnerabilidades en la infraestructura de red que podrían poner en riesgo los datos.
+	**Indicadores de logro**:
+	- **Apto**: El sistema de correo electrónico cuenta con protección antimalware activa, políticas de acceso adecuadas, filtros de phishing eficaces, actualizaciones regulares y protocolos de seguridad de red implementados correctamente.
+	- **No apto**: Falta de protección antimalware, acceso sin restricciones, ausencia de filtros para phishing, falta de actualización o vulnerabilidades en la infraestructura de red que podrían poner en riesgo los datos.
 
-### 5. Aplicaciones de gestión interna
+5. **APLICACIONES DE GESTIÓN INTERNA.**
 
-**Medida de seguridad**:
-- Sistemas antimalware: ✅
-- Procesos de gestión de permisos: ✅
-- Procesos de cumplimiento legal (compliance): ✅
-- Políticas de prevención de fraude y de fuga de datos: ✅
-- Sistema de actualizaciones: ✅
-- Sistemas de monitorización de recursos: ✅
+	**Medida de seguridad**:
+	- ✅ Sistemas antimalware.
+	- ✅ Procesos de gestión de permisos.
+	- ✅ Procesos de cumplimiento legal (compliance).
+	- ✅ Políticas de prevención de fraude y de fuga de datos.
+	- ✅ Sistema de actualizaciones.
+	- ✅ Sistemas de monitorización de recursos.
 
-**Auditoría requerida**:  
-- **Auditoría de seguridad perimetral** para evaluar la seguridad de la infraestructura de la aplicación y garantizar que las conexiones entre la aplicación y los sistemas externos estén protegidas adecuadamente.
+	**Auditoría requerida**:  
+	- **Auditoría de seguridad perimetral** para evaluar la seguridad de la infraestructura de la aplicación y garantizar que las conexiones entre la aplicación y los sistemas externos estén protegidas adecuadamente.
 
-**Indicadores de logro**:
-- **Apto**: Las aplicaciones de gestión interna están protegidas por antimalware, cuentan con políticas de acceso adecuadas, cumplen con las normativas legales aplicables, están actualizadas y son monitoreadas de forma proactiva.
-- **No apto**: Las aplicaciones presentan vulnerabilidades en su infraestructura, acceso no autorizado, no cumplen con normativas de seguridad, o no están protegidas adecuadamente por medidas como el antimalware y la actualización regular.
+	**Indicadores de logro**:
+	- **Apto**: Las aplicaciones de gestión interna están protegidas por antimalware, cuentan con políticas de acceso adecuadas, cumplen con las normativas legales aplicables, están actualizadas y son monitoreadas de forma proactiva.
+	- **No apto**: Las aplicaciones presentan vulnerabilidades en su infraestructura, acceso no autorizado, no cumplen con normativas de seguridad, o no están protegidas adecuadamente por medidas como el antimalware y la actualización regular.
 
-### 6. Aplicaciones SaaS
+6. **APLICACIONES SaaS.**
 
-**Medida de seguridad**:
-- Sistemas antimalware: ✅
-- Procesos de gestión de permisos: ✅
-- Procesos de cumplimiento legal (compliance): ✅
-- Políticas de prevención de fraude y de fuga de datos: ✅
-- Sistema de actualizaciones: ✅
-- Sistemas de monitorización de recursos: ✅
+	**Medida de seguridad**:
+	- ✅ Sistemas antimalware.
+	- ✅ Procesos de gestión de permisos.
+	- ✅ Procesos de cumplimiento legal (compliance).
+	- ✅ Políticas de prevención de fraude y de fuga de datos.
+	- ✅ Sistema de actualizaciones.
+	- ✅ Sistemas de monitorización de recursos.
 
-**Auditoría requerida**:
-- **Auditoría legal** para verificar que las aplicaciones SaaS cumplen con las normativas de protección de datos (como GDPR, CCPA, etc.) y los acuerdos de nivel de servicio (SLA) de seguridad proporcionados por el proveedor de SaaS.
+	**Auditoría requerida**:
+	- **Auditoría legal** para verificar que las aplicaciones SaaS cumplen con las normativas de protección de datos (como GDPR, CCPA, etc.) y los acuerdos de nivel de servicio (SLA) de seguridad proporcionados por el proveedor de SaaS.
 
-**Indicadores de logro**:
-- **Apto**: Las aplicaciones SaaS cumplen con las normativas de protección de datos y están cubiertas por contratos de seguridad adecuados con el proveedor.
-- **No apto**: Las aplicaciones SaaS no cumplen con las normativas de seguridad o protección de datos, carecen de medidas adecuadas para prevenir fraudes y fugas de datos.
+	**Indicadores de logro**:
+	- **Apto**: Las aplicaciones SaaS cumplen con las normativas de protección de datos y están cubiertas por contratos de seguridad adecuados con el proveedor.
+	- **No apto**: Las aplicaciones SaaS no cumplen con las normativas de seguridad o protección de datos, carecen de medidas adecuadas para prevenir fraudes y fugas de datos.
 
-### 7. Servidor local
+7. **SERVIDOR LOCAL.**
 
-**Medida de seguridad**:
-- Sistemas antimalware: ✅
-- Procesos de gestión de permisos: ✅
-- Procesos de cumplimiento legal (compliance): ✅
-- Políticas de prevención de fraude y de fuga de datos: ✅
-- Sistema de actualizaciones: ✅
-- Sistemas de monitorización de recursos: ✅
+	**Medida de seguridad**:
+	- ✅ Sistemas antimalware.
+	- ✅ Procesos de gestión de permisos.
+	- ✅ Procesos de cumplimiento legal (compliance).
+	- ✅ Políticas de prevención de fraude y de fuga de datos.
+	- ✅ Sistema de actualizaciones.
+	- ✅ Sistemas de monitorización de recursos.
 
-**Auditoría requerida**:
-- **Test de penetración (Hacking Ético)** para evaluar las vulnerabilidades del servidor local mediante un enfoque proactivo, simulando posibles ataques externos para identificar fallos en la seguridad y en los mecanismos de protección.
+	**Auditoría requerida**:
+	- **Test de penetración (Hacking Ético)** para evaluar las vulnerabilidades del servidor local mediante un enfoque proactivo, simulando posibles ataques externos para identificar fallos en la seguridad y en los mecanismos de protección.
 
-**Indicadores de logro**:
-- **Apto**: No se identifican vulnerabilidades significativas en el test de penetración.
-- **No apto**: Durante el test, se identifican riesgos críticos que comprometen la seguridad de los datos alojados en el servidor.
+	**Indicadores de logro**:
+	- **Apto**: No se identifican vulnerabilidades significativas en el test de penetración.
+	- **No apto**: Durante el test, se identifican riesgos críticos que comprometen la seguridad de los datos alojados en el servidor.
 
-### 8. Base de datos de clientes y proyectos
+8. **BASE DE DATOS DE CLIENTES Y PROYECTOS.**
 
-**Medida de seguridad**:
-- Sistemas antimalware: ❌
-- Procesos de gestión de permisos: ✅
-- Procesos de cumplimiento legal (compliance): ✅
-- Políticas de prevención de fraude y de fuga de datos: ✅
-- Sistema de actualizaciones: ✅
-- Sistemas de monitorización de recursos: ✅
+	**Medida de seguridad**:
+	- ❌ Sistemas antimalware.
+	- ✅ Procesos de gestión de permisos.
+	- ✅ Procesos de cumplimiento legal (compliance).
+	- ✅ Políticas de prevención de fraude y de fuga de datos.
+	- ✅ Sistema de actualizaciones.
+	- ✅ Sistemas de monitorización de recursos.
 
-**Auditoría requerida**:
-- **Auditoría forense** para investigar accesos no autorizados o manipulación de datos en la base de datos, revisar logs de acceso, transacciones realizadas, y determinar posibles fugas de datos.
+	**Auditoría requerida**:
+	- **Auditoría forense** para investigar accesos no autorizados o manipulación de datos en la base de datos, revisar logs de acceso, transacciones realizadas, y determinar posibles fugas de datos.
 
-**Indicadores de logro**:
-- **Apto**: No se detectan accesos no autorizados, las políticas de acceso se aplican correctamente y no se han producido alteraciones maliciosas en los datos. Los registros de auditoría muestran que todas las actividades en la base de datos están documentadas y son legítimas.
-- **No apto**: Se han detectado accesos no autorizados, alteraciones en los datos o actividades sospechosas que no se han registrado adecuadamente. Alguien ha manipulado los datos sensibles o ha extraído información de forma maliciosa.
+	**Indicadores de logro**:
+	- **Apto**: No se detectan accesos no autorizados, las políticas de acceso se aplican correctamente y no se han producido alteraciones maliciosas en los datos. Los registros de auditoría muestran que todas las actividades en la base de datos están documentadas y son legítimas.
+	- **No apto**: Se han detectado accesos no autorizados, alteraciones en los datos o actividades sospechosas que no se han registrado adecuadamente. Alguien ha manipulado los datos sensibles o ha extraído información de forma maliciosa.
 
 ### Sistema de mejora continua para implementación de resultados de auditoría
 
