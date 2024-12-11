@@ -70,23 +70,57 @@ Familiarizarse con la herramienta de autodiagnóstico de ciberseguridad del INCI
 
 ### Acceso a la herramienta
 
-Visita el sitio web del INCIBE y localiza la herramienta de diagnóstico de ciberseguridad.
-Regístrate o accede si ya tienes una cuenta.
+>Visita el sitio web del INCIBE y localiza la herramienta de diagnóstico de ciberseguridad.  
+>Regístrate o accede si ya tienes una cuenta.
+
+Para acceder a la herramienta de autodiagnóstico del INCIBE, tenemos que acceder al sitio web [https://adl.incibe.es](https://adl.incibe.es).
+
+![Pantalla de inicio de la herramienta](Capturas/pantalla-inicio.png)
+>Página de inicio de la herramienta de autodiagnóstico del INCIBE
+
+Una vez dentro, pulsamos sobre el botón "Calcula el riesgo de tu negocio", el cual arrancará la herramienta de autodiagnóstico.
+
+![Pantalla de inicio del diagnóstico](Capturas/diagnostico-inicio.png)
+>Herramienta de autodiagnóstico del INCIBE
 
 ### Evaluación inicial
 
 >Realiza una evaluación utilizando los datos de una empresa ficticia o basándote en los recursos que se te proporcionarán (puedes usar la empresa del caso de estudio "Tecnologías Innovadoras S.A.", cuyas características recibirás).  
 >Responde a todas las preguntas del cuestionario, reflejando la situación de ciberseguridad de la empresa según el caso proporcionado.
 
+La herramienta nos irá haciendo preguntas relacionadas con aspectos de seguridad de la organización, que responderemos con la información proporcionada en el enunciado del ejercicio.
+
+![Ejemplo de pregunta del diagnóstico](Capturas/diagnostico-ejemplo-pregunta.jpg)
+>Ejemplo de pregunta del diagnóstico
+
+Una vez terminamos de contestar a todas las preguntas, recibimos el resultado del diagnóstico:
+>Resultado del diagnóstico
+
 ![Test alto riesgo](Capturas/test-alto-riesgo.png)
+>Resultado del diagnóstico
 
 ### Análisis de resultados
 
 >Una vez completada la evaluación, revisa los resultados que te proporcionará la herramienta. Deberás identificar las áreas críticas de mejora en la ciberseguridad de la empresa.
 
-Atendiendo a la [evaluación inicial](#evaluación-inicial), podemos apreciar que el riesgo de ciberseguridad de la empresa es **alto**. Pese a que todas las áreas tienen un gran margen de mejora debido al elevado porcentaje de nivel de riesgo, cabe destacar el **área tecnológica** como la más afectada, con un 4,6% más respecto al área personal.
+Según la [evaluación inicial](#evaluación-inicial), podemos apreciar que el riesgo de ciberseguridad de la empresa es alto. Pese a que todas las áreas tienen un gran margen de mejora debido al elevado porcentaje de nivel de riesgo, cabe destacar el **área tecnológica** como la más afectada, con un 4,6% más de riesgo que el área personal.
 
-Este resultado nos sugiere poner el foco en la clasificación de la información tratada en la empresa con el fin de asegurar la confidencialidad, la integridad y la disponibilidad de la información. Además, es imprescindible impartir formaciones internas a los empleados para desarrollar una cultura de seguridad, tal y como sugiere el [resumen del diagnóstico](#evaluación-inicial) generado por la herramienta de autodiagnóstico del INCIBE.
+Entre los puntos críticos detectados que provocan un riesgo tan elevado, destacan los siguientes:
+
+1. **Infraestructura TI desactualizada.**
+	- **Firewall no actualizado**: Un firewall desactualizado puede tener vulnerabilidades conocidas que los atacantes pueden explotar.
+	- **Licencias de antivirus próximas a expirar**: Esto reduce la efectividad de la protección frente a malware y virus.
+	- **Almacenamiento de datos sensibles sin cifrado**: Aumenta la exposición de información confidencial en caso de accesos no autorizados o fugas.
+2. **Ausencia de políticas y procedimientos de seguridad.**
+	- **Falta de política formal de ciberseguridad**: Esto crea un vacío en cuanto a la gestión y los estándares para la protección de los activos.
+	- **Sin formación regular para empleados**: Los empleados no están capacitados para identificar y gestionar amenazas como el phishing.
+	- **Rotación de contraseñas sin 2FA**: Aunque se hace un esfuerzo por rotar las contraseñas, la ausencia de autenticación multifactorial es un riesgo mayor, especialmente tras un incidente de phishing previo.
+3. **Gestión de incidentes deficiente.**
+	- **Falta de seguimiento en intentos de acceso no autorizado**: Los intentos de intrusión recientes en el servidor de correo no fueron investigados ni se tomaron medidas adicionales.
+	- **Sin auditorías completas tras incidentes pasados**: No auditar tras el ataque de phishing refleja una actitud reactiva en lugar de proactiva hacia la ciberseguridad.
+4. **Conexiones y accesos no controlados.**
+	- **Uso de red Wi-Fi interna para todos los empleados**: Sin segmentación, aumenta el riesgo de que se comprometan dispositivos y sistemas críticos.
+	- **Reutilización de contraseñas**: Este hábito debilita la seguridad de acceso, sobre todo en caso de que se comprometan cuentas personales.
 
 ### Propuesta de medidas
 
@@ -133,6 +167,7 @@ Por otro lado, es necesario contar con los **recursos financieros** adecuados pa
 Como hemos podido comprobar, Tecnologías Innovadoras S.A. contaba con numerosas lagunas en aspectos críticos de la ciberseguridad de la empresa. No obstante, si volvemos a ejecutar la herramienta de autodiagnóstico del INCIBE con las medidas propuestas, podemos apreciar la diferencia abismal de resultados, consiguiendo un porcentaje de **riesgo bajo**.
 
 ![Test bajo riesgo](Capturas/test-bajo-riesgo.png)
+>Generado a partir de la herramienta de autodiagnóstico
 
 Para fomentar la aplicación de **buenas prácticas** en el ámbito de la ciberseguridad, es esencial que las compañías entiendan su importancia en la estructura empresarial y las graves consecuencias que puede acarrear un ciberataque a su estructura tecnológica.
 
@@ -145,10 +180,17 @@ Para fomentar la aplicación de **buenas prácticas** en el ámbito de la cibers
 
 ## Resultado
 
-**Calificación**: 8,00 / 10
+### Calificación
+
+8,00 / 10,00
 
 Calificado el lunes, 21 de octubre de 2024, 10:52 por Raya Narváez, Guillermo
 
-**Comentarios de retroalimentación**:
+### Comentarios de retroalimentación
+
 - El análisis de resultados es demasiado escaso.
 - Habría que detallar más el uso de la herramienta.
+
+### Notas personales
+
+He aplicado el feedback proporcionado por el profesor sobre la entrega original, por lo que ahora debería tener la máxima puntuación.
