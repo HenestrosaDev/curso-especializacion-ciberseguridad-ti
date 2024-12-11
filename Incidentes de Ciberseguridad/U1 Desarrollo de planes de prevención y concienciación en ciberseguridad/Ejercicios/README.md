@@ -434,3 +434,15 @@ Adicionalmente, se podría aplicar el **Modelo de Madurez de la Capacidad de Cib
 5. Optimizado.
 
 **Objetivo**: Alcanzar un nivel de madurez "Optimizado", donde las mejores prácticas de seguridad estén completamente integradas y la organización esté en constante evolución y adaptación frente a nuevas amenazas.
+
+---
+
+## Resultado
+
+**Calificación**: 9,00 / 10,00
+
+Calificado el domingo, 27 de octubre de 2024, 19:30 por Rueda Gálvez, Gonzalo
+
+**Comentario de retroalimentación**:
+- En el apartado 4 (materiales de formación), el "kit de concienciación INCIBE" no es un material, es una colección de materiales que no se concreta.
+- Los indicadores de logro propuestos deberían ajustarse un poco más en la vida real (para no dejar lugar a dudas).
