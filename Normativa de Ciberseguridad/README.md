@@ -19,7 +19,7 @@
 				2. Diseño de sistemas de gestión de cumplimiento normativo
 			</a>
 		</td>
-		<td>-</td>
+		<td>10,00</td>
 	</tr>
 	<tr>
 		<td>

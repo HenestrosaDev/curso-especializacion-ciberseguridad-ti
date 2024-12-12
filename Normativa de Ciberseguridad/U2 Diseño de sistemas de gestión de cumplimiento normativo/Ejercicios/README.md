@@ -130,8 +130,8 @@ Para recabar las siguientes 5 métricas de evaluación del sistema de gestión d
 
 ## Resultado
 
-**Calificación**: 
+### Calificación
 
-Calificado el ,  de  de , : por 
+10,00 / 10,00
 
-**Comentario de retroalimentación**:
+Calificado el jueves, 12 de diciembre de 2024, 10:07 por Hormigo Ramírez, David
