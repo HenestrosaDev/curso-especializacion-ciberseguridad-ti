@@ -11,7 +11,7 @@
 				1. Introducción al bastionado
 			</a>
 		</td>
-		<td>8,00*</td>
+		<td>8,00 / 10,00 *</td>
 	</tr>
 	<tr>
 		<td>
@@ -19,7 +19,7 @@
 				2. Diseño de planes de securización
 			</a>
 		</td>
-		<td>-</td>
+		<td>9,30 / 10,00</td>
 	</tr>
 	<tr>
 		<td>
