@@ -78,162 +78,162 @@
 	</tr>
 	<tr>
 		<td rowspan="9">
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Bastionado%20de%20Redes%20y%20Sistemas">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/bastionado_de_redes_y_sistemas">
 				Bastionado de Redes y Sistemas (24/25)
 			</a>
 		</td>
 		<td>
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Bastionado%20de%20Redes%20y%20Sistemas/U1%20Introducci%C3%B3n%20al%20bastionado">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/bastionado_de_redes_y_sistemas/u1">
 				1. Introducción al bastionado
 			</a>
 		</td>
 	</tr>
 	<tr>
 		<td>
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Bastionado%20de%20Redes%20y%20Sistemas/U2%20Dise%C3%B1o%20de%20planes%20de%20securizaci%C3%B3n">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/bastionado_de_redes_y_sistemas/u2">
 				2. Diseño de planes de securización
 			</a>
 		</td>
 	</tr>
 	<tr>
 		<td>
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Bastionado%20de%20Redes%20y%20Sistemas/U3%20Configuraci%C3%B3n%20de%20sistemas%20de%20acceso%20y%20autenticaci%C3%B3n%20de%20personas"> 
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/bastionado_de_redes_y_sistemas/u3"> 
 				3. Configuración de sistemas de acceso y autenticación de personas
 			</a>
 		</td>
 	</tr>
 	<tr>
 		<td>
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Bastionado%20de%20Redes%20y%20Sistemas/U4%20Administraci%C3%B3n%20de%20credenciales%20para%20el%20acceso%20a%20sistemas%20inform%C3%A1ticos">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/bastionado_de_redes_y_sistemas/u4">
 				4. Administración de credenciales para el acceso a sistemas informáticos
 			</a>
 		</td>
 	</tr>
 	<tr>
 		<td>
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Bastionado%20de%20Redes%20y%20Sistemas/U5%20Dise%C3%B1o%20de%20redes%20seguras">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/bastionado_de_redes_y_sistemas/u5">
 				5. Diseño de redes seguras
 			</a>
 		</td>
 	</tr>
 	<tr>
 		<td>
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Bastionado%20de%20Redes%20y%20Sistemas/U6%20Configuraci%C3%B3n%20de%20dispositivos%20y%20sistemas%20inform%C3%A1ticos%20I">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/bastionado_de_redes_y_sistemas/u6">
 				6. Configuración de dispositivos y sistemas informáticos I
 			</a>
 		</td>
 	</tr>
 	<tr>
 		<td>
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Bastionado%20de%20Redes%20y%20Sistemas/U7%20Configuraci%C3%B3n%20de%20dispositivos%20y%20sistemas%20inform%C3%A1ticos%20II">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/bastionado_de_redes_y_sistemas/u7">
 				7. Configuración de dispositivos y sistemas informáticos II
 			</a>
 		</td>
 	</tr>
 	<tr>
 		<td>
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Bastionado%20de%20Redes%20y%20Sistemas/U8%20Configuraci%C3%B3n%20de%20dispositivos%20para%20la%20instalaci%C3%B3n%20sistemas%20inform%C3%A1ticos">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/bastionado_de_redes_y_sistemas/u8">
 				8. Configuración de dispositivos para la instalación de sistemas informáticos
 			</a>
 		</td>
 	</tr>
 	<tr>
 		<td>
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Bastionado%20de%20Redes%20y%20Sistemas/U6%20Configuraci%C3%B3n%20de%20sistemas%20inform%C3%A1ticos">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/bastionado_de_redes_y_sistemas/u9">
 				9. Configuración de sistemas informáticos
 			</a>
 		</td>
 	</tr>
 	<tr>
 		<td rowspan="7">
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Incidentes%20de%20Ciberseguridad">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/incidentes_de_ciberseguridad">
 				Incidentes de Ciberseguridad (24/25)
 			</a>
 		</td>
 		<td>
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Incidentes%20de%20Ciberseguridad/U1%20Desarrollo%20de%20planes%20de%20prevenci%C3%B3n%20y%20concienciaci%C3%B3n%20en%20ciberseguridad">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/incidentes_de_ciberseguridad/u1">
 				1. Desarrollo de planes de prevención y concienciación en ciberseguridad
 			</a>
 		</td>	
 	</tr>
 	<tr>
 		<td>
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Incidentes%20de%20Ciberseguridad/U2%20Auditor%C3%ADa%20de%20incidentes%20de%20ciberseguridad">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/incidentes_de_ciberseguridad/u2">
 				2. Auditoría de incidentes de ciberseguridad
 			</a>
 		</td>
 	</tr>
 	<tr>
 		<td>
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Incidentes%20de%20Ciberseguridad/U3%20Investigaci%C3%B3n%20de%20los%20incidentes%20de%20ciberseguridad">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/incidentes_de_ciberseguridad/u3">
 				3. Investigación de los incidentes de ciberseguridad
 			</a>
 		</td>
 	</tr>
 	<tr>
 		<td>
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Incidentes%20de%20Ciberseguridad/U4%20Implantaci%C3%B3n%20de%20medidas%20de%20ciberseguridad">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/incidentes_de_ciberseguridad/u4">
 				4. Implantación de medidas de ciberseguridad
 			</a>
 		</td>
 	</tr>
 	<tr>
 		<td>
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Incidentes%20de%20Ciberseguridad/U5%20Detecci%C3%B3n%20y%20documentaci%C3%B3n%20de%20incidentes%20de%20ciberseguridad">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/incidentes_de_ciberseguridad/5">
 				5. Detección y documentación de incidentes de ciberseguridad
 			</a>
 		</td>
 	</tr>
 	<tr>
 		<td>
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Incidentes%20de%20Ciberseguridad/U6%20IDS%20IPS%20Snort">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/incidentes_de_ciberseguridad/u6">
 				6. IDS IPS Snort
 			</a>
 		</td>
 	</tr>
 	<tr>
 		<td>
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Incidentes%20de%20Ciberseguridad/U7%20SIEM%20ELK">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/incidentes_de_ciberseguridad/u7">
 				7. SIEM ELK
 			</a>
 		</td>
 	</tr>
 	<tr>
 		<td rowspan="5">
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Normativa%20de%20Ciberseguridad">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/normativa_de_ciberseguridad">
 				Normativa de Ciberseguridad (24/25)
 			</a>
 		</td>
 		<td>
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Normativa%20de%20Ciberseguridad/U1%20Puntos%20principales%20sobre%20el%20cumplimiento%20normativo">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/normativa_de_ciberseguridad/u1">
 				1. Puntos principales sobre el cumplimiento normativo
 			</a>
 		</td>	
 	</tr>
 	<tr>
 		<td>
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Normativa%20de%20Ciberseguridad/U2%20Dise%C3%B1o%20de%20sistemas%20de%20gesti%C3%B3n%20de%20cumplimiento%20normativo">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/normativa_de_ciberseguridad/u2">
 				2. Diseño de sistemas de gestión de cumplimiento normativo
 			</a>
 		</td>
 	</tr>
 	<tr>
 		<td>
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Normativa%20de%20Ciberseguridad/U3%20Legislaci%C3%B3n%20para%20el%20cumplimiento%20de%20la%20responsabilidad%20penal">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/normativa_de_ciberseguridad/u3">
 				3. Legislación para el cumplimiento de la responsabilidad penal
 			</a>
 		</td>
 	</tr>
 	<tr>
 		<td>
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Normativa%20de%20Ciberseguridad/U4%20Legislaci%C3%B3n%20y%20jurisprudencia%20en%20materia%20de%20protecci%C3%B3n%20de%20datos">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/normativa_de_ciberseguridad/u4">
 				4. Legislación y jurisprudencia en materia de protección de datos
 			</a>
 		</td>
 	</tr>
 	<tr>
 		<td>
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Normativa%20de%20Ciberseguridad/U5%20Normativa%20vigente%20de%20ciberseguridad%20de%20%C3%A1mbito%20nacional%20e%20internacional">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/normativa_de_ciberseguridad/u5">
 				5. Normativa vigente de ciberseguridad de ámbito nacional e internacional
 			</a>
 		</td>
@@ -261,7 +261,11 @@ Si no tienes ninguna titulación de la lista, consulta la [página del curso en 
 
 ### ¿Merece la pena realizar el curso?
 
-No sé si se habrá modificado el curso a la fecha en la que estás leyendo esto, pero, según mi experiencia, no creo que merezca la pena. En su lugar, recomiendo que, si no tienes un buen nivel de inglés, te centres al 100% en mejorarlo y, cuando alcances un nivel mínimo B2, te dediques a estudiar las certificaciones que quieras. 
+No sé si se habrá modificado el curso a la fecha en la que estás leyendo esto, pero, según mi experiencia, no creo que merezca la pena. El contenido teórico de las asignaturas se solapa y se basa, fundamentalmente, en contenido "básico" del INCIBE. 
+
+En cuanto al aspecto técnico, se hacen cosas muy básicas
+
+En su lugar, recomiendo que, si no tienes un buen nivel de inglés, te centres al 100% en mejorarlo y, cuando alcances un nivel mínimo B2, te dediques a estudiar las certificaciones que quieras. 
 
 Dentro de las certificaciones del sector, que no son pocas, estas son las más renombradas a nivel internacional:
 

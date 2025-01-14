@@ -7,7 +7,7 @@
 	</tr>
 	<tr>
 		<td>
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Incidentes%20de%20Ciberseguridad/U1%20Desarrollo%20de%20planes%20de%20prevenci%C3%B3n%20y%20concienciaci%C3%B3n%20en%20ciberseguridad">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/incidentes_de_ciberseguridad/u1">
 				1. Desarrollo de planes de prevención y concienciación en ciberseguridad
 			</a>
 		</td>	
@@ -15,7 +15,7 @@
 	</tr>
 	<tr>
 		<td>
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Incidentes%20de%20Ciberseguridad/U2%20Auditor%C3%ADa%20de%20incidentes%20de%20ciberseguridad">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/incidentes_de_ciberseguridad/u2">
 				2. Auditoría de incidentes de ciberseguridad
 			</a>
 		</td>
@@ -23,7 +23,7 @@
 	</tr>
 	<tr>
 		<td>
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Incidentes%20de%20Ciberseguridad/U3%20Investigaci%C3%B3n%20de%20los%20incidentes%20de%20ciberseguridad">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/incidentes_de_ciberseguridad/u3">
 				3. Investigación de los incidentes de ciberseguridad
 			</a>
 		</td>
@@ -31,7 +31,7 @@
 	</tr>
 	<tr>
 		<td>
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Incidentes%20de%20Ciberseguridad/U4%20Implantaci%C3%B3n%20de%20medidas%20de%20ciberseguridad">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/incidentes_de_ciberseguridad/u4">
 				4. Implantación de medidas de ciberseguridad
 			</a>
 		</td>
@@ -39,14 +39,14 @@
 	</tr>
 	<tr>
 		<td>
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Incidentes%20de%20Ciberseguridad/U5%20Detecci%C3%B3n%20y%20documentaci%C3%B3n%20de%20incidentes%20de%20ciberseguridad">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/incidentes_de_ciberseguridad/u5">
 				5. Detección y documentación de incidentes de ciberseguridad
 			</a>
 		</td>
 	</tr>
 	<tr>
 		<td>
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Incidentes%20de%20Ciberseguridad/U6%20IDS%20IPS%20Snort">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/incidentes_de_ciberseguridad/u6">
 				6. IDS IPS Snort
 			</a>
 		</td>
@@ -54,7 +54,7 @@
 	</tr>
 	<tr>
 		<td>
-			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/Incidentes%20de%20Ciberseguridad/U7%20SIEM%20ELK">
+			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/incidentes_de_ciberseguridad/u7">
 				7. SIEM ELK
 			</a>
 		</td>
