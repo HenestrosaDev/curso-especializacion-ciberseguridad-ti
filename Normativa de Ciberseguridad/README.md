@@ -11,7 +11,7 @@
 				1. Puntos principales sobre el cumplimiento normativo
 			</a>
 		</td>	
-		<td>9,00</td>
+		<td>9,00 / 10,00</td>
 	</tr>
 	<tr>
 		<td>
@@ -19,7 +19,7 @@
 				2. Diseño de sistemas de gestión de cumplimiento normativo
 			</a>
 		</td>
-		<td>10,00</td>
+		<td>10,00 / 10,00</td>
 	</tr>
 	<tr>
 		<td>

@@ -11,7 +11,7 @@
 				1. Desarrollo de planes de prevención y concienciación en ciberseguridad
 			</a>
 		</td>	
-		<td>9,00</td>
+		<td>9,00 / 10,00</td>
 	</tr>
 	<tr>
 		<td>
