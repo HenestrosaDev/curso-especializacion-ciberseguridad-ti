@@ -75,12 +75,12 @@ Familiarizarse con la herramienta de autodiagnóstico de ciberseguridad del INCI
 
 Para acceder a la herramienta de autodiagnóstico del INCIBE, tenemos que acceder al sitio web [https://adl.incibe.es](https://adl.incibe.es).
 
-![Pantalla de inicio de la herramienta](Capturas/pantalla-inicio.png)
+![Pantalla de inicio de la herramienta](capturas/pantalla_inicio.png)
 >Página de inicio de la herramienta de autodiagnóstico del INCIBE
 
 Una vez dentro, pulsamos sobre el botón "Calcula el riesgo de tu negocio", el cual arrancará la herramienta de autodiagnóstico.
 
-![Pantalla de inicio del diagnóstico](Capturas/diagnostico-inicio.png)
+![Pantalla de inicio del diagnóstico](capturas/diagnostico_inicio.png)
 >Herramienta de autodiagnóstico del INCIBE
 
 ### Evaluación inicial
@@ -90,13 +90,13 @@ Una vez dentro, pulsamos sobre el botón "Calcula el riesgo de tu negocio", el c
 
 La herramienta nos irá haciendo preguntas relacionadas con aspectos de seguridad de la organización, que responderemos con la información proporcionada en el enunciado del ejercicio.
 
-![Ejemplo de pregunta del diagnóstico](Capturas/diagnostico-ejemplo-pregunta.jpg)
+![Ejemplo de pregunta del diagnóstico](capturas/diagnostico_ejemplo_pregunta.jpg)
 >Ejemplo de pregunta del diagnóstico
 
 Una vez terminamos de contestar a todas las preguntas, recibimos el resultado del diagnóstico:
 >Resultado del diagnóstico
 
-![Test alto riesgo](Capturas/test-alto-riesgo.png)
+![Test alto riesgo](capturas/test_alto_riesgo.png)
 >Resultado del diagnóstico
 
 ### Análisis de resultados
@@ -166,7 +166,7 @@ Por otro lado, es necesario contar con los **recursos financieros** adecuados pa
 
 Como hemos podido comprobar, Tecnologías Innovadoras S.A. contaba con numerosas lagunas en aspectos críticos de la ciberseguridad de la empresa. No obstante, si volvemos a ejecutar la herramienta de autodiagnóstico del INCIBE con las medidas propuestas, podemos apreciar la diferencia abismal de resultados, consiguiendo un porcentaje de **riesgo bajo**.
 
-![Test bajo riesgo](Capturas/test-bajo-riesgo.png)
+![Test bajo riesgo](capturas/test_bajo_riesgo.png)
 >Generado a partir de la herramienta de autodiagnóstico
 
 Para fomentar la aplicación de **buenas prácticas** en el ámbito de la ciberseguridad, es esencial que las compañías entiendan su importancia en la estructura empresarial y las graves consecuencias que puede acarrear un ciberataque a su estructura tecnológica.
