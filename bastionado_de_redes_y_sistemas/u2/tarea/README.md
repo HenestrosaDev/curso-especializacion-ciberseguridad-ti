@@ -7,29 +7,34 @@
 **Tamaño de la empresa**: Mediana (150 empleados)
 **Ubicación**: Oficinas en tres ciudades principales de España: Madrid, Barcelona y Málaga.
 
-**Activos críticos**:
+### Activos críticos
+
 - **Datos de pacientes**: Registros médicos electrónicos que incluyen información sensible como diagnósticos, tratamientos y datos personales.
 - **Infraestructura TI**: Servidores locales que almacenan los datos de pacientes y servicios en la nube para su acceso desde diferentes clínicas.
 - **Aplicaciones críticas**: Software de gestión de historiales médicos, nóminas, facturación y citas de pacientes.
 - **Página web corporativa**: Usada por los clientes para acceder a información general, y por los pacientes para solicitar citas.
 
-**Infraestructura TI**:
+### Infraestructura TI
+
 - **Servidores físicos**: Se encuentran en la sede principal en Madrid y albergan los sistemas de gestión de pacientes y nóminas. Sin redundancia en otras ubicaciones.
 - **Conexión a la nube**: Servicios en la nube para el acceso remoto de los historiales y sistemas de gestión desde las otras sedes.
 - **Antivirus y firewall**: Utilizan soluciones básicas de antivirus que no han sido actualizados en los últimos 6 meses. Un firewall básico protege el acceso a la red.
 - **Copias de seguridad**: Las copias de seguridad se realizan de forma semanal y se almacenan en el servidor local, pero no se verifica su restauración periódica.
 
-**Estado actual de la ciberseguridad**:
+### Estado actual de la ciberseguridad
+
 - **Políticas de seguridad**: No hay políticas formales implementadas para la gestión de contraseñas o el uso de dispositivos corporativos. No se ha realizado ninguna formación en ciberseguridad para el personal.
 - **Control de acceso**: Los empleados utilizan contraseñas poco seguras y compartidas para acceder a los sistemas críticos. No se ha implementado autenticación de doble factor (2FA).
 - **Actualizaciones**: Los sistemas operativos de los servidores y el software de gestión no han sido actualizados en los últimos 12 meses, lo que los hace vulnerables a vulnerabilidades conocidas.
 - **Concienciación del personal**: La mayoría del personal médico y administrativo no ha recibido formación sobre ciberseguridad, lo que los hace susceptibles a ataques de phishing y otras amenazas.
 
-**Contexto financiero y organizativo**:
+### Contexto financiero y organizativo
+
 - **Presupuesto**: Aunque la empresa está en proceso de expansión, su presupuesto para ciberseguridad es limitado, lo que restringe la posibilidad de adquirir soluciones avanzadas. La prioridad es mejorar la protección sin incrementar demasiado los costes operativos.
 - **Regulación**: La empresa debe cumplir con el Reglamento General de Protección de Datos (RGPD) de la Unión Europea, dado que maneja información personal y médica altamente sensible.
 
-**Amenazas potenciales**:
+### Amenazas potenciales
+
 - **Ataques de ransomware**: Debido a la falta de actualizaciones y un sistema de copias de seguridad poco robusto, la empresa es vulnerable a ataques que podrían bloquear el acceso a los datos médicos.
 - **Phishing**: El personal no está entrenado en detectar intentos de phishing, lo que podría derivar en una filtración de datos sensibles.
 - **Pérdida de datos**: La falta de redundancia en los servidores y una política ineficaz de seguridad pone en riesgo la disponibilidad de los datos de los pacientes.
@@ -366,4 +371,4 @@ Tal y como se estipula en la política de formación del [apartado 3](#apartado-
 
 ### Comentarios de retroalimentación
 
-- Las medidas reactivas son relevantes, pero faltan detalles o no están bien justificadas. (0,8 / 1,5)
+- Las medidas reactivas son relevantes, pero faltan detalles o no están bien justificadas (0,8 / 1,5 puntos).
