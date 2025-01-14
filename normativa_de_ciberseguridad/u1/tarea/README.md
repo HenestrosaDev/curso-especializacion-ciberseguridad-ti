@@ -82,9 +82,12 @@ Con los puntos anteriores en mente, el proceso de la diligencia debida se distin
 
 ## Resultado
 
-**Calificación**: 9,00 / 10,00
+### Calificación
+
+9,00 / 10,00
 
 Calificado el domingo, 27 de octubre de 2024, 19:30 por Hormigo Ramírez, David
 
-**Comentario de retroalimentación**:
-- En el apartado 2, propone seis iniciativas que se alinean con los principios de buen gobierno y ética, pero algunas explicaciones carecen de profundidad (2 puntos sobre 3)
+### Comentario de retroalimentación
+
+- En el apartado 2, propone seis iniciativas que se alinean con los principios de buen gobierno y ética, pero algunas explicaciones carecen de profundidad (2,0 / 3,0 puntos).
