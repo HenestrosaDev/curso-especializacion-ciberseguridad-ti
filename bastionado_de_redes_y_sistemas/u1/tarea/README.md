@@ -1,10 +1,6 @@
 # UNIDAD 1: Introducción al bastionado
 
-## Objetivos de la tarea
-
-Familiarizarse con la herramienta de autodiagnóstico de ciberseguridad del INCIBE para evaluar la seguridad de una organización o empresa y proponer medidas de mejora basadas en los resultados obtenidos.
-
-## Información de la empresa a diagnosticar
+## Caso práctico
 
 ### Datos básicos
 
@@ -66,9 +62,9 @@ Familiarizarse con la herramienta de autodiagnóstico de ciberseguridad del INCI
 - [Guía práctica de auditorías de ciberseguridad](https://www.incibe.es/protege-tu-empresa/seguridad/realiza-auditoria-seguridad-informatica)
 - [Recursos sobre políticas de ciberseguridad](https://www.incibe.es/protege-tu-empresa/seguridad/elabora-una-politica-de-seguridad)
 
-## Instrucciones
+## ¿Qué te pedimos que hagas?
 
-### Acceso a la herramienta
+### Apartado 1. Acceso a la herramienta.
 
 >Visita el sitio web del INCIBE y localiza la herramienta de diagnóstico de ciberseguridad.  
 >Regístrate o accede si ya tienes una cuenta.
@@ -83,7 +79,7 @@ Una vez dentro, pulsamos sobre el botón "Calcula el riesgo de tu negocio", el c
 ![Pantalla de inicio del diagnóstico](capturas/diagnostico_inicio.png)
 >Herramienta de autodiagnóstico del INCIBE
 
-### Evaluación inicial
+### Apartado 2. Evaluación inicial.
 
 >Realiza una evaluación utilizando los datos de una empresa ficticia o basándote en los recursos que se te proporcionarán (puedes usar la empresa del caso de estudio "Tecnologías Innovadoras S.A.", cuyas características recibirás).  
 >Responde a todas las preguntas del cuestionario, reflejando la situación de ciberseguridad de la empresa según el caso proporcionado.
@@ -99,7 +95,7 @@ Una vez terminamos de contestar a todas las preguntas, recibimos el resultado de
 ![Test alto riesgo](capturas/test_alto_riesgo.png)
 >Resultado del diagnóstico
 
-### Análisis de resultados
+### Apartado 3. Análisis de resultados.
 
 >Una vez completada la evaluación, revisa los resultados que te proporcionará la herramienta. Deberás identificar las áreas críticas de mejora en la ciberseguridad de la empresa.
 
@@ -122,7 +118,7 @@ Entre los puntos críticos detectados que provocan un riesgo tan elevado, destac
 	- **Uso de red Wi-Fi interna para todos los empleados**: Sin segmentación, aumenta el riesgo de que se comprometan dispositivos y sistemas críticos.
 	- **Reutilización de contraseñas**: Este hábito debilita la seguridad de acceso, sobre todo en caso de que se comprometan cuentas personales.
 
-### Propuesta de medidas
+### Apartado 4. Propuesta de medidas.
 
 >Elabora un informe de al menos 500 palabras en el que describas:
 >- Los principales problemas detectados en la evaluación.
@@ -162,7 +158,7 @@ Asimismo, es fundamental tener en mente el **cumplimiento normativo y estándare
 
 Por otro lado, es necesario contar con los **recursos financieros** adecuados para la ejecución de dichas medidas. Para ello, es necesario formalizar un **presupuesto específico** destinado a este sector de la empresa e incluso considerar la **contratación de seguros** que cubran los riesgos asociados a posibles ciberataques.
 
-### Conclusión 
+### Apartado 5. Conclusión.
 
 Como hemos podido comprobar, Tecnologías Innovadoras S.A. contaba con numerosas lagunas en aspectos críticos de la ciberseguridad de la empresa. No obstante, si volvemos a ejecutar la herramienta de autodiagnóstico del INCIBE con las medidas propuestas, podemos apreciar la diferencia abismal de resultados, consiguiendo un porcentaje de **riesgo bajo**.
 
@@ -170,11 +166,6 @@ Como hemos podido comprobar, Tecnologías Innovadoras S.A. contaba con numerosas
 >Generado a partir de la herramienta de autodiagnóstico
 
 Para fomentar la aplicación de **buenas prácticas** en el ámbito de la ciberseguridad, es esencial que las compañías entiendan su importancia en la estructura empresarial y las graves consecuencias que puede acarrear un ciberataque a su estructura tecnológica.
-
-### Entrega
-
->Subir el informe a la plataforma del curso en formato PDF en el formato correcto.  
->**Asegúrate de incluir capturas de pantalla de los resultados de la herramienta de diagnóstico para sustentar tu análisis.**
 
 ---
 
@@ -184,12 +175,10 @@ Para fomentar la aplicación de **buenas prácticas** en el ámbito de la cibers
 
 8,00 / 10,00
 
-Calificado el lunes, 21 de octubre de 2024, 10:52 por Raya Narváez, Guillermo
-
 ### Comentarios de retroalimentación
 
-- El análisis de resultados es demasiado escaso.
-- Habría que detallar más el uso de la herramienta.
+- Hace un uso incompleto o erróneo de la herramienta de diagnóstico (1,5 / 2,5 puntos).
+- El análisis de los resultados es demasiado escaso (1,5 / 2,5 puntos).
 
 ### Notas personales
 
