@@ -21,7 +21,7 @@ sudo apt-get install libpam-google-authenticator
 ```
 
 <div align="center">
-	<img src="tarea/capturas/1_instalar_libpam-google-authenticator/1_instalando_el_paquete.png">
+	<img src="capturas/1_instalar_libpam-google-authenticator/1_instalando_el_paquete.png">
 </div>
 
 >Instalando el paquete `libpam-google-authenticator`
@@ -29,8 +29,8 @@ sudo apt-get install libpam-google-authenticator
 Una vez hecho esto, configuramos Google Authenticator para el usuario actual ejecutando `google-authenticator`.
 
 <div align="center">
-	<img src="tarea/capturas/1_instalar_libpam-google-authenticator/2_configuracion_google_authenticator.png">
-	<img src="tarea/capturas/1_instalar_libpam-google-authenticator/3_configuracion_google_authenticator.png">
+	<img src="capturas/1_instalar_libpam-google-authenticator/2_configuracion_google_authenticator.png">
+	<img src="capturas/1_instalar_libpam-google-authenticator/3_configuracion_google_authenticator.png">
 </div>
 
 >Configurando Google Authenticator
@@ -40,7 +40,7 @@ Para habilitar la autenticación 2FA, necesitamos escanear el QR generado en un 
 <div align="center">
 	<img 
 		width="33%"
-		src="tarea/capturas/1_instalar_libpam-google-authenticator/4_captura_google_play.jpg"
+		src="capturas/1_instalar_libpam-google-authenticator/4_captura_google_play.jpg"
 	>
 </div>
 
@@ -51,7 +51,7 @@ A continuación, accedemos a la aplicación y escaneamos el QR. Al hacerlo, nos 
 <div align="center">
 	<img 
 		width="33%"
-		src="tarea/capturas/1_instalar_libpam-google-authenticator/5_movil_google_authenticator.png"
+		src="capturas/1_instalar_libpam-google-authenticator/5_movil_google_authenticator.png"
 	>
 </div>
 
@@ -70,7 +70,7 @@ auth required pam_google_authenticator.so
 ```
 
 <div align="center">
-	<img src="tarea/capturas/2_login_desde_terminal_de_texto/1_configuracion_login_desde_terminal.png">
+	<img src="capturas/2_login_desde_terminal_de_texto/1_configuracion_login_desde_terminal.png">
 </div>
 
 >Archivo `/etc/pam.d/login` con los cambios marcados en rojo
@@ -80,7 +80,7 @@ Esto le indica al sistema que, además de la contraseña, se debe pedir el códi
 Para comprobar que funciona correctamente, reiniciamos el servicio `systemd-logind` con el comando sudo systemctl restart `systemd-logind` para que se vuelvan a pedir las credenciales en la terminal y se pida el código de verificación.
 
 <div align="center">
-	<img src="tarea/capturas/2_login_desde_terminal_de_texto/2_login_desde_terminal.png">
+	<img src="capturas/2_login_desde_terminal_de_texto/2_login_desde_terminal.png">
 </div>
 
 >Reiniciando el servicio `systemd-logind`
@@ -102,7 +102,7 @@ auth required pam_google_authenticator.so
 ```
 
 <div align="center">
-	<img src="tarea/capturas/3_login_en_entorno_grafico/1_configuracion_login_en_entorno_grafico.png">
+	<img src="capturas/3_login_en_entorno_grafico/1_configuracion_login_en_entorno_grafico.png">
 </div>
 
 >Archivo `/etc/pam.d/gdm-password` con los cambios marcados en rojo
@@ -112,7 +112,7 @@ Al realizar este proceso, ejecutamos `sudo systemctl restart gdm` para que los c
 Tras esto, cerramos la sesión y la volvemos a iniciar para comprobar que, efectivamente, se pide el código de verificación al intentar iniciar sesión de nuevo.
 
 <div align="center">
-	<img src="tarea/capturas/3_login_en_entorno_grafico/2_log_out_en_entorno_grafico.png">
+	<img src="capturas/3_login_en_entorno_grafico/2_log_out_en_entorno_grafico.png">
 </div>
 
 >Cerrando sesión en el entorno gráfico
@@ -120,7 +120,7 @@ Tras esto, cerramos la sesión y la volvemos a iniciar para comprobar que, efect
 <br>
 
 <div align="center">
-	<img src="tarea/capturas/3_login_en_entorno_grafico/3_contrasena_login_en_entorno_grafico.png">
+	<img src="capturas/3_login_en_entorno_grafico/3_contrasena_login_en_entorno_grafico.png">
 </div>
 
 >Petición de contraseña al intentar iniciar sesión en entorno gráfico
@@ -128,7 +128,7 @@ Tras esto, cerramos la sesión y la volvemos a iniciar para comprobar que, efect
 <br>
 
 <div align="center">
-	<img src="tarea/capturas/3_login_en_entorno_grafico/4_codigo_verificacion_login_en_entorno_grafico.png">
+	<img src="capturas/3_login_en_entorno_grafico/4_codigo_verificacion_login_en_entorno_grafico.png">
 </div>
 
 >Petición de código de verificación tras introducir la contraseña al intentar iniciar sesión en entorno gráfico
@@ -148,7 +148,7 @@ auth required pam_google_authenticator.so
 ```
 
 <div align="center">
-	<img src="tarea/capturas/4_uso_del_comando_sudo/1_configuracion_uso_del_comando_sudo.png">
+	<img src="capturas/4_uso_del_comando_sudo/1_configuracion_uso_del_comando_sudo.png">
 </div>
 
 >Archivo `etc/pam.d/sudo` con los cambios marcados en rojo
@@ -156,7 +156,7 @@ auth required pam_google_authenticator.so
 Tras esto, borramos la caché de autenticación de `sudo` con el comando `sudo -k` y ejecutamos cualquier comando con `sudo` para realizar la acción con permisos elevados:
 
 <div align="center">
-	<img src="tarea/capturas/4_uso_del_comando_sudo/2_uso_del_comando_sudo.png">
+	<img src="capturas/4_uso_del_comando_sudo/2_uso_del_comando_sudo.png">
 </div>
 
 >Petición de código de verificación tras ejecutar un comando con privilegios de superusuario
@@ -172,7 +172,7 @@ Como podemos comprobar, se pide la contraseña y el código de verificación cor
 El orden es crucial porque PAM evalúa las directivas de arriba hacia abajo, lo que influye significativamente en el proceso de autenticación de los usuarios. Por ejemplo, si movemos la línea `auth required pam_google_authenticator.so` al principio del archivo `/etc/pam.d/sudo`, tal que así:
 
 <div align="center">
-	<img src="tarea/capturas/5_preguntas_adicionales/1-1_archivo_sudo_modificado.png">
+	<img src="capturas/5_preguntas_adicionales/1-1_archivo_sudo_modificado.png">
 </div>
 
 >Archivo `/etc/pam.d/sudo` con los cambios marcados en rojo
@@ -180,7 +180,7 @@ El orden es crucial porque PAM evalúa las directivas de arriba hacia abajo, lo 
 Como podemos apreciar, el orden de petición del código de verificación se invierte; es decir, ahora se solicita el código de verificación de Google Authenticator antes que la contraseña, tal y como se muestra en la siguiente captura:
 
 <div align="center">
-	<img src="tarea/capturas/5_preguntas_adicionales/1-2_credenciales.png">
+	<img src="capturas/5_preguntas_adicionales/1-2_credenciales.png">
 </div>
 
 >Petición de código de verificación invertido respecto al apartado [Uso del comando sudo](#uso-del-comando-sudo)
@@ -248,7 +248,7 @@ Se proporcionan porque sirven como códigos de recuperación en caso de que el u
 La configuración de Google Authenticator y los códigos de recuperación se almacenan en el archivo `~/.google_authenticator` del directorio personal del usuario (`~`). En él se almacenan el código semilla, las opciones de configuración y los códigos de recuperación generados durante la configuración inicial, tal y como se puede comprobar en la siguiente captura:
 
 <div align="center">
-	<img src="tarea/capturas/5_preguntas_adicionales/6_archivo_google_authenticator.png">
+	<img src="capturas/5_preguntas_adicionales/6_archivo_google_authenticator.png">
 </div>
 
 >Contenidos del archivo `~/.google_authenticator`
