@@ -27,7 +27,7 @@
 				3. Legislación para el cumplimiento de la responsabilidad penal
 			</a>
 		</td>
-		<td>-</td>
+		<td>7,33 / 10,00</td>
 	</tr>
 	<tr>
 		<td>

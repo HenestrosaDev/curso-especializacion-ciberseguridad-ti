@@ -134,6 +134,9 @@ Teniendo en cuenta la compañía descrita en el escenario anterior, da respuesta
 
 ### Calificación
 
-- / 10,00
+7,33 / 10,00
 
-Calificado el 
+### Comentarios de retroalimentación
+
+- La matriz incluye 3 riesgos penales con análisis incompletos o explicaciones poco claras (0,83 / 2,50 puntos).
+- Las acciones mitigantes son relevantes y detalladas, aunque una o más carecen de especificidad o no abordan completamente el riesgo (2,00 / 3,00 puntos).
