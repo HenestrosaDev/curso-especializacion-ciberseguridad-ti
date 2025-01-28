@@ -1,0 +1,11 @@
+#%PAM-1.0 
+ 
+session    required   pam_env.so readenv=1 user_readenv=0 
+session    required   pam_env.so readenv=1 envfile=/etc/default/locale user_readenv=0 
+@include common-auth 
+ 
+# Authenticate using Google Authenticator 
+auth    required        pam_google_authenticator.so 
+ 
+@include common-account 
+@include common-session-noninteractive 
