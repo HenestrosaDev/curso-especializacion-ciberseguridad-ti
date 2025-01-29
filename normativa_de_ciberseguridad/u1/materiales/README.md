@@ -1,4 +1,4 @@
-# Desarrollo de Planes de Prevención y Concienciación en Ciberseguridad
+# RESUMEN Unidad 1: Desarrollo de Planes de Prevención y Concienciación en Ciberseguridad
 
 ## 1. Introducción al cumplimiento normativo
 
@@ -20,68 +20,34 @@ La **función** del objetivo implica adoptar lo siguiente:
 
 #### Compromisos de las organizaciones
 
-Se clasifican en:
+Los compromisos se dividen en dos categorías:
 
-**Compromisos de obligado cumplimiento**:
-- **Legislación vigente**: Cualquier empresa que ejerza su actividad en España debe respetar las siguientes leyes:
-	- **Ley de Sociedades de Capital**: Regula las sociedades en España.
-	- **Ley de impuesto de sociedades**: Tributación de las actividades económicas de una sociedad.
-	- **Ley del Impuesto sobre el Valor Añadido**: Impuesto sobre productos y servicios que presta la empresa hacia el consumidor final.
-	- **Ley de marcas**: Legislación para la protección de los elementos distintivos de una empresa.
-	- **Ley de Servicios de la Sociedad de la Información y de Comercio Electrónico** (LSSI-CE): Regula las actividades comerciales de empresas registradas en España realizadas a través de Internet.
-	- **Reglamento General de Protección de Datos** (RGPD): Protección de las personas físicas en su tratamiento de datos personales y normas relativas a la libre circulación de tales datos. **Impuesta por Europa**.
-	- **Ley Orgánica de Protección de Datos y Garantía de los Derechos Digitales** (LOPD): Adaptación a la normativa local española al RGPD. Base legal para el tratamiento de los datos personales de las personas físicas. Adicionalmente, incluye artículos enfocados en la desconexión digital, derecho al olvido, seguridad digital o protección de menores.
-- **Obligaciones por mandamientos judiciales, tribunales o sentencias judiciales**: Puede consistir en proporcionar cierta información al estado, pagar multas o modificar el modelo de negocio de la empresa.
-- **Obligaciones por contratos de terceros**: Al incluir condiciones en un contrato, se convierten en compromisos de obligado cumplimiento. Un ejemplo son los compromisos contractuales de certificación en normas ISO. Las normas de seguridad de la información en ISO son de la familia 27000.
+- **Obligatorios**: Leyes, sentencias judiciales y contratos con terceros. Su incumplimiento puede resultar en sanciones económicas, penales o daños reputacionales.
+- **Voluntarios**: Códigos éticos, estándares y buenas prácticas. Aunque no son obligatorios, mejoran la eficiencia y reputación de la organización.
 
-**Compromisos voluntarios**: Menor nivel de riesgo por las consecuencias directas derivadas de su incumplimiento, ya que se limitan normalmente a daños reputacionales. No obstante, su inclusión puede instilar más transparencia y confianza en los trabajadores y los consumidores. Pueden ser:
-- **Políticas y procedimientos**:
-	- **Políticas**: Conjunto de directrices, normas y principios establecidos por la dirección para guiar el comportamiento, la toma de decisiones y las actividades dentro de la organización. Ayudan a conseguir los objetivos estratégicos, ahorrar tiempo y costes en la toma de decisiones rutinarias, implementar sistemas normativos de gestión empresarial...
-	- **Procedimientos**: Definen las tácticas a través de las que se van a conseguir los objetivos de la organización. Detallan los pasos para realizar tareas específicas.
-- **Normas y estándares**: Una norma es una forma comúnmente aceptada de realizar una actividad. Las más conocidas son las International Organizarion for Standarization (ISO).
-- **Buenas prácticas y mejores prácticas**: Buenas prácticas son acciones recomendadas que han resultado satisfactorias para llevar a cabo una actividad. Las mejores prácticas son buenas prácticas que han sido monitorizadas y optimizadas para obtener mejores resultados.
-- **Framework**: Implementan serie de procesos en una organización.
-- **Código ético**: Conjunto de valores, principios y pautas en los que regir la cultura de una organización. Ejemplo: código de conducta.
+Ejemplos de leyes aplicables en España:
+
+- Ley de Sociedades de Capital.
+- Ley del Impuesto de Sociedades.
+- Ley del IVA.
+- Ley de Marcas.
+- LSSI-CE (comercio electrónico).
+- RGPD y LOPD (protección de datos).
 
 ### 1.1. Principios del buen gobierno y ética empresarial
 
 #### El buen gobierno corporativo
 
-**Gobierno corporativo**: Toma de decisiones por parte de la dirección de la empresa y de su estrategia corporativa. Su objetivo es mejorar la **credibilidad** organizacional y es visto como una **ventaja competitiva**.
+El buen gobierno corporativo se refiere a las reglas y procesos que guían la toma de decisiones en una organización, asegurando transparencia, responsabilidad y cumplimiento normativo. Incluye:
 
-Para evaluar su desempeño, se realizan **informes anuales de evaluación de cumplimiento de objetivos** que cuenta con las siguientes partes:
-- Diseño
-- Evaluación
-- Diagnóstico
-- Respuesta
-
-Para seguir los códigos de un buen gobierno corporativo se necesita:
-- Cultura, valores y principios.
-- Supervisión del entorno de control.
-- Estructura organizativa.
-- Políticas y procedimientos de recursos humanos.
-- Autoridad y responsabilidad para la toma de decisiones.
-- Sistema de gestión del cambio.
+- **Código ético**: Define los valores y principios de la organización.
+- **Canal de denuncias**: Permite reportar incumplimientos.
+- **Supervisión**: Auditorías internas y consejeros independientes.
+- **Gestión de riesgos**: Identifica y mitiga riesgos legales, financieros y reputacionales.
 
 #### Principios de la ética empresarial
 
-**Ética empresarial**: Código que guía el comportamiento de una organización y sus integrantes en la toma de decisiones y en la interacción con sus diversos _stakeholders_ (grupos de interés) (clientes, proveedores, accionistas, medio ambiente...). También busca promover prácticas que contribuyan positivamente al bienestar de la sociedad. Debe girar en torno a **principios éticos universales**: justicia, igualdad, legalidad, responsabilidad y solidaridad.
-
-**Objetivos** principales:
-- Respeto al medio ambiente.
-- Responsabilidad social corporativa.
-- Evitar competencia desleal.
-- Mejorar la calidad.
-- Evitar la publicidad engañosa.
-- Gestionar recursos humanos, fomentando buen ambiente laboral y la conciliación de los trabajadores con sus vidas personales.
-- Creación e innovación.
-
-**Motivos**:
-- Mejora de la imagen y reconocimiento.
-- Reducción de los riesgos por el incumplimiento legal.
-- Obtención de beneficios fiscales.
-- Aumento de lealtad de los trabajadores.
-- Mayor atracción a inversión.
+La **ética empresarial** va más allá de la ley, promoviendo valores como la responsabilidad social, el respeto al medio ambiente y la igualdad. Mejora la imagen de la empresa, atrae talento y aumenta la confianza de clientes e inversores.
 
 ### 1.2. Compliance officer: Funciones y responsabilidades
 
@@ -89,33 +55,26 @@ Para seguir los códigos de un buen gobierno corporativo se necesita:
 
 #### Funciones del compliance officer
 
-- **Entender el funcionamiento de la organización** para identificar sus obligaciones legales e integrarlos en el sistema de cumplimiento normativo.
-- **Operación de los sistemas de gestión** de cumplimiento (sistema de denuncias, reportes de incidencias, reuniones con responsables de procesos...).
-- **Desarrollar una cultura de cumplimiento** en la organización.
-- **Asesoramiento legal y regulatorio**.
-- **Supervisión de los procesos de la organización*.
-- **Contacto con el regulador**, el cual es una **autoridad externa** a la organización que supervisa el cumplimiento de las regulaciones en una industria o sector específico.
-- **Gestión de incidencias**.
-- **Concienciación**.
-- **Asegurar el cumplimiento en terceras partes** para evitar problemas al usarlos en la organización.
+- **Supervisión**: Identifica y gestiona riesgos regulatorios.
+- **Asesoramiento**: Conoce y aplica las leyes y regulaciones.
+- **Concienciación**: Fomenta una cultura de cumplimiento.
+- **Gestión de incidencias**: Resuelve problemas relacionados con el cumplimiento.
+- **Relación con terceros**: Asegura que proveedores y socios también cumplan con las normativas.
+
+El compliance officer puede tener responsabilidad penal si no cumple con sus funciones de supervisión.
 
 ### 1.3. Relaciones con terceras partes en compliance
 
 #### Riesgos de cumplimientos con terceros
 
-El compliance no se debe limitar a la organización, sino que se trata de que **todos los terceros relacionados con la empresa respeten también sus compromisos**. De lo contrario, pueden haber problemas económicos y legales.
-
-Para controlar su cumplimiento, se debe realizar **diligencia debida** para seleccionar y supervisar a las empresas que colaboran con la organización para comprobar si se ajustan a sus principios. La Organización para la Cooperación y el Desarrollo Económico (OCDE) tiene ha publicado una guía de diligencia debida, que plantea analizar:
-- Derechos humanos.
-- Empleo y relaciones laborales.
-- Medio ambiente.
-- Lucha contra la corrupción, soborno y extorsión.
-- Intereses de los consumidores.
-- Divulgación de información.
+Las organizaciones deben asegurar que sus proveedores, socios y otros terceros también cumplan con las normativas. La guía de diligencia debida de la Organización para la Cooperación y el Desarrollo Económico (OCDE) plantea analizar riesgos como corrupción, sobornos e incumplimientos contractuales.
 
 #### Proceso de diligencia debida
 
 Se compone de tres fases:
+
 1. **Análisis de antecedentes** del comportamiento del tercero.
 2. **Formalización del servicio** de un tercero a través de un contrato.
 3. **Monitorización del servicio** del tercero para asegurar que se cumple el contrato.
+
+Estos procesos son esenciales para evitar riesgos legales y reputacionales.
