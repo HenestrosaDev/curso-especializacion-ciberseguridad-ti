@@ -69,6 +69,8 @@ Teniendo en cuenta la compañía descrita en el escenario anterior, da respuesta
 - Sección "**Análisis de riesgo y planificación**" del apartado "**1.1. Sistemas de gestión de compliance penal**" del material didáctico de la unidad 3 para identificar los delitos. 
 - [noticias.juridicas.com](noticias.juridicas.com]) para consultar las posibles penas de cada delito y adjuntar el artículo del código penal correspondiente.
 
+<br>
+
 >¿Podrías elaborar una matriz de riesgo penal de la organización?
 
 | IMPACTO / PROBABILIDAD | PROBABILIDAD BAJA                | PROBABILIDAD MEDIA                        | PROBABILIDAD ALTA                                          |

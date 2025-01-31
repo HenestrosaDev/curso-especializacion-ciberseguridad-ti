@@ -28,6 +28,8 @@ He aquí dos leyes de obligada aplicación para la empresa:
 
 	Durante 2023, FlutterTech resultó adjudicataria de una licitación de la Consejería de Desarrollo Educativo y Formación Profesional de la Junta de Andalucía para desarrollar una aplicación móvil. Esto implica que la empresa debe cumplir con la LCSP, que regula las relaciones contractuales con la administración pública española, con el fin de garantizar la transparencia y la correcta ejecución del contrato. Además, debe respetar los plazos, presupuestos y términos establecidos en la adjudicación, junto con la aplicación de medidas específicas para prevenir el fraude y la corrupción.
 
+<br>
+
 >¿Está obligada FlutterTech a cumplir con los reglamentos de la Unión Europea?  Justifica tu respuesta.
 
 Sí, dado que la empresa opera desde España, un país miembro de la Unión Europea, y está implicada en contratos públicos dentro de la misma. Por tanto, FlutterTech está obligada a cumplir los reglamentos de la UE que sean relevantes para sus actividades, como el Reglamento General de Protección de Datos (RGPD).
@@ -85,6 +87,8 @@ Estas son algunas de las muchas partes interesadas en el sistema de gestión de 
 5. **Socios y proveedores**
 
 	Están interesados en el cumplimiento normativo de FlutterTech para asegurar relaciones comerciales confiables y alineadas con las regulaciones y leyes aplicables.
+
+<br>
 
 >Propón al menos un control por cada riesgo identificado en el apartado 2.
 

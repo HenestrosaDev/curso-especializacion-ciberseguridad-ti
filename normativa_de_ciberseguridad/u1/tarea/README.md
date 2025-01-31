@@ -26,6 +26,8 @@ Aunque tampoco se menciona expresamente este detalle, hay que tener en cuenta qu
 
 Por otra parte, la empresa está llevando a cabo el riguroso **cumplimiento de compromisos contractuales** de certificación en normas ISO aplicables a su sector gracias al proceso de obtención de las certificaciones ISO9001 e ISO27001.
 
+<br>
+
 >¿Podrías describir al menos dos compromisos voluntarios que tiene FlutterTech en cuanto al cumplimiento?
 
 Dentro de los compromisos voluntarios de FlutterTech, destaca la clara definición de un **código ético** empresarial, el cual se refleja en detalles como su compromiso con la igualdad de género, la inclusión y su colaboración con centros educativos locales en materia de responsabilidad social.
@@ -43,6 +45,8 @@ Tal y como he expuesto en la pregunta 2 del apartado 1, los principios éticos d
 - Compromiso con la **igualdad de género**: El 50% de los puestos directivos están ocupados por mujeres.
 - **Conciliación entre la vida personal y laboral**: Se fomenta un ambiente de trabajo flexible y remoto.
 - **Responsabilidad social con el entorno**: "FlutterTech ha colaborado con centros educativos locales, donando equipos informáticos reutilizados como ordenadores y tablets a escuelas y universidades con menos recursos. Estos dispositivos, previamente utilizados en la empresa, son reacondicionados y actualizados por su equipo técnico, brindando a los estudiantes acceso a herramientas tecnológicas esenciales. Además, FlutterTech organiza talleres gratuitos de programación en Flutter para ayudar a los jóvenes a desarrollar competencias tecnológicas.""
+
+<br>
 
 >¿Qué seis iniciativas incluirías en la el código ético de FlutterTech para plasmar sus principios de buen gobierno y ética empresarial?
 
