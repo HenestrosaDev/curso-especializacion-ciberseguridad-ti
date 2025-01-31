@@ -1,5 +1,8 @@
 # RESUMEN Unidad 1: Desarrollo de Planes de Prevención y Concienciación en Ciberseguridad
 
+![Mapa conceptual](mapa_conceptual.png)
+>Mapa conceptual
+
 ## 1. Introducción al cumplimiento normativo
 
 #### Definición, objetivo y función del cumplimiento normativo.
