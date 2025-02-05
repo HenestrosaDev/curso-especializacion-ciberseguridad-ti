@@ -8,6 +8,43 @@ PAM funciona mediante la configuración de módulos que se ejecutan en secuencia
 
 La importancia de tener PAM bien configurado radica en que es la primera línea de defensa del sistema contra accesos no autorizados. Un sistema PAM mal configurado puede dejar vulnerabilidades críticas que permitan a atacantes evadir medidas de seguridad, obtener privilegios elevados o acceder a cuentas protegidas. Por ello, es fundamental que los administradores de sistemas comprendan cómo funciona PAM y cómo se puede utilizar para fortalecer la seguridad de autenticación en todo el sistema.
 
+## Recursos necesarios y recomendaciones
+
+Para completar la tarea, es importante que el alumno revise y entienda los siguientes puntos:
+
+1. **Instalación de Google Authenticator**:
+
+	Instalar el paquete necesario:  
+
+	```bash
+	sudo apt-get install libpam-google-authenticator
+	```
+
+	Configurar Google Authenticator para el usuario actual ejecutando:  
+
+	```bash
+	google-authenticator
+	```
+
+	El alumno deberá seguir las instrucciones para generar un código QR, escanearlo con la aplicación Google Authenticator y configurar opciones como el límite de tiempo y la cantidad de códigos permitidos simultáneamente.
+
+2. **Configuración de los archivos PAM**:
+
+	- `/etc/pam.d/login`: Para que se pida un código en las sesiones de terminal.
+	- `/etc/pam.d/lightdm`: Para que se solicite un código en las sesiones gráficas (el nombre del archivo puede variar según el gestor de sesiones, e.g., gdm o sddm).
+	- `/etc/pam.d/sudo`: Para que se requiera un código cuando se utilice sudo.
+	- El módulo de Google Authenticator debe configurarse **antes o después** de otros módulos en cada archivo según se quiera que la autenticación multifactor se realice antes o después de la verificación de la contraseña.
+
+3. **El sistema PAM**:
+
+	Comprender la estructura y el funcionamiento de los módulos PAM, específicamente los archivos como:
+	- `/etc/pam.d/common-auth`: Definiciones generales de autenticación.
+	- `/etc/pam.d/common-password`: Módulos relacionados con la gestión de contraseñas.
+	- `/etc/pam.d/common-account`: Gestión de cuentas de usuario.
+	- `/etc/pam.d/common-session`: Configuración de sesiones de usuario.
+
+	También hay que comprender la importancia del orden de las directivas en los archivos de configuración para determinar cómo y en qué orden se aplican las políticas.
+
 ## ¿Qué te pedimos que hagas?
 
 El alumno configurará un sistema Linux para que requiera un código de autenticación generado por Google Authenticator en las siguientes situaciones, con el objetivo de que el alumno comprenda cómo se configuran los módulos PAM para fortalecer la seguridad del sistema mediante autenticación multifactor.
@@ -259,39 +296,8 @@ Después de usar uno de los códigos preestablecidos, este queda invalidado auto
 
 ---
 
-## Recursos necesarios y recomendaciones
+## Resultado 
 
-Para completar la tarea, es importante que el alumno revise y entienda los siguientes puntos:
+### Calificación
 
-1. **Instalación de Google Authenticator**:
-
-	Instalar el paquete necesario:  
-
-	```bash
-	sudo apt-get install libpam-google-authenticator
-	```
-
-	Configurar Google Authenticator para el usuario actual ejecutando:  
-
-	```bash
-	google-authenticator
-	```
-
-	El alumno deberá seguir las instrucciones para generar un código QR, escanearlo con la aplicación Google Authenticator y configurar opciones como el límite de tiempo y la cantidad de códigos permitidos simultáneamente.
-
-2. **Configuración de los archivos PAM**:
-
-	- `/etc/pam.d/login`: Para que se pida un código en las sesiones de terminal.
-	- `/etc/pam.d/lightdm`: Para que se solicite un código en las sesiones gráficas (el nombre del archivo puede variar según el gestor de sesiones, e.g., gdm o sddm).
-	- `/etc/pam.d/sudo`: Para que se requiera un código cuando se utilice sudo.
-	- El módulo de Google Authenticator debe configurarse **antes o después** de otros módulos en cada archivo según se quiera que la autenticación multifactor se realice antes o después de la verificación de la contraseña.
-
-3. **El sistema PAM**:
-
-	Comprender la estructura y el funcionamiento de los módulos PAM, específicamente los archivos como:
-	- `/etc/pam.d/common-auth`: Definiciones generales de autenticación.
-	- `/etc/pam.d/common-password`: Módulos relacionados con la gestión de contraseñas.
-	- `/etc/pam.d/common-account`: Gestión de cuentas de usuario.
-	- `/etc/pam.d/common-session`: Configuración de sesiones de usuario.
-
-	También hay que comprender la importancia del orden de las directivas en los archivos de configuración para determinar cómo y en qué orden se aplican las políticas.
+- / 10,00
