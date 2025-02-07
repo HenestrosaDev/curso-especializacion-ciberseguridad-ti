@@ -2,9 +2,10 @@
 
 ## ¿Qué te pedimos que hagas?
 
-Instalar, configurar y probar un servidor RADIUS para que el usuario se tenga que conectar usando unas credenciales en lugar de introducir una contraseña genérica para conectarse a una red Wi-Fi, como se hace habitualmente.
-
-Además, hay que configurar un router para que use el protocolo WPA2 Enterprise y se conecte con el servidor RADIUS para determinar si las credenciales enviadas por el usuario son válidas o no. 
+>[!NOTE]
+>Instalar, configurar y probar un servidor RADIUS para que el usuario se tenga que conectar usando unas credenciales en lugar de introducir una contraseña genérica para conectarse a una red Wi-Fi, como se hace habitualmente.
+>
+>Además, hay que configurar un router para que use el protocolo WPA2 Enterprise y se conecte con el servidor RADIUS para determinar si las credenciales enviadas por el usuario son válidas o no. 
 
 ### Introducción
 
