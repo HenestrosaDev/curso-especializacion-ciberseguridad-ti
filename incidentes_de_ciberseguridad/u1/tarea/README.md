@@ -2,9 +2,10 @@
 
 ## Apartado 1: Diseño de una empresa ficticia
 
->Deberás efectuar las siguientes tareas:
->- Diseñar una empresa con un esquema sencillo de Sistemas de Información, en el que se reflejen los puntos habituales de vulnerabilidad: bases de datos, puestos de trabajo en local o en remoto, conmutadores, servidores, etc.
->- El diseño deberá ser imaginativo para que se puedan tratar los temas relevantes en una auditoría de prevención.
+>[!NOTE]
+>Diseña una empresa con un esquema sencillo de Sistemas de Información, en el que se reflejen los puntos habituales de vulnerabilidad: bases de datos, puestos de trabajo en local o en remoto, conmutadores, servidores, etc.
+>
+>El diseño deberá ser imaginativo para que se puedan tratar los temas relevantes en una auditoría de prevención.
 
 ```mermaid
 flowchart TD
@@ -60,14 +61,10 @@ flowchart TD
 	style M1 fill:#ffcccc,stroke:#ff0000,stroke-width:2px,color:black
 ```
 
----
-
 ## Apartado 2: Detalle de los puntos vulnerables del puesto de trabajo que se deberán tener en cuenta
 
->Deberás efectuar las siguientes tareas. Se puede presentar desglosado por apartados o todo junto (elemento->escenario->medida, etc.), siendo la extensión total de este apartado unas 2-3 páginas aproximadamente:
->- Tomando el diseño del apartado anterior, efectuar una labor de inventariado de todos los elementos esenciales para el negocio (activos): hardware, software, comunicaciones, instalaciones, datos y personas, que se desea incluir (de media a una página).
->- A continuación, identificar escenarios de riesgo de los elementos esenciales anteriormente indicados (entre 8-15 escenarios, aunque el listado anterior sea superior).
->- Para cada escenario de riesgo, plantear una medida de seguridad adaptada.
+>[!NOTE]
+>Tomando el diseño del apartado anterior, efectua una labor de inventariado de todos los elementos esenciales para el negocio (activos): hardware, software, comunicaciones, instalaciones, datos y personas, que se desea incluir (de media a una página).
 
 De acuerdo con el esquema presentado en el [apartado 1](#apartado-1-diseño-de-una-empresa-ficticia), el desglose de los activos mencionados según su categoría es el siguiente:
 
@@ -105,6 +102,13 @@ De acuerdo con el esquema presentado en el [apartado 1](#apartado-1-diseño-de-u
 	- **Empleados de administración**: Gestionan clientes, proyectos y finanzas. Usan sistemas de monitoreo, aplicaciones SaaS y aplicaciones de gestión interna.
 	- **Socios y proveedores**: Acceden a partes del sistema para servicios de soporte o integración.
 
+<br>
+
+>[!NOTE]
+>A continuación, identifica escenarios de riesgo de los elementos esenciales anteriormente indicados (entre 8-15 escenarios, aunque el listado anterior sea superior).
+>
+>Para cada escenario de riesgo, plantea una medida de seguridad adaptada.
+
 Ahora que tenemos el inventario de los activos de la empresa clasificados por categoría, identificamos posibles escenarios de riesgo de los elementos esenciales anteriormente indicados:
 
 1. **Fallo en el servidor local**. Puede ocasionar una pérdida de acceso a datos y aplicaciones internas, interrumpiendo la operación. Para prevenirlo, podemos activar backups automáticos diarios.
@@ -128,7 +132,9 @@ A su vez, se pueden dar los siguientes escenarios de riesgo a partir de los acti
 
 ## Apartado 3: Detalle del plan de formación y concienciación
 
->El Plan de formación contará al menos con los siguientes apartados (entre 2 y 5 páginas aproximadamente):
+>[!NOTE]
+>El Plan de formación contará, al menos, con los siguientes apartados (entre 2 y 5 páginas aproximadamente):
+>
 >- Objetivos.
 >- Evaluación de las necesidades de formación.
 >- Roles incluidos (concreción del plan).
@@ -244,7 +250,8 @@ Para medir la efectividad del plan de formación y concienciación, se aplicará
 
 ## Apartado 4: Detalle de los materiales de formación y concienciación utilizados
 
->Describir los materiales planteados con su contenido (al **menos 3 distintos**) tanto para la fase de formación como para la de evaluación. Debe ser un material inteligible por sí solo, es decir, que sea lo que uses para formar o concienciar a tus empleados. Pueden ser consejos, carteles, emails, vídeos, cuestionarios, etc. relacionados con cualquier elemento involucrado en la ciberseguridad.
+>[!NOTE]
+>Describe los materiales planteados con su contenido (al **menos 3 distintos**) tanto para la fase de formación como para la de evaluación. Debe ser un material inteligible por sí solo, es decir, que sea lo que uses para formar o concienciar a tus empleados. Pueden ser consejos, carteles, emails, vídeos, cuestionarios, etc. relacionados con cualquier elemento involucrado en la ciberseguridad.
 
 He aquí materiales adecuados tanto para la fase de formación y evaluación para formar o concienciar a los empleados de Consultoría Paco S.L.:
 
@@ -256,7 +263,9 @@ He aquí materiales adecuados tanto para la fase de formación y evaluación par
 
 ## Apartado 5: Detalle de las auditorías internas de cumplimiento en prevención
 
->Para los elementos esenciales establecidos en el [apartado 2](#apartado-2-detalle-de-los-puntos-vulnerables-del-puesto-de-trabajo-que-se-deberán-tener-en-cuenta), comprobar si disponen de las siguientes medidas de seguridad:
+>[!NOTE]
+>Para los elementos esenciales establecidos en el [apartado 2](#apartado-2-detalle-de-los-puntos-vulnerables-del-puesto-de-trabajo-que-se-deberán-tener-en-cuenta), comprueba si disponen de las siguientes medidas de seguridad:
+>
 >- Sistemas antimalware.
 >- Procesos de gestión de permisos.
 >- Procesos de cumplimiento legal (compliance).
@@ -271,8 +280,6 @@ He aquí materiales adecuados tanto para la fase de formación y evaluación par
 >- Auditoría web.
 >- Auditoría forense.
 >- Auditoría legal.
->
->Decidir qué sistema (Esquema de Mejora Continua o Modelo de Madurez) se deberá aplicar para garantizar que los resultados de la auditoría tengan como fin la implantación continua de mejoras en materia de ciberseguridad y la consecución de los diferentes niveles de seguridad.
 
 A continuación, se comprueba si los elementos esenciales del sistema de TechCorp Solutions disponen de las medidas de seguridad necesarias y se propone la auditoría requerida para cada caso junto con los indicadores de logro necesarios para determinar si los controles son aptos o no.
 
@@ -412,7 +419,10 @@ A continuación, se comprueba si los elementos esenciales del sistema de TechCor
 	- **Apto**: No se detectan accesos no autorizados, las políticas de acceso se aplican correctamente y no se han producido alteraciones maliciosas en los datos. Los registros de auditoría muestran que todas las actividades en la base de datos están documentadas y son legítimas.
 	- **No apto**: Se han detectado accesos no autorizados, alteraciones en los datos o actividades sospechosas que no se han registrado adecuadamente. Alguien ha manipulado los datos sensibles o ha extraído información de forma maliciosa.
 
-### Sistema de mejora continua para implementación de resultados de auditoría
+<br>
+
+>[!NOTE]
+>Decide qué sistema (Esquema de Mejora Continua o Modelo de Madurez) se deberá aplicar para garantizar que los resultados de la auditoría tengan como fin la implantación continua de mejoras en materia de ciberseguridad y la consecución de los diferentes niveles de seguridad.
 
 Para garantizar que los resultados de las auditorías se traduzcan en mejoras continuas en la ciberseguridad de TechCorp Solutions, se propone aplicar el **Esquema de Mejora Continua basado en el Ciclo PDCA (Plan-Do-Check-Act)**.
 

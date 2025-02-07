@@ -14,10 +14,9 @@ La empresa también se encuentra en proceso de obtener las certificaciones ISO90
 
 ## ¿Qué te pedimos que hagas?
 
-Teniendo en cuenta la compañía descrita en el escenario anterior, da respuesta a las siguientes preguntas:
-
 ### Apartado 1: Compromisos de la organización.
 
+>[!NOTE]
 >¿Podrías describir al menos dos compromisos obligatorios que tiene FlutterTech en cuanto al cumplimiento por el funcionamiento de su negocio?
 
 A pesar de que no se menciona explícitamente en el caso práctico, podemos dar por hecho que FlutterTech cumple con la **legislación vigente** de aquellos países en los que opera, ya que el mantenimiento de su actividad implica cumplir con la legislación de cada uno. Dentro del marco legislativo español, es esencial destacar el obligatorio cumplimiento de ciertas leyes relacionadas con el tratamiento de los datos personales almacenados por la empresa, como el Reglamento General de Protección de Datos y la Ley Orgánica de Protección de Datos.
@@ -28,6 +27,7 @@ Por otra parte, la empresa está llevando a cabo el riguroso **cumplimiento de c
 
 <br>
 
+>[!NOTE]
 >¿Podrías describir al menos dos compromisos voluntarios que tiene FlutterTech en cuanto al cumplimiento?
 
 Dentro de los compromisos voluntarios de FlutterTech, destaca la clara definición de un **código ético** empresarial, el cual se refleja en detalles como su compromiso con la igualdad de género, la inclusión y su colaboración con centros educativos locales en materia de responsabilidad social.
@@ -38,6 +38,7 @@ Como propuesta, la empresa podría instaurar una serie de **buenas prácticas y 
 
 ### Apartado 2: Principios del buen gobierno y ética empresarial.
 
+>[!NOTE]
 >¿Podrías identificar qué actividades ya ha realizado ya FlutterTech como respuesta a sus principios de ética empresarial?
 
 Tal y como he expuesto en la pregunta 2 del apartado 1, los principios éticos de la empresa se manifiestan en los siguientes puntos:
@@ -48,6 +49,7 @@ Tal y como he expuesto en la pregunta 2 del apartado 1, los principios éticos d
 
 <br>
 
+>[!NOTE]
 >¿Qué seis iniciativas incluirías en la el código ético de FlutterTech para plasmar sus principios de buen gobierno y ética empresarial?
 
 Las seis iniciativas que incluiría en el código ético de la empresa son las siguientes:
@@ -61,6 +63,7 @@ Las seis iniciativas que incluiría en el código ético de la empresa son las s
 
 ### Apartado 3: Relaciones con terceras partes. 
 
+>[!NOTE]
 >FlutterTech quiere adquirir la empresa de desarrollo web LaravelTech con sede en Argentina para ampliar los servicios que presta y, potencialmente, ampliar su cartera de clientes.
 >
 >¿Qué elementos tendrías en cuenta dentro de un proceso de diligencia debida?

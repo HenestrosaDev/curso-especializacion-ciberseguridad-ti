@@ -47,13 +47,14 @@ Para completar la tarea, es importante que el alumno revise y entienda los sigui
 
 ## ¿Qué te pedimos que hagas?
 
-El alumno configurará un sistema Linux para que requiera un código de autenticación generado por Google Authenticator en las siguientes situaciones, con el objetivo de que el alumno comprenda cómo se configuran los módulos PAM para fortalecer la seguridad del sistema mediante autenticación multifactor.
+>[!NOTE]
+>El alumno configurará un sistema Linux para que requiera un código de autenticación generado por Google Authenticator en las siguientes situaciones, con el objetivo de que el alumno comprenda cómo se configuran los módulos PAM para fortalecer la seguridad del sistema mediante autenticación multifactor.
 
 ### Instalar `libpam-google-authenticator`
 
-Antes de empezar, es necesario instalar el paquete libpam-google-authenticator. Para ello, lo instalamos ejecutando el siguiente comando:
+Antes de empezar, es necesario instalar el paquete `libpam-google-authenticator`. Para ello, lo instalamos ejecutando el siguiente comando:
 
-```
+```bash
 sudo apt-get install libpam-google-authenticator
 ```
 
@@ -63,6 +64,8 @@ sudo apt-get install libpam-google-authenticator
 
 >Instalando el paquete `libpam-google-authenticator`
 
+<br>
+
 Una vez hecho esto, configuramos Google Authenticator para el usuario actual ejecutando `google-authenticator`.
 
 <div align="center">
@@ -71,6 +74,8 @@ Una vez hecho esto, configuramos Google Authenticator para el usuario actual eje
 </div>
 
 >Configurando Google Authenticator
+
+<br>
 
 Para habilitar la autenticación 2FA, necesitamos escanear el QR generado en un dispositivo móvil para tener acceso a los códigos de verificación. Para ello, instalamos la aplicación Google Authenticator. Como tengo un dispositivo móvil Android, la descargaré desde la Play Store.
 
@@ -82,6 +87,8 @@ Para habilitar la autenticación 2FA, necesitamos escanear el QR generado en un 
 </div>
 
 >Página de la app de Google Authenticator en la Play Store. Mi dispositivo está en francés.
+
+<br>
 
 A continuación, accedemos a la aplicación y escaneamos el QR. Al hacerlo, nos aparecerá la siguiente pantalla con los códigos de verificación correspondientes a nuestro equipo:
 
@@ -98,11 +105,12 @@ A continuación, accedemos a la aplicación y escaneamos el QR. Al hacerlo, nos 
 
 ### Login desde terminal de texto
 
->**Configura el archivo `/etc/pam.d/login` para que el sistema pida un código de autenticación cuando se intente iniciar sesión en una terminal sin entorno gráfico.**
+>[!NOTE]
+>Configura el archivo `/etc/pam.d/login` para que el sistema pida un código de autenticación cuando se intente iniciar sesión en una terminal sin entorno gráfico.
 
 En primer lugar, tenemos que editar el archivo `/etc/pam.d/login` para añadir la siguiente línea tras incluir los contenidos del archivo `common-auth`:
 
-```
+```bash
 auth required pam_google_authenticator.so
 ```
 
@@ -111,6 +119,8 @@ auth required pam_google_authenticator.so
 </div>
 
 >Archivo `/etc/pam.d/login` con los cambios marcados en rojo
+
+<br>
 
 Esto le indica al sistema que, además de la contraseña, se debe pedir el código TOTP (Time-based One-Time Password) de Google Authenticator como un segundo factor.
 
@@ -128,13 +138,14 @@ Como podemos apreciar, se nos pide el código de verificación de Google Authent
 
 ### Login en entorno gráfico 
 
->**Configura el archivo `/etc/pam.d/lightdm` (o equivalente) para que el sistema solicite un código de autenticación en el inicio de sesión gráfico.**
+>[!NOTE]
+>Configura el archivo `/etc/pam.d/lightdm` (o equivalente) para que el sistema solicite un código de autenticación en el inicio de sesión gráfico.
 
 Mi distribución de Ubuntu usa GNOME como display manager, por lo que voy a configurar el archivo `/etc/pam.d/gdm-password` en lugar de `/etc/pam.d/lightdm` para cumplir con lo que pide el enunciado. 
 
 Para ello, es necesario editar dicho archivo para añadir la siguiente línea tras incluir los contenidos del archivo `common-auth`, tal y como hicimos con el archivo `/etc/pam.d/login`:
 
-```
+```bash
 auth required pam_google_authenticator.so
 ```
 
@@ -143,6 +154,8 @@ auth required pam_google_authenticator.so
 </div>
 
 >Archivo `/etc/pam.d/gdm-password` con los cambios marcados en rojo
+
+<br>
 
 Al realizar este proceso, ejecutamos `sudo systemctl restart gdm` para que los cambios surtan efecto.
 
@@ -176,11 +189,12 @@ Como podemos observar, la configuración se ha aplicado con éxito.
 
 ### Uso del comando sudo 
 
->**Configura el archivo `/etc/pam.d/sudo` para que el sistema requiera un código de autenticación adicional cuando se ejecute un comando con privilegios elevados.**
+>[!NOTE]
+>Configura el archivo `/etc/pam.d/sudo` para que el sistema requiera un código de autenticación adicional cuando se ejecute un comando con privilegios elevados.
 
 Para ello, tenemos que editar el archivo /etc/pam.d/sudo para añadir la siguiente línea después de incluir los contenidos del archivo common-auth, tal y como hicimos en los procesos de configuración anteriores:
 
-```
+```bash
 auth required pam_google_authenticator.so
 ```
 
@@ -189,6 +203,8 @@ auth required pam_google_authenticator.so
 </div>
 
 >Archivo `etc/pam.d/sudo` con los cambios marcados en rojo
+
+<br>
 
 Tras esto, borramos la caché de autenticación de `sudo` con el comando `sudo -k` y ejecutamos cualquier comando con `sudo` para realizar la acción con permisos elevados:
 
@@ -204,7 +220,8 @@ Como podemos comprobar, se pide la contraseña y el código de verificación cor
 
 ### Preguntas adicionales
 
-#### 1. ¿Por qué influye el **orden** en el que se añaden las directivas en el archivo PAM que se está configurando?
+>[!NOTE]
+>1. ¿Por qué influye el **orden** en el que se añaden las directivas en el archivo PAM que se está configurando?
 
 El orden es crucial porque PAM evalúa las directivas de arriba hacia abajo, lo que influye significativamente en el proceso de autenticación de los usuarios. Por ejemplo, si movemos la línea `auth required pam_google_authenticator.so` al principio del archivo `/etc/pam.d/sudo`, tal que así:
 
@@ -213,6 +230,8 @@ El orden es crucial porque PAM evalúa las directivas de arriba hacia abajo, lo 
 </div>
 
 >Archivo `/etc/pam.d/sudo` con los cambios marcados en rojo
+
+<br>
 
 Como podemos apreciar, el orden de petición del código de verificación se invierte; es decir, ahora se solicita el código de verificación de Google Authenticator antes que la contraseña, tal y como se muestra en la siguiente captura:
 
@@ -224,7 +243,8 @@ Como podemos apreciar, el orden de petición del código de verificación se inv
 
 ---
 
-#### 2. ¿En qué **otras acciones o servicios** sería aconsejable configurar PAM para reforzar la autenticación del usuario?
+>[!NOTE]
+>2. ¿En qué **otras acciones o servicios** sería aconsejable configurar PAM para reforzar la autenticación del usuario?
 
 Se puede utilizar en multitud de situaciones. Por ejemplo, para proteger conexiones sensibles de transferencia de datos y similares, como VPN (Virtual Private Network), SSH (Secure Socket Shell), FTP (File Transfer Protocol) o SMTP (Simple Mail Transfer Protocol). Asimismo, también se podría usar para integrar servicios en red con sistemas de autenticación centralizados, como LDAP (Lightweight Directory Access Protocol) o NIS (Network Information Service).
 
@@ -236,7 +256,8 @@ Como podemos apreciar, este módulo va más allá de añadir la capa de 2FA al p
 
 ---
 
-#### 3. ¿Cuál es la finalidad de los archivos `common-account`, `common-password`, `common-auth` y `common-session`?
+>[!NOTE]
+>3. ¿Cuál es la finalidad de los archivos `common-account`, `common-password`, `common-auth` y `common-session`?
 
 Dichos archivos son configuraciones compartidas y centralizadas que definen políticas comunes relacionadas con la autenticación, la autorización y la gestión de sesiones y contraseñas. Estos archivos están, por lo general, ubicados en el directorio /etc/pam.d/ y su propósito es evitar la duplicación de configuraciones entre diferentes servicios o aplicaciones.
 
@@ -256,7 +277,8 @@ En un caso de uso genérico, el orden de ejecución de los archivos sería el si
 
 ---
 
-#### 4. ¿Por qué se genera un código semilla al ejecutar el comando `google-authenticator` y cuál es su propósito en la autenticación?
+>[!NOTE]
+>4. ¿Por qué se genera un código semilla al ejecutar el comando `google-authenticator` y cuál es su propósito en la autenticación?
 
 El código semilla que se genera es una parte fundamental del mecanismo de autenticación, ya que establece un punto de partida compartido entre el servidor y el cliente para generar códigos TOTP.
 
@@ -269,7 +291,8 @@ Cabe destacar que este código no debe compartirse con nadie, ya que cualquiera 
 
 ---
 
-#### 5. ¿Por qué se proporcionan una serie de **códigos preestablecidos** al usuario una vez se ha generado el QR y cuál es su finalidad?
+>[!NOTE]
+>5. ¿Por qué se proporcionan una serie de **códigos preestablecidos** al usuario una vez se ha generado el QR y cuál es su finalidad?
 
 Se proporcionan porque sirven como códigos de recuperación en caso de que el usuario pierda acceso a la app de Google Authenticator o a su dispositivo. Tienen diversas finalidades, como:
 - Permitir acceder a la cuenta sin necesidad de utilizar un nuevo dispositivo o de configurar el sistema desde cero.
@@ -278,8 +301,9 @@ Se proporcionan porque sirven como códigos de recuperación en caso de que el u
 
 ---
 
-#### 6. ¿En qué **ubicación** se almacena la configuración de Google Authenticator y los códigos preestablecidos para el usuario? Explica cómo se pueden usar estos códigos en caso de no disponer de la aplicación Google Authenticator, especificando que cada código solo se puede utilizar una vez
-
+>[!NOTE]
+>6. ¿En qué **ubicación** se almacena la configuración de Google Authenticator y los códigos preestablecidos para el usuario? Explica cómo se pueden usar estos códigos en caso de no disponer de la aplicación Google Authenticator, especificando que cada código solo se puede utilizar una vez
+>
 >**PISTA**: La información relacionada con Google Authenticator se almacena en un archivo oculto dentro del directorio `~` del usuario. Busca en ese archivo para responder a esta pregunta.
 
 La configuración de Google Authenticator y los códigos de recuperación se almacenan en el archivo `~/.google_authenticator` del directorio personal del usuario (`~`). En él se almacenan el código semilla, las opciones de configuración y los códigos de recuperación generados durante la configuración inicial, tal y como se puede comprobar en la siguiente captura:

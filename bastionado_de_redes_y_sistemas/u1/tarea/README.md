@@ -13,19 +13,22 @@
 
 ### Infraestructura tecnológica
 
-**Red interna**
+**Red interna**:
+
 - 2 servidores físicos (para almacenamiento de archivos y gestión de bases de datos).
 - 10 servidores virtuales en la nube (para aplicaciones y hosting web).
 - Red Wi-Fi interna utilizada por todos los empleados.
 - Uso de VPN para acceso remoto de empleados que trabajan en proyectos externos.
 - Firewall de nivel empresarial, pero no actualizado desde hace 6 meses.
 
-**Dispositivos**
+**Dispositivos**:
+
 - 40 ordenadores de sobremesa y portátiles con Windows 10/11.
 - 10 portátiles adicionales para el equipo comercial y directivo.
 - 10 tablets y 20 smartphones utilizados por el equipo de ventas y directores.
 
-**Software**
+**Software**:
+
 - Suite de herramientas de colaboración en la nube (Google Workspace).
 - Sistema CRM para la gestión de clientes (HubSpot).
 - Servidor de correo propio (POP3/IMAP).
@@ -34,21 +37,25 @@
 
 ### Ciberseguridad actual
 
-**Políticas de seguridad**
+**Políticas de seguridad**:
+
 - No existe una política formal de ciberseguridad documentada.
 - No se realizan formaciones regulares de ciberseguridad para los empleados.
 - Contraseñas de empleados rotadas cada 6 meses, pero no se exige doble factor de autenticación (2FA).
 - Algunos empleados reutilizan las contraseñas entre sus cuentas personales y corporativas.
 
-**Protección de datos**
+**Protección de datos**:
+
 - Cumplen con las normativas de GDPR, pero no realizan auditorías periódicas de protección de datos.
 - Almacenamiento de datos sensibles (clientes y empleados) en los servidores físicos, sin cifrado.
 
-**Historial de incidentes**
+**Historial de incidentes**:
+
 - Hace un año sufrieron un ataque de phishing que comprometió las credenciales de dos empleados del departamento de ventas. Se implementaron medidas temporales, pero no se ha realizado una auditoría completa desde entonces.
 - Se detectaron intentos fallidos de acceso no autorizado al servidor de correo electrónico hace 3 meses, pero no se tomó ninguna acción al respecto.
 
-**Situación actual**
+**Situación actual**:
+
 - La empresa está en proceso de expandir sus operaciones internacionales y busca mejorar su ciberseguridad antes de que nuevos socios comerciales y clientes del extranjero soliciten auditorías. No tienen un equipo especializado de ciberseguridad interno y sus recursos se limitan a un proveedor externo que realiza mantenimiento básico de los servidores y redes.
 
 ### Recursos necesarios y recomendaciones
@@ -66,13 +73,17 @@
 
 ### Apartado 1. Acceso a la herramienta.
 
->Visita el sitio web del INCIBE y localiza la herramienta de diagnóstico de ciberseguridad.  
+>[!NOTE]
+>Visita el sitio web del INCIBE y localiza la herramienta de diagnóstico de ciberseguridad.
+>
 >Regístrate o accede si ya tienes una cuenta.
 
 Para acceder a la herramienta de autodiagnóstico del INCIBE, tenemos que acceder al sitio web [https://adl.incibe.es](https://adl.incibe.es).
 
 ![Pantalla de inicio de la herramienta](capturas/pantalla_inicio.png)
 >Página de inicio de la herramienta de autodiagnóstico del INCIBE
+
+<br>
 
 Una vez dentro, pulsamos sobre el botón "Calcula el riesgo de tu negocio", el cual arrancará la herramienta de autodiagnóstico.
 
@@ -81,7 +92,9 @@ Una vez dentro, pulsamos sobre el botón "Calcula el riesgo de tu negocio", el c
 
 ### Apartado 2. Evaluación inicial.
 
->Realiza una evaluación utilizando los datos de una empresa ficticia o basándote en los recursos que se te proporcionarán (puedes usar la empresa del caso de estudio "Tecnologías Innovadoras S.A.", cuyas características recibirás).  
+>[!NOTE]
+>Realiza una evaluación utilizando los datos de una empresa ficticia o basándote en los recursos que se te proporcionarán (puedes usar la empresa del caso de estudio "Tecnologías Innovadoras S.A.", cuyas características recibirás).
+>
 >Responde a todas las preguntas del cuestionario, reflejando la situación de ciberseguridad de la empresa según el caso proporcionado.
 
 La herramienta nos irá haciendo preguntas relacionadas con aspectos de seguridad de la organización, que responderemos con la información proporcionada en el enunciado del ejercicio.
@@ -89,8 +102,9 @@ La herramienta nos irá haciendo preguntas relacionadas con aspectos de segurida
 ![Ejemplo de pregunta del diagnóstico](capturas/diagnostico_ejemplo_pregunta.jpg)
 >Ejemplo de pregunta del diagnóstico
 
+<br>
+
 Una vez terminamos de contestar a todas las preguntas, recibimos el resultado del diagnóstico:
->Resultado del diagnóstico
 
 ![Test alto riesgo](capturas/test_alto_riesgo.png)
 >Resultado del diagnóstico
@@ -120,7 +134,9 @@ Entre los puntos críticos detectados que provocan un riesgo tan elevado, destac
 
 ### Apartado 4. Propuesta de medidas.
 
+>[!NOTE]
 >Elabora un informe de al menos 500 palabras en el que describas:
+>
 >- Los principales problemas detectados en la evaluación.
 >- Medidas concretas que se podrían implementar para mejorar la seguridad en cada área vulnerable.
 >- Recursos necesarios para llevar a cabo dichas medidas (humanos, tecnológicos, formativos, etc.).

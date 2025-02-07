@@ -18,6 +18,7 @@ Dada su cartera de clientes, FlutterTech es responsable de la información de 2.
 
 ### Apartado 1: Principios de protección de datos.
 
+>[!NOTE]
 >Enumera 10 datos de carácter personal que podría estar tratando FlutterTech en la prestación de sus servicios. 
 
 Recordemos que los datos de carácter personal son cualquier información relativa a una persona física identificada o identificable.
@@ -38,6 +39,7 @@ Entre ellos, podemos distinguir los siguientes, en relación con los servicios d
 
 <br>
 
+>[!NOTE]
 >¿Alguno de los datos enumerados es sensible? ¿Cuáles de ellos?
 
 La Regulación General de Protección de Datos establece los siguientes datos como especialmente sensibles:
@@ -54,6 +56,7 @@ En base a esto, podemos identificar los datos sobre el historial médico de los 
 
 ### Apartado 2: Regulación General de Protección de Datos.
 
+>[!NOTE]
 >¿Bajo qué escenarios se podría legitimar FlutterTech en el tratamiento de datos de sus clientes?
 
 Por lo general, el tratamiento de estos datos está prohibido, salvo en los siguientes escenarios:
@@ -78,6 +81,7 @@ Aplicándolos al contexto de la FlutterTech, podemos identificar estos casos com
 
 <br>
 
+>[!NOTE]
 >Indica al menos un ejemplo de cada figura de tratamiento de datos. 
 
 En primer lugar, es importante identificar a las figuras implicadas en el tratamiento de datos:
@@ -96,24 +100,18 @@ En base a esto, podemos presentar los siguientes ejemplos para FlutterTech:
 
 <br>
 
+>[!NOTE]
 >Indica tres actividades de tratamiento que estén llevadas a cabo por FlutterTech.
 
 En base a la información proporcionada en el caso práctico, podemos identificar estas tres actividades de tratamiento:
 
-1. **Gestión de clientes y facturación**.
-
-	La empresa recopila y almacena datos personales de sus clientes, como los mencionados en el [apartado 1](#apartado-1-principios-de-protección-de-datos), para gestionar contratos, facturación y pagos, entre otros.
-
-2. **Gestión de credenciales**.
-
-	FlutterTech recoge información de usuarios finales, como credenciales de acceso y datos de uso, para garantizar el correcto funcionamiento de las aplicaciones.
-
-3. **Análisis de seguridad y prevención de fraudes**.
-
-	Como la organización trabaja para una entidad bancaria con altos requisitos de seguridad, FlutterTech tendrá implantadas medidas de ciberseguridad en las aplicaciones que desarrolla para detectar posibles amenazas y prevenir ciberataques. Para ello, se puede hacer uso de distintos datos, como las direcciones IP de los dispositivos que usan sus servicios para determinar si la actividad del usuario es legítima.
+1. **Gestión de clientes y facturación**: La empresa recopila y almacena datos personales de sus clientes, como los mencionados en el [apartado 1](#apartado-1-principios-de-protección-de-datos), para gestionar contratos, facturación y pagos, entre otros.
+2. **Gestión de credenciales**: FlutterTech recoge información de usuarios finales, como credenciales de acceso y datos de uso, para garantizar el correcto funcionamiento de las aplicaciones.
+3. **Análisis de seguridad y prevención de fraudes**: Como la organización trabaja para una entidad bancaria con altos requisitos de seguridad, FlutterTech tendrá implantadas medidas de ciberseguridad en las aplicaciones que desarrolla para detectar posibles amenazas y prevenir ciberataques. Para ello, se puede hacer uso de distintos datos, como las direcciones IP de los dispositivos que usan sus servicios para determinar si la actividad del usuario es legítima.
 
 ### Apartado 3: Análisis de impacto en privacidad. 
 
+>[!NOTE]
 >Realiza un análisis de impacto de las tres actividades de tratamiento descritas en el apartado anterior. 
 
 1. **Gestión de clientes y facturación**.

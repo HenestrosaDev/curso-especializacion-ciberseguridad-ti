@@ -45,6 +45,7 @@
 
 ### Apartado 1. Análisis de riesgos.
 
+>[!NOTE]
 >Evalúa la situación actual de la empresa TechHealth Solutions. Considera los siguientes aspectos:
 >- El estado de la infraestructura TI (servidores, redes, sistemas).
 >- Nivel de madurez de las políticas de seguridad.
@@ -120,10 +121,13 @@ Abordado en detalle en los apartados 2 (plan de securización) y 3 (implementaci
 
 ### Apartado 2. Propuesta de medidas técnicas.
 
+>[!NOTE]
 >Selecciona al menos tres medidas técnicas preventivas y tres medidas reactivas de seguridad adecuadas para la empresa. Puedes incluir herramientas como:
+>
 >- Antimalware y firewall.
 >- Copias de seguridad.
 >- Sistemas de detección de intrusos (IDS) o de respuesta a incidentes (IPS).
+>
 >Justifica por qué estas medidas son las más adecuadas para los riesgos que has identificado.
 
 **Medidas técnicas preventivas**
@@ -195,10 +199,13 @@ Al igual que hemos hecho con las medidas técnicas preventivas, es oportuno mati
 
 ### Apartado 3. Políticas de seguridad.
 
+>[!NOTE]
 >Propón tres políticas organizativas que la empresa debería implementar. Ejemplos:
+>
 >- Política de uso de dispositivos corporativos.
 >- Política de contraseñas y acceso.
 >- Política de seguridad.
+>
 >Explica cómo estas políticas ayudarán a reducir los riesgos y mejorar la seguridad general de la empresa.
 
 Si tomamos los apuntes del temario como referencia, podemos comprobar que las políticas del ejemplo combinan políticas organizativas, como la de uso de dispositivos corporativos y la de uso de contraseñas, con políticas técnicas, como la de control de acceso y la de copias de seguridad. Ante esta tesitura, he decidido dividir la política de control de acceso de la política de uso de contraseñas, ya que la primera está más enfocada al ámbito técnico, mientras que la segunda es de índole organizativa. Como compensación, he añadido la política de concienciación y formación, ya que está más orientada a la organización.
@@ -253,6 +260,7 @@ Dicho esto, a continuación indico algunas políticas organizativas que la empre
 
 ### Apartado 4. Plan de contingencia.
 
+>[!NOTE]
 >Diseña un plan básico de contingencia que indique los pasos a seguir en caso de un incidente de seguridad grave (por ejemplo, un ataque de ransomware que comprometa los servidores).
 >
 >Define las acciones clave para restaurar los sistemas y asegurar que los servicios críticos se mantengan operativos.
@@ -280,9 +288,9 @@ A partir de los datos recabados en la reunión, debemos elaborar el Análisis de
 
 1. **Tiempo de recuperación o RTO (Recovery Time Objective)**:
  
-	- Datos de pacientes: 4 horas. Se le da la prioridad más alta ya que es la información más sensible que se puede comprometer. Además, puede acarrear sanciones por el incumplimiento del RGPD, lo que se traduce en sanciones económicas y daños reputacionales.
-	- Aplicaciones críticas: 8 horas. Esto engloba al software de gestión de historiales, citas y nóminas.
-	- Página web corporativa: 24 horas. La prioridad es media, ya que no afecta directamente al funcionamiento interno.
+	- **Datos de pacientes**: 4 horas. Se le da la prioridad más alta ya que es la información más sensible que se puede comprometer. Además, puede acarrear sanciones por el incumplimiento del RGPD, lo que se traduce en sanciones económicas y daños reputacionales.
+	- **Aplicaciones críticas**: 8 horas. Esto engloba al software de gestión de historiales, citas y nóminas.
+	- **Página web corporativa**: 24 horas. La prioridad es media, ya que no afecta directamente al funcionamiento interno.
 
 2. **Recursos humanos y tecnológicos empleados en el proceso:**
 
@@ -326,9 +334,9 @@ A partir de los datos recabados en la reunión, debemos elaborar el Análisis de
 
 	Me he ayudado de [esta entrada](https://www.datos101.com/blog/recovery-point-objective-y-recovery-time-objective/) del blog de la página [datos101.com](https://www.datos101.com) para determinar cómo medir el RPO. Estos son los grados de dependencia de la empresa respecto al ataque de ransomware:
 
-	- RPO de los datos de pacientes: 1 hora. La pérdida de datos debe ser mínima. Los historiales médicos deben actualizarse en tiempo casi real.
-	- RPO de las aplicaciones críticas: 4 horas. Se admite cierta pérdida de datos, siempre y cuando puedan recuperarse desde registros locales o manuales.
-	- RPO de la página web corporativa: 12 horas. Los cambios en la web pueden ser implementados de nuevo sin impacto significativo en las operaciones.
+	- **RPO de los datos de pacientes**: 1 hora. La pérdida de datos debe ser mínima. Los historiales médicos deben actualizarse en tiempo casi real.
+	- **RPO de las aplicaciones críticas**: 4 horas. Se admite cierta pérdida de datos, siempre y cuando puedan recuperarse desde registros locales o manuales.
+	- **RPO de la página web corporativa**: 12 horas. Los cambios en la web pueden ser implementados de nuevo sin impacto significativo en las operaciones.
 
 	A partir de la información obtenida previamente, la guía del INCIBE aborda la realización de un análisis de riesgos. Esto ya fue realizado en el [apartado 1](#apartado-1-análisis-de-riesgos), por lo que voy a omitirlo en este apartado.
 

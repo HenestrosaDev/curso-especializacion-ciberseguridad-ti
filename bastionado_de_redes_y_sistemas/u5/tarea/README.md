@@ -189,6 +189,8 @@ Al aceptar, la instalación se completará correctamente. Para comprobar que, ef
 
 >La versión de Snort aparece, lo que indica que ha sido instalado con éxito
 
+<br>
+
 >[!NOTE]
 >Realiza un escaneo con Nmap que trate de identificar los servicios para ver cómo se comporta la herramienta. Para ello, se requiere una máquina de ataque, que puede ser Kali, y otra máquina para desplegar Snort (puede ser otra distribución Linux o Windows).
 

@@ -12,10 +12,9 @@ La dirección de la organización es consciente de que es sujeto obligado para m
 
 ## ¿Qué te pedimos que hagas?
 
-Teniendo en cuenta la compañía descrita en el escenario anterior, da respuesta a las siguientes preguntas:
-
 ### Apartado 1: Cumplimiento de la responsabilidad penal.
 
+>[!NOTE]
 >¿Podrías identificar 5 delitos en los que pueda incurrir FlutterTech? Incluye el árticulo del código penal y las posibles penas?
 
 1. [Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal (Art. 197)](https://noticias.juridicas.com/base_datos/Penal/lo10-1995.l2t10.html)
@@ -71,6 +70,7 @@ Teniendo en cuenta la compañía descrita en el escenario anterior, da respuesta
 
 <br>
 
+>[!NOTE]
 >¿Podrías elaborar una matriz de riesgo penal de la organización?
 
 | IMPACTO / PROBABILIDAD | PROBABILIDAD BAJA                | PROBABILIDAD MEDIA                        | PROBABILIDAD ALTA                                          |
@@ -101,6 +101,7 @@ Teniendo en cuenta la compañía descrita en el escenario anterior, da respuesta
 
 ### Apartado 3. Sistema de gestión antisoborno y anticorrupción.
 
+>[!NOTE]
 >Identifica al menos 3 riesgos en el entorno de FluttertTech relacionados con el soborno y la corrupción.
 
 1. **Riesgo en licitaciones públicas.**
