@@ -107,7 +107,7 @@ Este es el procedimiento desglosado en pasos:
 
 4. **Añadir cliente (AP)**
 
-	Si la IP del router termina en 1, podemos saltarnos este paso, ya que por defecto la configuración del archivo /etc/freeradius/3.0/clients.conf determina que la IP del para añadir la IP del AP (mi router doméstico) identificada anteriormente y una clave compartida (secret) cualquiera:
+	Editamos el archivo `/etc/freeradius/3.0/clients.conf` y añadimos la IP del AP (mi router doméstico) identificada anteriormente y una clave compartida (secret) que queramos:
 
 	```
 	client AP {
@@ -134,7 +134,7 @@ Este es el procedimiento desglosado en pasos:
 	
 	>Configuración de la IP estática
 	
-	Tras concluir este proceso, ya tendremos configurado el servidor RADIUS en Ubuntu.
+	Pulsamos en **Apply** y, tras ello, ya tendremos configurado el servidor RADIUS en Ubuntu.
 
 ### Configuración de router o sistema emulador
 
@@ -162,7 +162,7 @@ Dicho esto, procedemos a configurar el AP directamente siguiendo estos pasos:
 	
 2. **Configurar el AP para usar WPA2-Enterprise**
 
-	Una vez dentro del panel de configuración del router, lo configuramos para usar WPA2-Enterprise y establecer los parámetros del servidor RADIUS creado previamente. Para ello, seleccionamos **Advanced > WLAN > 2.4G Basic Network Settings**.
+	Una vez dentro del panel de configuración del router, lo configuramos para usar WPA2-Enterprise y establecemos los parámetros del servidor RADIUS creado previamente. Para ello, seleccionamos **Advanced > WLAN > 2.4G Basic Network Settings**.
 
 	<div align="center">
 		<img src="capturas/3_configuracion_router_o_sistema_emulador/3_configuracion_predeterminada_wlan.png">
@@ -182,7 +182,7 @@ Dicho esto, procedemos a configurar el AP directamente siguiendo estos pasos:
 
 ## Demonstración del servidor RADIUS en funcionamiento
 
-Para comprobar si el servidor RADIUS está funcionando correctamente, usamos `radtest` para hacer pruebas de autenticación. Como las estamos realizando desde la misma máquina en la que está alojado el servidor FreeRADIUS, tenemos que usar la contraseña por defecto para `localhost`, la cual es `testing123`.
+Para comprobar si el servidor RADIUS está funcionando correctamente, usamos `radtest` para realzar pruebas de autenticación. Como las estamos ejecutando desde la misma máquina en la que está alojado el servidor FreeRADIUS, tenemos que usar la contraseña por defecto para `localhost`, la cual es `testing123`.
 
 Para realizar la prueba, ejecutamos el siguiente comando:
 
@@ -206,7 +206,7 @@ Donde:
 
 Como podemos apreciar, el usuario fue autenticado correctamente, ya que recibimos el mensaje `Access-Accept` por parte del servidor.
 
-### Demonstación de que el usuario conecta correctamente
+### Demostración de que el usuario conecta correctamente
 
 Para comprobar que el router se ha configurado correctamente, vamos a usar un dispositivo móvil para conectarnos a la red. Para ello, abrimos los ajustes de Wi-Fi del dispositivo y comprobamos que la red `KFC Invitados` está disponible, el cual es el nombre que recibe la red que hemos configurado previamente (no confundir con `KFC Invitados 5G`).
 
