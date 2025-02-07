@@ -18,6 +18,7 @@ Dentro de este protocolo, los dos modos más extendidos son los siguientes:
 Como podemos ver, el servidor RADIUS es esencial para la autenticación de usuarios cuando un router está configurado con el protocolo WPA2-Enterprise. En este esquema, el enrutador no almacena ni valida las credenciales de los usuarios directamente, sino que actúa como un cliente RADIUS. 
 
 En síntesis, este es el proceso que se sigue cuando un dispositivo intenta conectarse a una red Wi-Fi protegida con WPA2-Enterprise:
+
 1. El router recibe las credenciales de autenticación y las reenvía al servidor RADIUS. 
 2. El servidor RADIUS se encarga de verificar la información proporcionada y de compararla con una base de datos de usuarios autorizados, típicamente almacenados en el archivo /etc/freeradius/3.0/users. 
 3. El servidor RADIUS envía una respuesta al router en la que indica si la autenticación ha sido exitosa o no.
@@ -28,7 +29,7 @@ En síntesis, este es el proceso que se sigue cuando un dispositivo intenta cone
 
 En Ubuntu, se puede instalar un servidor RADIUS a través de FreeRADIUS, una de las implementaciones más populares de este protocolo. Para instalarlo, ejecutamos el siguiente comando:
 
-```
+```bash
 sudo apt install freeradius freeradius-utils
 ```
 
@@ -186,7 +187,7 @@ Para comprobar si el servidor RADIUS está funcionando correctamente, usamos `ra
 
 Para realizar la prueba, ejecutamos el siguiente comando:
 
-```
+```bash
 radtest usuario1 contraseña1 127.0.0.1 0 testing123
 ```
 
