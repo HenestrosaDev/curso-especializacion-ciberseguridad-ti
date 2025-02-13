@@ -1,6 +1,6 @@
 # EXAMEN Unidad 6: Configuración de dispositivos y sistemas informáticos I
 
-[Enlace](https://www.daypo.com/br-6.html)
+[Test en Daypo](https://www.daypo.com/br-6.html)
 
 ## Preguntas y respuestas
 
