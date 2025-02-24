@@ -43,7 +43,7 @@
 				5. Diseño de redes seguras
 			</a>
 		</td>
-		<td>-</td>
+		<td>10,00 / 10,00</td>
 	</tr>
 	<tr>
 		<td>
