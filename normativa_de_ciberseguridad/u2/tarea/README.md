@@ -103,4 +103,6 @@ Para recabar las siguientes 5 métricas de evaluación del sistema de gestión d
 
 10,00 / 10,00
 
-Calificado el jueves, 12 de diciembre de 2024, 10:07 por Hormigo Ramírez, David
+### Comentarios de retroalimentación y rúbrica
+
+![](rubrica.png)
