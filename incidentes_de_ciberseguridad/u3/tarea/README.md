@@ -126,25 +126,25 @@ Antes de entrar en más detalle sobre las herramientas, es importante señalar q
 
 ### Bibliografía
 
-- WeLiveSecurity. (2021, 26 de marzo). Defensa en profundidad: cómo implementar esta estrategia de ciberseguridad. https://www.welivesecurity.com/la-es/2021/03/26/defensa-profundidad-que-es-como-implementar-estrategia-ciberseguridad
-- Remove Group. (2024, 11 de julio). ¿Qué es la ciberseguridad proactiva? https://www.removegroup.com/que-es-la-ciberseguridad-proactiva/
-- Global Owls. La importancia de los feeds de inteligencia sobre amenazas en la ciberdefensa moderna.  https://globalowls.com/es/importance-threat-intelligence-feeds-modern-cyber-defense
-- MTechnology. (2023, 7 de marzo). ¿Qué son las plataformas de desarrollo de software y para qué sirven? https://mtechnology.pro/blog/que-son-las-plataformas-de-desarrollo-de-software-y-para-que-sirven
-- Wikipedia. (2024, 3 de diciembre). Framework. https://es.wikipedia.org/wiki/Framework
-- VGST. (2022, 24 de marzo). Frameworks de Ciberseguridad: Modelos y Estándares. https://vgst.net/blog/cloud/frameworks-de-ciberseguridad-principales-modelos-y-estandares
-- Palo Alto Networks. ¿Qué es el marco MITRE ATT&CK? https://www.paloaltonetworks.es/cyberpedia/what-is-mitre-attack-framework
-- Tu Consultor TI. MITRE ATT&CK: Un Marco Esencial para la Defensa Cibernética.  https://www.tuconsultorti.com/ciberseguridad/mitre-attack/
-- Cyrebro. Fortalezca su postura de seguridad con el framework MITRE ATT&CK.  https://www.cyrebro.io/es/blog/fortalezca-su-postura-de-seguridad-con-el-framework-mitre-attck
-- Delta Project. (2025, 17 de enero). Blue team en ciberseguridad: definición, funciones y herramientas.  https://www.deltaprotect.com/blog/blue-team-ciberseguridad
-- S2 Grupo. (2024, 13 de marzo). Blue team de ciberseguridad: qué es y qué funciones cumple. https://s2grupo.es/blue-team-en-ciberseguridad-definicion-funciones-y-herramientas/
-- Ciberseguridad. Las mejores herramientas del equipo azul. https://ciberseguridad.com/herramientas/equipo-azul/
-- Research AIMultiple. (2025, 20 de febrero) Top 10+ SIEM Systems: How to Choose the Best Solution. https://research.aimultiple.com/siem-tools/
-- Geeks for Geeks. (2025, 7 de enero). Top 10 SIEM Tools in 2025.  https://www.geeksforgeeks.org/top-siem-tools/
-- Atera. (2025, 30 de enero). Top EDR tools for MSPs & IT teams to enhance cybersecurity.  https://www.atera.com/blog/best-edr-tools/
-- Informática Forense. Las 9 mejores herramientas de respuesta a incidentes de seguridad para pequeñas y medianas empresas. https://www.informaticaforense.com.co/las-9-mejores-herramientas-de-respuesta-a-incidentes-de-seguridad-para-pequenas-y-empresas
-- KeepCoding. (2024, 27 de junio). 5 herramientas de sandboxing.  https://keepcoding.io/blog/herramientas-de-sandboxing
-- GeekFlare. (2024, 14 de mayo). 22 herramientas GRATUITAS de investigación forense para expertos en seguridad informática. https://geekflare.com/es/forensic-investigation-tools/ 
-- InvGate. (2024, 5 de febrero). Los 11 mejores software de Gestión de Incidentes de 2025. https://blog.invgate.com/es/software-de-gestion-de-incidencias
+- WeLiveSecurity. (2021, 26 de marzo). _Defensa en profundidad: cómo implementar esta estrategia de ciberseguridad_. https://www.welivesecurity.com/la-es/2021/03/26/defensa-profundidad-que-es-como-implementar-estrategia-ciberseguridad
+- Remove Group. (2024, 11 de julio). _¿Qué es la ciberseguridad proactiva?_ https://www.removegroup.com/que-es-la-ciberseguridad-proactiva/
+- Global Owls. _La importancia de los feeds de inteligencia sobre amenazas en la ciberdefensa moderna_.  https://globalowls.com/es/importance-threat-intelligence-feeds-modern-cyber-defense
+- MTechnology. (2023, 7 de marzo). _¿Qué son las plataformas de desarrollo de software y para qué sirven?_ https://mtechnology.pro/blog/que-son-las-plataformas-de-desarrollo-de-software-y-para-que-sirven
+- Wikipedia. (2024, 3 de diciembre). _Framework_. https://es.wikipedia.org/wiki/Framework
+- VGST. (2022, 24 de marzo). _Frameworks de Ciberseguridad: Modelos y Estándares_. https://vgst.net/blog/cloud/frameworks-de-ciberseguridad-principales-modelos-y-estandares
+- Palo Alto Networks. _¿Qué es el marco MITRE ATT&CK?_ https://www.paloaltonetworks.es/cyberpedia/what-is-mitre-attack-framework
+- Tu Consultor TI. _MITRE ATT&CK: Un Marco Esencial para la Defensa Cibernética_. https://www.tuconsultorti.com/ciberseguridad/mitre-attack/
+- Cyrebro. _Fortalezca su postura de seguridad con el framework MITRE ATT&CK_.  https://www.cyrebro.io/es/blog/fortalezca-su-postura-de-seguridad-con-el-framework-mitre-attck
+- Delta Project. (2025, 17 de enero). _Blue team en ciberseguridad: definición, funciones y herramientas_.  https://www.deltaprotect.com/blog/blue-team-ciberseguridad
+- S2 Grupo. (2024, 13 de marzo). _Blue team de ciberseguridad: qué es y qué funciones cumple_. https://s2grupo.es/blue-team-en-ciberseguridad-definicion-funciones-y-herramientas/
+- Ciberseguridad. _Las mejores herramientas del equipo azul_. https://ciberseguridad.com/herramientas/equipo-azul/
+- Research AIMultiple. (2025, 20 de febrero). _Top 10+ SIEM Systems: How to Choose the Best Solution_. https://research.aimultiple.com/siem-tools/
+- Geeks for Geeks. (2025, 7 de enero). _Top 10 SIEM Tools in 2025_. https://www.geeksforgeeks.org/top-siem-tools/
+- Atera. (2025, 30 de enero). _Top EDR tools for MSPs & IT teams to enhance cybersecurity_.  https://www.atera.com/blog/best-edr-tools/
+- Informática Forense. _Las 9 mejores herramientas de respuesta a incidentes de seguridad para pequeñas y medianas empresas_. https://www.informaticaforense.com.co/las-9-mejores-herramientas-de-respuesta-a-incidentes-de-seguridad-para-pequenas-y-empresas
+- KeepCoding. (2024, 27 de junio). _5 herramientas de sandboxing_.  https://keepcoding.io/blog/herramientas-de-sandboxing
+- GeekFlare. (2024, 14 de mayo). _22 herramientas GRATUITAS de investigación forense para expertos en seguridad informática_. https://geekflare.com/es/forensic-investigation-tools/ 
+- InvGate. (2024, 5 de febrero). _Los 11 mejores software de Gestión de Incidentes de 2025_. https://blog.invgate.com/es/software-de-gestion-de-incidencias
 
 ---
 
