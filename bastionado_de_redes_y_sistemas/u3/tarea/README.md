@@ -324,4 +324,10 @@ Después de usar uno de los códigos preestablecidos, este queda invalidado auto
 
 ### Calificación
 
-- / 10,00
+9,00 / 10,00
+
+### Comentarios de retroalimentación
+
+- **Configuración de /etc/pam.d/login**: Ha configurado el fichero login pero no lo ha probado o no funciona (1,00 / 2,00 puntos).
+
+Te pide la verificación por sudo no por login.

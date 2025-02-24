@@ -27,7 +27,7 @@
 				3. Configuración de sistemas de acceso y autenticación de personas
 			</a>
 		</td>
-		<td>-</td>
+		<td>9,00 / 10,00</td>
 	</tr>
 	<tr>
 		<td>
