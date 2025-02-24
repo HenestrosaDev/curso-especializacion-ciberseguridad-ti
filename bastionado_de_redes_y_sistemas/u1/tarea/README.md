@@ -191,10 +191,9 @@ Para fomentar la aplicación de **buenas prácticas** en el ámbito de la cibers
 
 8,00 / 10,00
 
-### Comentarios de retroalimentación
+### Comentarios de retroalimentación y rúbrica
 
-- Hace un uso incompleto o erróneo de la herramienta de diagnóstico (1,5 / 2,5 puntos).
-- El análisis de los resultados es demasiado escaso (1,5 / 2,5 puntos).
+![](rubrica.png)
 
 ### Notas personales
 
