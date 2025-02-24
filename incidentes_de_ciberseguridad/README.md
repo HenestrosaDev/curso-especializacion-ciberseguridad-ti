@@ -19,7 +19,7 @@
 				2. Auditoría de incidentes de ciberseguridad
 			</a>
 		</td>
-		<td>-</td>
+		<td>9,25 / 10,00</td>
 	</tr>
 	<tr>
 		<td>
