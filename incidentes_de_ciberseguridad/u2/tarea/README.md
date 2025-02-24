@@ -193,4 +193,8 @@ Donde:
 
 ### Calificación
 
-- / 10,00
+9,25 / 10,00
+
+### Comentarios de retroalimentación y rúbrica
+
+![](rubrica.png)
