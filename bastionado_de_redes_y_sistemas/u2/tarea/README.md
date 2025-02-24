@@ -377,6 +377,6 @@ Tal y como se estipula en la política de formación del [apartado 3](#apartado-
 
 9,30 / 10,00
 
-### Comentarios de retroalimentación
+### Comentarios de retroalimentación y rúbrica
 
-- Las medidas reactivas son relevantes, pero faltan detalles o no están bien justificadas (0,8 / 1,5 puntos).
+![](rubrica.png)
