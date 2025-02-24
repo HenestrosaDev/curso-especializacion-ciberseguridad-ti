@@ -93,8 +93,6 @@ Con los puntos anteriores en mente, el proceso de la diligencia debida se distin
 
 9,00 / 10,00
 
-Calificado el domingo, 27 de octubre de 2024, 19:30 por Hormigo Ramírez, David
+### Comentarios de retroalimentación y rúbrica
 
-### Comentario de retroalimentación
-
-- En el apartado 2, propone seis iniciativas que se alinean con los principios de buen gobierno y ética, pero algunas explicaciones carecen de profundidad (2,0 / 3,0 puntos).
+![](rubrica.png)
