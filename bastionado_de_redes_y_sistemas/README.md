@@ -35,7 +35,7 @@
 				4. Administración de credenciales para el acceso a sistemas informáticos
 			</a>
 		</td>
-		<td>-</td>
+		<td>10,00 / 10,00</td>
 	</tr>
 	<tr>
 		<td>
