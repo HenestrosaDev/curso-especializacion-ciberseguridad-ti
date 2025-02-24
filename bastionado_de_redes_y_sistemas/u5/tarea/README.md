@@ -318,3 +318,7 @@ La clasificación de ambas alertas es "Attempted Information Leak" (Intento de f
 ### Calificación
 
 10,00 / 10,00
+
+### Comentarios de retroalimentación y rúbrica
+
+![](rubrica.png)
