@@ -260,3 +260,7 @@ Pulsamos sobre el botón **Acceder** y veremos que el dispositivo se conecta a l
 ### Calificación
 
 10,00 / 10,00
+
+### Comentarios de retroalimentación y rúbrica
+
+![](rubrica.png)
