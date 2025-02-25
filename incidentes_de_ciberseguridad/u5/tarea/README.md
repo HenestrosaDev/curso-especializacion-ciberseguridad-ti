@@ -186,6 +186,15 @@ A partir de esta definición, procedemos a interpretar detalladamente el diagram
 	- Si el incidente involucra la infraestructura o servicios de **proveedores**, estos deben ser informados para que tomen medidas preventivas.
 	- Si el incidente debe ser reportado a **reguladores o autoridades** según la legislación vigente, la empresa tiene que cumplir con sus obligaciones legales.
 
+### Bibliografía
+
+- Material didáctico correspondiente a esta unidad.
+- INCIBE. (2020, 28 de abril). _¿Conoces la Guía Nacional de Notificación y Gestión de Ciberincidentes?_ https://www.incibe.es/incibe-cert/blog/conoces-guia-nacional-notificacion-y-gestion-ciberincidentes
+- HSE Tools. _Notificación de incidentes laborales: ¿cómo proceder?_ https://hse.software/2024/08/05/notificacion-de-incidentes-laborales-como-proceder
+- Minciencias. (2021, 23 de febrero). _Gestión de Incidente de seguridad de la Información_. https://minciencias.gov.co/sites/default/files/ckeditor_files/D103PR03%20Gesti%C3%B3n%20de%20Incidente%20de%20seguridad%20de%20la%20Informaci%C3%B3n%20V01.pdf
+- HSE Tools. _Guía para la notificación de incidentes y cómo redactar un informe_. https://hse.software/2022/12/19/guia-para-la-notificacion-de-incidentes-y-como-redactar-un-informe
+- SafetyCulture. (2024, 15 de enero). _Gestión de incidentes_. https://safetyculture.com/es/temas/gestion-de-incidentes 
+
 ---
 
 ## Resultado
