@@ -99,7 +99,7 @@ Dentro del organigrama planteado, distinguimos tres áreas comandadas por el dir
 
 	Dirigida por el director de seguridad, quien procura proteger los activos digitales, la infraestructura y la información de la empresa contra amenazas internas y externas.
 
-	Dentro de esta área distinguimos múltiples roles:
+	Dentro de esta área distinguimos varios equipos:
 
 	- **Equipo de respuesta a incidentes**: Detecta, mitiga y gestiona incidentes de seguridad.
 	- **Especialistas en ciberseguridad**: Analizan vulnerabilidades y previenen ataques.
@@ -108,7 +108,7 @@ Dentro del organigrama planteado, distinguimos tres áreas comandadas por el dir
 
 - **Área de operaciones**
 
-	Liderada por el director de operaciones, quien trata de asegurar la continuidad y eficiencia de los procesos operativos, entre las que se incluyen estas áreas.
+	Liderada por el director de operaciones, quien trata de asegurar la continuidad y eficiencia de los procesos operativos, entre las que se incluyen estos departamentos:
 
 	- **Departamento de atención al cliente**: Brinda soporte a usuarios y gestiona las consultas y quejas.
 	- **Departamento de producción**: Supervisa la entrega de productos o servicios.
@@ -161,19 +161,19 @@ Desglose del esquema del Procedimiento de Actuación ante Incidentes:
 
 2. **Notificación inicial y cuarentena**
 
-	El equipo de respuesta a incidentes recibe el informe y analiza su impacto. Si se trata de una brecha de seguridad o un ciberataque, el equipo de especialistas en ciberseguridad aislará los sistemas afectados (cuarentena). Tras ello, se da una notificación inicial interna en la que se informa de la situación al director de seguridad y al de TI.
+	El equipo de respuesta a incidentes recibe el informe y analiza su impacto. Si se trata de una brecha de seguridad o un ciberataque, el equipo de especialistas en ciberseguridad aislará los sistemas afectados (cuarentena). A su vez, se da una notificación inicial interna en la que se informa de la situación al director de seguridad y al de TI.
 
 3. **Análisis y escalamiento**
 
-	Si el incidente es grave (por ejemplo, una filtración de datos), el equipo de análisis forense comenzará una investigación. Si es necesaria la cooperación con terceros, dicho equipo informará a las autoridades y a los reguladores. Al mismo tiempo, el equipo de respuesta a incidentes proporcionará actualizaciones constantes al director de seguridad.
+	Cuando el equipo de respuesta a incidentes clasifica la incidencia, el equipo de análisis forense comienza una investigación. Si es necesaria la cooperación con terceros, dicho equipo informará a las autoridades y a los reguladores. Al mismo tiempo, también proporcionará actualizaciones constantes al director de seguridad a través de informes de situación.
 
 4. **Comunicación y mitigación**
 
-	Si el incidente afecta a los clientes, el departamento de relaciones públicas elaborará un comunicado y coordinará la respuesta con los clientes y los medios. El equipo de desarrollo y el equipo de infraestructura, bajo la supervisión del director de TI, trabajarán en la restauración de sistemas y la aplicación de parches de seguridad, mientras que el director general recibirá información periódica sobre el impacto que está teniendo el incidente.
+	El equipo de desarrollo y el equipo de infraestructura, bajo la supervisión del director de TI, que seguirá las recomendaciones y directrices del director de seguridad, trabajarán en la restauración de sistemas y la aplicación de parches de seguridad, mientras que el director general recibirá información periódica sobre el impacto que está teniendo el incidente.
+	
+	El director de seguridad actualizará al director general de la situación.
 
-5. **Cierre y mejoras**
-
-	Una vez resuelta la incidencia, el equipo de análisis forense elaborará un informe detallado para el director de seguridad. Asimismo, se presentan recomendaciones para evitar incidentes similares en el futuro.
+	Si el incidente afecta a los clientes, el departamento de relaciones públicas elaborará un comunicado y coordinará la respuesta con los clientes y los medios.
 
 ### Detalle del procedimiento para restablecer los servicios afectados
 
@@ -195,17 +195,77 @@ Dicho lo cual, procedemos a desglosar cada pilar en detalle:
 
 1. **Plan de Continuidad del Negocio (PCN)**
 
-	Su principal objetivo es garantizar que los procesos críticos sigan funcionando durante y después de una interrupción.
+	Su objetivo principal es garantizar que los procesos críticos sigan funcionando durante y después de una interrupción.
 
-	**Reparto de tareas dentro del marco operativo de la empresa ficticia**:
+	A continuación, se detalla un plan en 6 pasos, considerando la estructura organizativa de la empresa proporcionada.
 
-	- **Director general**: Aprueba y supervisa el PCN.
-	- **Director de operaciones**: Garantiza la continuidad de los procesos clave.
-	- **Director de TI**: Implementa estrategias de redundancia y recuperación de sistemas.
-		- **Equipo de infraestructura**: Administra servidores, red y copias de seguridad.
-		- **Equipo de desarrollo**: Asegura que las aplicaciones críticas sigan funcionando.
-	- **Director de seguridad**: Supervisa medidas preventivas y de monitoreo.
-		- **Equipo de respuesta a incidentes**: Detecta anomalías y coordina acciones inmediatas.
+	1. **Análisis de riesgos y evaluación de impacto**
+
+		Identifica amenazas  y evalúa su impacto en las operaciones.
+
+		**Reparto de tareas dentro del marco operativo de la empresa ficticia**:
+		- Director de seguridad: Coordina el análisis de amenazas físicas y cibernéticas.
+		- Equipo de respuesta a incidentes: Identifica vulnerabilidades y propone soluciones.
+		- Equipo de infraestructura: Evalúa posibles fallos en la infraestructura y riesgos operacionales.
+		- Director de operaciones: Evalúa riesgos en producción y atención al cliente.
+
+		**Acciones comunes a los directores**:
+		- Realizar análisis de impacto en el negocio (BIA).
+		- Identificar activos críticos.
+		- Determinar el tiempo máximo de inactividad aceptable (RTO, RPO).
+
+	2. **Desarrollo de estrategias de continuidad**
+
+		Establece estrategias para mantener la operación en caso de interrupciones.
+
+		**Reparto de tareas dentro del marco operativo de la empresa ficticia**:
+		- **Director de TI**: Elabora planes de recuperación tecnológica e implementa redundancia en la infraestructura tecnológica.
+		- **Director de seguridad**: Desarrolla estrategias ante incidentes de ciberseguridad.
+		- **Director de operaciones**: Considera alternativas para la continuidad en producción y servicio al cliente.
+		- **Relaciones públicas**: Desarrollan protocolos de comunicación con clientes y medios. Además, también crean acuerdos con proveedores estratégicos.
+
+		**Acciones comunes a los directores**:
+		- Definir planes de recuperación ante desastres (DRP).
+
+	3. **Implementación del PCN**
+
+		Despliegue de las estrategias definidas y aseguramiento de su funcionalidad.
+
+		**Reparto de tareas dentro del marco operativo de la empresa ficticia**:
+		- **Director general**: Aprueba y supervisa el plan.
+		- **Director de TI**: Coordina la implementación de herramientas de respaldo y recuperación.
+
+	4. **Pruebas y mantenimiento del plan**
+
+		Evalúa la efectividad del plan y lo actualiza regularmente.
+
+		**Reparto de tareas dentro del marco operativo de la empresa ficticia**:
+		- **Director de seguridad**: Planteamiento de pruebas de resiliencia ante ataques cibernéticos.
+		- **Equipo de análisis forense**: Evalúa las respuestas a incidentes por parte de los activos críticos.
+		- **Departamento de producción**: Verifica planes alternos en la cadena de suministro.
+
+		**Acciones comunes a los directores**:
+		- Realizar pruebas de recuperación de desastres.
+		- Auditar el cumplimiento de normativas.
+		- Ajustar el plan en base a las nuevas amenazas que se detecten.
+
+	5. **Concienciación**
+
+		Prepara al personal para responder ante incidentes.
+
+		**Reparto de tareas dentro del marco operativo de la empresa ficticia**:
+		- **Director de seguridad**: Capacitación en gestión de crisis y ciberseguridad.
+		- **Equipo de respuesta a incidentes**: Simulacros de incidentes tecnológicos.
+		- **Departamento de atención al cliente**: Establece protocolos de comunicación con usuarios afectados.
+
+		**Acciones comunes a los directores**:
+		- Realizar simulacros de interrupciones en los sistemas y la operatividad de la empresa.
+		- Entrenar al equipo en procedimientos de recuperación.
+		- Sensibilizar a los sobre posibles ataques, como phishing o ransomware.
+
+	6. **Respuesta y recuperación ante incidentes**
+
+		Garantiza una reacción eficiente y el restablecimiento rápido de las operaciones. Se analiza con más profundidad en el Plan de Respuesta ante Incidentes (PRI).
 
 <br>
 
@@ -221,7 +281,7 @@ Dicho lo cual, procedemos a desglosar cada pilar en detalle:
 		-	**Equipo de desarrollo**: Verifica la integridad de las aplicaciones tras la recuperación.
 	- **Director de seguridad**: Garantiza que los sistemas restaurados sean seguros.
 		-	**Equipo de respuesta a incidentes**: Evalúa daños y previene nuevos ataques.
-		-	**Equipo de análisis forense**: Investiga la causa del desastre si es un ciberataque.
+		-	**Equipo de análisis forense**: Investiga la causa del desastre (si es un ciberataque).
 
 <br>
 
@@ -234,7 +294,7 @@ Dicho lo cual, procedemos a desglosar cada pilar en detalle:
 	- **Equipo de respuesta a incidentes**: Primera línea de defensa ante ataques y fallos.
 		- **Especialistas en ciberseguridad**: Analizan y mitigan amenazas.
 		- **Equipo de análisis forense**: Investiga incidentes críticos y reporta a reguladores.
-	- **Director de seguridad**: Decide escalamiento del incidente y comunicación interna.
+	- **Director de seguridad**: Decide el escalamiento del incidente y comunicación interna.
 		- Si el incidente afecta a clientes, las relaciones públicas tienen que informar a medios y usuarios.
 	- **Director de TI**: Coordina la restauración de los sistemas afectados.
 
