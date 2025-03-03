@@ -174,14 +174,14 @@ maxretry = 3
 
 >Configuración de la sección `[DEFAULT]` del archivo `/etc/fail2ban/jail.local`
 
-A continuación, buscamos el jail de SSH, en ese mismo fichero en la sección `[sshd]` y pondremos las siguientes directivas:
+A continuación, buscamos el _jail_ de SSH, en ese mismo fichero, en la sección `[sshd]`, y pondremos las siguientes directivas:
 
 ```
 [sshd]
-# Como su valor es true, activa la jail para SSH
+# Como su valor es true, activa la _jail_ para SSH
 enabled = true
 
-# Protege el puerto 22 (o el configurado para SSH).
+# Protege el puerto 22 (o el configurado para SSH)
 port = ssh
 
 # Usa el filtro sshd.conf para detectar accesos fallidos
@@ -193,7 +193,7 @@ logpath = /var/log/auth.log
 # Bloquea una IP tras 3 intentos fallidos
 maxretry = 3
 
-# Método usado para leer logs (systemd, polling, etc.).
+# Método usado para leer logs (systemd, polling, etc.)
 backend = %(sshd_backend)s
 ```
 
@@ -287,7 +287,7 @@ Por otro lado, y de cara a que no ocurra nuevamente, podemos incluir nuestra IP 
 
 <br>
 
-Por último, reiniciamos el servicio `fail2ban` y procedemos a probar que ya la IP ya no es baneada tras lanzar el ataque con `hydra`.
+Por último, reiniciamos el servicio `fail2ban` y probamos que la IP no es baneada tras lanzar el ataque con `hydra`.
 
 <div align="center">
 	<img src="capturas/6_desbaneo_de_direcciones_ip/3_ataque_con_ip_ignorada.png">
@@ -307,7 +307,7 @@ Ahora debemos buscar la manera de enviar un correo electrónico al administrador
 	sudo apt install mailutils
 	```
 
-	Al ejecutar el comando, tendremos que seleccionar la configuración del servidor de correo. En nuestro caso, como solo tenemos que enviar alertas desde el servidor a un administrador sin un servidor de correo externo, la opción más sencilla es "Internet site".
+	Al ejecutar el comando, tendremos que seleccionar la configuración del servidor de correo. En nuestro caso, como solo tenemos que enviar alertas con un correo de Gmail, la opción más adecuada es "Internet site".
 
 	<div align="center">
 		<img src="capturas/7_envio_de_email/1_configuracion_mailutils.png">
@@ -323,7 +323,7 @@ Ahora debemos buscar la manera de enviar un correo electrónico al administrador
 
 	>Pantalla de configuración al instalar el paquete `mailutils`
 
-	Luego, encontraremos otro ajuste con respecto a **System mail name** (el nombre de correo del sistema), en el que tendremos que introducir nuestro nombre de dominio. Se puede dejar en blanco si no tenemos nombre de dominio, ya que vamos a utilizar Gmail en lugar del servidor local como servidor de correo.
+	Luego, encontraremos otro ajuste relativo a **System mail name** (el nombre de correo del sistema), en el que tendremos que introducir nuestro nombre de dominio. Se puede dejar en blanco si no tenemos nombre de dominio, ya que vamos a utilizar Gmail en lugar del servidor local como servidor de correo.
 
 	<div align="center">
 		<img src="capturas/7_envio_de_email/3_system_mail_name.png">
@@ -390,7 +390,7 @@ Ahora debemos buscar la manera de enviar un correo electrónico al administrador
 
 5. **Reiniciar `postfix`**
 
-	Tras esto, `postfix` para que los cambios surtan efecto:
+	Tras esto, reiniciamos `postfix` para que los cambios surtan efecto:
 
 	```bash
 	sudo systemctl restart postfix
@@ -404,7 +404,7 @@ Ahora debemos buscar la manera de enviar un correo electrónico al administrador
 	echo "Este es un mensaje de prueba" | mail -s "Prueba de Postfix con Gmail" info@henestrosa.dev
 	```
 
-	Acto seguido, revisamos la bandeja de spam del correo `info@henestrosa.dev` para comprobar que, efectivamente, hemos recibido el correo de prueba correctamente.
+	Acto seguido, revisamos la bandeja de _spam_ del correo `info@henestrosa.dev` para comprobar que, efectivamente, hemos recibido el correo de prueba correctamente.
 
 	<div align="center">
 		<img src="capturas/7_envio_de_email/5_prueba_postfix.png">
@@ -455,7 +455,7 @@ Ahora debemos buscar la manera de enviar un correo electrónico al administrador
 
 	<br>
 
-	A continuación, miramos la bandeja de _spam_ de nuestro correo que configuramos como `destemail` (`info@henestrosa.dev`) y comprobamos que, efectivamente, hemos recibido el correo con éxito:
+	A continuación, miramos la bandeja de _spam_ de la dirección de correo que configuramos como `destemail` (`info@henestrosa.dev`) y comprobamos que, efectivamente, hemos recibido el correo con éxito:
 
 	<div align="center">
 		<img src="capturas/7_envio_de_email/8_correo_recibido.png"
@@ -465,7 +465,7 @@ Ahora debemos buscar la manera de enviar un correo electrónico al administrador
 
 ### Protección de otros servicios con `fail2ban`
 
-`fail2ban` permite ampliar el ámbito de protección no solamente al servicio SSH, por lo que vamos a probar a bastionar otro servicio contra ataques de fuerza bruta con dicho paquete, como el servidor web Apache.
+`fail2ban` permite ampliar el ámbito de protección más allá de SSH, por lo que vamos a probar a bastionar otro servicio contra ataques de fuerza bruta con dicho paquete, como el servidor web Apache.
 
 Para ello, seguimos los siguientes pasos:
 
@@ -514,7 +514,7 @@ Para ello, seguimos los siguientes pasos:
 
 	Editamos o creamos el archivo `/etc/fail2ban/filter.d/apache-auth.conf`, el cual es necesario para definir el filtro que `fail2ban` usará para detectar intentos de acceso fallidos en los logs de Apache. Si una dirección IP aparece en los logs con estos patrones más de lo permitido (`maxretry` en el archivo `jail.local`), `fail2ban` la bloquea.
 
-	Dentro de dicho archivo, tenemos que verificar que las directivas `failregex` e `ignoreregex` están tal que así, las cuales son las de por defecto:
+	Dentro de dicho archivo, tenemos que verificar que las directivas `failregex` e `ignoreregex` están tal que así, las cuales son las que vienen por defecto:
 
 	```
 	failregex = ^client (?:denied by server configuration|used wrong authentication scheme)\b
