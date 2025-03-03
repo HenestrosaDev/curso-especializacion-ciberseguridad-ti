@@ -35,7 +35,7 @@
 				4. Implantación de medidas de ciberseguridad
 			</a>
 		</td>
-		<td>-</td>
+		<td>7,81 / 10,00</td>
 	</tr>
 	<tr>
 		<td>

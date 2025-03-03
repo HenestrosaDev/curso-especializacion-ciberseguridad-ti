@@ -315,7 +315,7 @@ Dicho lo cual, procedemos a desglosar cada pilar en detalle:
 
 ### Calificación
 
-- / 10,00
+7,81 / 10,00
 
 ### Comentarios de retroalimentación y rúbrica
 
