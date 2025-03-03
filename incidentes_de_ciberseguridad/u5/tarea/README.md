@@ -158,7 +158,7 @@ A partir de esta definición, procedemos a interpretar detalladamente el diagram
 
 	b. **Equipo de respuestas a incidentes**
 
-	Grupo especializado que recibe el reporte del incidente y realiza un análisis preliminar para determinar su gravedad. A su vez, también aplica medidas inmediatas para contener la amenaza y notifica a los responsables de seguridad sobre el incidente.
+	Grupo especializado que recibe el reporte del incidente y realiza un análisis preliminar para determinar su gravedad. A su vez, también aplica medidas inmediatas para contener la amenaza y notifica a los responsables de ciberseguridad sobre el incidente.
 
 2. **Notificación interna**
 
@@ -174,7 +174,7 @@ A partir de esta definición, procedemos a interpretar detalladamente el diagram
 
 	a. **¿Impacto del incidente?**
 
-	Punto de decisión donde se analiza el impacto del incidente y se define el nivel de respuesta. En base a esto, podemos encontrarnos con estos caminos:
+	Punto de decisión tomado por el director general, asesorado por el director de seguridad, donde se analiza el impacto del incidente y se define el nivel de respuesta. En base a esto, podemos encontrarnos con estos caminos:
 
 	- Si el incidente es **crítico**, se procede con notificaciones internas al resto de empleados de la empresa.
 	- Si el incidente **no es crítico**, se mantiene un monitoreo interno sin notificación a terceros y se toman medidas correctivas.
