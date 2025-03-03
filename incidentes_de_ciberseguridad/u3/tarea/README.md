@@ -152,4 +152,8 @@ Antes de entrar en más detalle sobre las herramientas, es importante señalar q
 
 ### Calificación
 
-- / 10,00
+10,00 / 10,00
+
+### Comentarios de retroalimentación y rúbrica
+
+![](rubrica.png)

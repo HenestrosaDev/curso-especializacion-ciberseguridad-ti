@@ -27,7 +27,7 @@
 				3. Investigación de los incidentes de ciberseguridad
 			</a>
 		</td>
-		<td>-</td>
+		<td>10,00 / 10,00</td>
 	</tr>
 	<tr>
 		<td>
@@ -43,11 +43,12 @@
 				5. Detección y documentación de incidentes de ciberseguridad
 			</a>
 		</td>
+		<td>-</td>
 	</tr>
 	<tr>
 		<td>
 			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/incidentes_de_ciberseguridad/u6">
-				6. IDS IPS Snort
+				6. IDS/IPS Snort
 			</a>
 		</td>
 		<td>-</td>
