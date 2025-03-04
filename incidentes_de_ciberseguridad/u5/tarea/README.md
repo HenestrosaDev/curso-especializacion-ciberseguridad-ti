@@ -201,7 +201,7 @@ A partir de esta definición, procedemos a interpretar detalladamente el diagram
 
 ### Calificación
 
-- / 10,00
+9,19 / 10,00
 
 ### Comentarios de retroalimentación y rúbrica
 

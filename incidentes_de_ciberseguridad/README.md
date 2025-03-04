@@ -43,7 +43,7 @@
 				5. Detección y documentación de incidentes de ciberseguridad
 			</a>
 		</td>
-		<td>-</td>
+		<td>9,19 / 10,00</td>
 	</tr>
 	<tr>
 		<td>
