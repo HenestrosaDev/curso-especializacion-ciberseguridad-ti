@@ -51,7 +51,7 @@
 				6. Configuración de dispositivos y sistemas informáticos I
 			</a>
 		</td>
-		<td>-</td>
+		<td>10,00 / 10,00</td>
 	</tr>
 	<tr>
 		<td>
