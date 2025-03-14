@@ -310,7 +310,7 @@ Por otra parte, también es recomendable indagar en las certificaciones de servi
 
 ### ¿Los profesores imparten clases en modalidad a distancia?
 
-En mi experiencia, ningún profesor ha impartido clase alguna. Los únicos materiales de apoyo son los temarios en PDF de las unidades subidos a Moodle, los cuales suelen tener una calidad deficiente. Todos están subidos en este repositorio en la carpeta `Materiales` con el nombre `UX-Temario.pdf` en cada unidad de los módulos, por lo que puedes echarles un vistazo para hacerte una idea.
+En mi experiencia, ningún profesor ha impartido clase alguna. Los únicos materiales de apoyo son los temarios en PDF de las unidades subidos a Moodle, los cuales suelen tener una calidad deficiente. Todos están subidos en este repositorio en la carpeta `materiales` con el nombre `temario.pdf` en cada unidad de los módulos, por lo que puedes echarles un vistazo para hacerte una idea.
 
 ### ¿Tiene prácticas en empresa?
 
@@ -354,8 +354,23 @@ Distribuido bajo la licencia **MIT**. Véase [`LICENSE`](https://github.com/Hene
 
 ## Apoyo
 
-¿Te gustaría apoyar el proyecto? ¡Muchas gracias! Puedes ir a mi perfil de Ko-Fi haciendo clic en el botón de abajo.
+¿Te han parecido útiles los materiales subidos a este repositorio y te gustaría mostrar tu agradecimiento por el trabajo realizado? ¡Muchas gracias! Puedes invitarme a un café yendo a mi perfil de Ko-Fi o PayPal haciendo clic en alguno de los botones de abajo.
+
+<div>
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U7U5J6COZ)
+</div>
+
+<div>
+
+<div>
+	<a href="https://paypal.me/dioderone">
+		<img 
+			src="https://github.com/user-attachments/assets/12251e6f-6713-4274-96b0-fb2ff11aed42" 
+			width="22%"
+		>
+	</a>
+</div>
+
 
 <p align="right">(<a href="#top">volver al principio</a>)</p>
