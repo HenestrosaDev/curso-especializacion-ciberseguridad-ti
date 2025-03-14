@@ -197,4 +197,8 @@ En base a la información proporcionada en el caso práctico, podemos identifica
 
 ### Calificación
 
-- / 10,00
+10,00 / 10,00
+
+### Comentarios de retroalimentación y rúbrica
+
+![](rubrica.png)

@@ -35,7 +35,7 @@
 				4. Legislación y jurisprudencia en materia de protección de datos
 			</a>
 		</td>
-		<td>-</td>
+		<td>10,00 / 10,00</td>
 	</tr>
 	<tr>
 		<td>
