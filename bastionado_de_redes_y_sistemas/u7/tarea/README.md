@@ -1,5 +1,17 @@
 # TAREA Unidad 7: Configuración de dispositivos y sistemas informáticos II
 
+## Índice
+
+- [¿Qué te pedimos que hagas?](#qué-te-pedimos-que-hagas)
+	- [Análisis del fichero de datos de conexiones](#análisis-del-fichero-de-datos-de-conexiones)
+	- [Análisis de logs](#análisis-de-logs)
+	- [Bibliografía](#bibliografía)
+- [Resultado](#resultado)
+	- [Calificación](#calificación)
+	- [Comentarios de retroalimentación y rúbrica](#comentarios-de-retroalimentación-y-rúbrica)
+
+<br>
+
 ## ¿Qué te pedimos que hagas?
 
 ### Análisis del fichero de datos de conexiones
@@ -52,8 +64,7 @@ sort -u
 
 Al ejecutar este comando, se creará el archivo `datos_conexiones_ips_unicas.txt` en el mismo directorio que `datos_conexiones.dat`.
 
-<br>
-<br>
+---
 
 >[!NOTE]
 >Geolocaliza e identifica las IPs filtradas
@@ -124,6 +135,8 @@ Una vez terminado el proceso, abrimos el archivo CSV generado para comprobar que
 
 ![](capturas/1_analisis_de_datos_de_conexiones/3_geolocalized_ips.jpg)
 >Contenidos del archivo `geolocalized_ips.csv`
+
+---
 
 ### Análisis de logs
 
@@ -225,8 +238,7 @@ grep -i "sqlmap" access.log
 ![](capturas/2_analisis_de_logs/1_herramientas_ofensivas.jpg)
 >Ejecución del comando `grep -i "Nmap Scripting Engine" access.log`
 
-<br>
-<br>
+---
 
 >[!NOTE]
 >Identifica las páginas web sobre las que se ha realizado el ataque a partir del fichero `access.log`.
@@ -339,8 +351,7 @@ Para evitar este tipo de ataques, podemos implementar límite de intentos y CAPT
 
 Para evitar este tipo de ataques, podemos implementar límite de intentos y CAPTCHA, proteger y sanear las peticiones para evitar inyecciones SQL, restringir el acceso a directorios ocultos (como `.git`) con reglas de firewall, implementar `fail2ban` y habilitar la autenticación en dos pasos para usuarios admin.
 
-<br>
-<br>
+---
 
 >[!NOTE]
 >Identifica correctamente los usuarios utilizados en cada servicio utilizado a partir del fichero `auth.log`
@@ -430,8 +441,7 @@ Como podemos ver en los logs, hay tres usuarios víctimas de los ataques, que so
 
 Para evitar estos ataques, es necesario tomar medidas como, por ejemplo, cambiar la contraseña del usuario `www-data`, deshabilitar el acceso SSH para este usuario (en caso de que no sea necesario), implementar `fail2ban` para bloquear IPs después de múltiples intentos fallidos, habilitar la autenticación por clave SSH en lugar de solo contraseña y revisar el sistema para comprobar posibles compromisos de información como consecuencia del acceso no autorizado del atacante.
 
-<br>
-<br>
+---
 
 >[!NOTE]
 >Comprueba el servicio al que ha tenido acceso al atacante y los ficheros que ha descargado y mediante qué método a partir del fichero `vstftpd.log`.
@@ -466,6 +476,8 @@ Sun Apr 11 09:36:08 2021 [pid 8154] [ftp] OK DOWNLOAD: Client "::ffff:192.168.10
 Para evitar este acceso indebido, se debería deshabilitar el acceso anónimo en FTP si no es necesario, auditar los archivos `.bak` para determinar si contenían información sensible,  monitorizar la IP que ha accedido de forma anónima (`192.168.10.5`), deshabilitar cuentas predeterminadas y restringir el acceso por IP (_whitelist_).
 
 Adicionalmente, siempre es recomendable tener copias de seguridad seguras, actualizar los servicios para parchear vulnerabilidades conocidas y utilizar protocolos cifrados.
+
+---
 
 ### Bibliografía
 

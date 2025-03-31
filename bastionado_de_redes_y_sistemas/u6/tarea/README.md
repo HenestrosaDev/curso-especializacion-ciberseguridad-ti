@@ -1,5 +1,25 @@
 # TAREA Unidad 6: Configuración de dispositivos y sistemas informáticos I
 
+## Índice
+
+- [Introducción y objetivos](#introducción-y-objetivos)
+- [Material de ayuda](#material-de-ayuda)
+- [¿Qué te pedimos que hagas?](#qué-te-pedimos-que-hagas)
+	- [Estado del sistema previo a `fail2ban`](#estado-del-sistema-previo-a-fail2ban)
+	- [Instalación de `fail2ban`](#instalación-de-fail2ban)
+	- [Configuración de `fail2ban`](#configuración-de-fail2ban)
+	- [Ataque y reacción de `fail2ban`](#ataque-y-reacción-de-fail2ban)
+	- [Comprobación de direcciones IP baneadas](#comprobación-de-direcciones-ip-baneadas)
+	- [Desbaneo de direcciones IP](#desbaneo-de-direcciones-ip)
+	- [Envío de email](#envío-de-email)
+	- [Protección de otros servicios con `fail2ban`](#protección-de-otros-servicios-con-fail2ban)
+	- [Bibliografía](#bibliografía)
+- [Resultado](#resultado)
+	- [Calificación](#calificación)
+	- [Comentarios de retroalimentación y rúbrica](#comentarios-de-retroalimentación-y-rúbrica)
+
+<br>
+
 ## Introducción y objetivos
 
 >[!NOTE]
@@ -39,6 +59,8 @@ sudo apt install openssh-server
 
 >Instalando `openssh-server`
 
+<br>
+
 Para hallar la IP del servidor SSH en la red doméstica, ejecutamos:
 
 ```bash
@@ -64,8 +86,6 @@ Para ejecutar el ataque, utilizaremos la herramienta `hydra` en Kali Linux, la c
 ```bash
 echo -e "contrasena1\ncontrasena2\ncontrasena3" > diccionario.txt
 ```
-
->Creando `diccionario.txt`
 
 Cabe destacar que Kali también incluye algunos diccionarios por defecto, los cuales están almacenados en el directorio `/usr/share/wordlists/`. Entre ellos, incluye uno de los diccionarios de contraseñas más famoso, el cual es `rockyou.txt`.
 
@@ -94,6 +114,8 @@ tail -f /var/log/auth.log
 </div>
 
 >Contenido del archivo `/var/log/auth.log` que refleja los intentos de login externos por SSH
+
+---
 
 ### Instalación de `fail2ban`
 
@@ -132,6 +154,8 @@ fail2ban-client status
 </div>
 
 >Comprobación de que `fail2ban` está activo en el sistema
+
+---
 
 ### Configuración de `fail2ban`
 
@@ -211,6 +235,8 @@ Una vez configurado el archivo, lo guardamos y reiniciamos el servicio de `fail2
 sudo service restart fail2ban
 ```
 
+---
+
 ### Ataque y reacción de `fail2ban`
 
 Ahora repetiremos el mismo ataque que al principio de la práctica. No obstante, a diferencia del apartado [Estado del sistema previo a `fail2ban`](#estado-del-sistema-previo-a-fail2ban), ahora prestaremos atención a dos ficheros de log en lugar de a uno: `/var/log/auth.log` y `/var/log/fail2ban.log`.
@@ -230,6 +256,8 @@ Ahora repetiremos el mismo ataque que al principio de la práctica. No obstante,
 >Contenido del archivo `/var/log/fail2ban.log` que refleja la actividad recibida de la IP de la máquina desde la que se han lanzado los ataques y su posterior baneo
 
 Como podemos apreciar, una vez que se cumplen las condiciones marcadas en el fichero de configuración `/etc/fail2ban/jail.local`, se bloqueará la IP desde la que se está realizando el ataque durante el tiempo que le indiquemos.
+
+---
 
 ### Comprobación de direcciones IP baneadas
 
@@ -260,6 +288,8 @@ sudo iptables -L
 >Comprobación de `iptables`
 
 Como podemos ver, la IP de la máquina desde la que hemos ejecutado el ataque se ha añadido a la cadena `f2b-sshd` (`fail2ban`), ya que se está bloqueando todo el tráfico proveniente de la IP `192.168.18.55`  y se está respondiendo con un mensaje `ICMP Port Unreachable`.
+
+---
 
 ### Desbaneo de direcciones IP
 
@@ -294,6 +324,8 @@ Por último, reiniciamos el servicio `fail2ban` y probamos que la IP no es banea
 </div>
 
 >Ataque con IP ignorada
+
+---
 
 ### Envío de email
 
@@ -458,10 +490,12 @@ Ahora debemos buscar la manera de enviar un correo electrónico al administrador
 	A continuación, miramos la bandeja de _spam_ de la dirección de correo que configuramos como `destemail` (`info@henestrosa.dev`) y comprobamos que, efectivamente, hemos recibido el correo con éxito:
 
 	<div align="center">
-		<img src="capturas/7_envio_de_email/8_correo_recibido.png"
+		<img src="capturas/7_envio_de_email/8_correo_recibido.png">
 	</div>
 
 	>Prueba de recepción de correo con detalle de IP baneada
+
+---
 
 ### Protección de otros servicios con `fail2ban`
 
@@ -484,7 +518,7 @@ Para ello, seguimos los siguientes pasos:
 	```
 
 	<div align="center">
-		<img src="capturas/8_proteccion_de_otros_servicios/1_apache_status.png"
+		<img src="capturas/8_proteccion_de_otros_servicios/1_apache_status.png">
 	</div>
 
 	>Apache funcionando correctamente
@@ -505,7 +539,7 @@ Para ello, seguimos los siguientes pasos:
 	```
 
 	<div align="center">
-		<img src="capturas/8_proteccion_de_otros_servicios/2_configuracion_apache_auth.png"
+		<img src="capturas/8_proteccion_de_otros_servicios/2_configuracion_apache_auth.png">
 	</div>
 
 	>Configuración de la sección `[apache-auth]` del archivo `/etc/fail2ban/jail.local`
@@ -532,7 +566,7 @@ Para ello, seguimos los siguientes pasos:
 	```
 
 	<div align="center">
-		<img src="capturas/8_proteccion_de_otros_servicios/3_apache_auth_config.png"
+		<img src="capturas/8_proteccion_de_otros_servicios/3_apache_auth_config.png">
 	</div>
 
 	>Configuración del archivo `/etc/fail2ban/jail.local`
@@ -557,7 +591,7 @@ Para ello, seguimos los siguientes pasos:
 	```
 
 	<div align="center">
-		<img src="capturas/8_proteccion_de_otros_servicios/4_htacess.png"
+		<img src="capturas/8_proteccion_de_otros_servicios/4_htacess.png">
 	</div>
 
 	>Configuración del archivo `/var/www/html/protegido/.htaccess`
@@ -573,7 +607,7 @@ Para ello, seguimos los siguientes pasos:
 	Al ejecutarlo, nos pedirá que introduzcamos una contraseña.
 
 	<div align="center">
-		<img src="capturas/8_proteccion_de_otros_servicios/5_anadiendo_usuario_htpasswd.png"
+		<img src="capturas/8_proteccion_de_otros_servicios/5_anadiendo_usuario_htpasswd.png">
 	</div>
 
 	>Añadiendo usuario y contraseña para el directorio protegido `/var/www/html/protegido`
@@ -595,7 +629,7 @@ Para ello, seguimos los siguientes pasos:
 	```
 
 	<div align="center">
-		<img src="capturas/8_proteccion_de_otros_servicios/6_configuracion_apache.png"
+		<img src="capturas/8_proteccion_de_otros_servicios/6_configuracion_apache.png">
 	</div>
 
 	>Configuración del archivo `/etc/apache2/sites-available/000-default.conf`
@@ -618,7 +652,7 @@ Para ello, seguimos los siguientes pasos:
 	```
 
 	<div align="center">
-		<img src="capturas/8_proteccion_de_otros_servicios/7_conexion_fallida_a_apache.png"
+		<img src="capturas/8_proteccion_de_otros_servicios/7_conexion_fallida_a_apache.png">
 	</div>
 
 	>Ataque desde máquina conectada a la red local
@@ -632,7 +666,7 @@ Para ello, seguimos los siguientes pasos:
 	```
 
 	<div align="center">
-		<img src="capturas/8_proteccion_de_otros_servicios/8_apache_auth_status.png"
+		<img src="capturas/8_proteccion_de_otros_servicios/8_apache_auth_status.png">
 	</div>
 
 	>La dirección IP desde la que hemos realizado los intentos fallidos de autenticación está baneada.
@@ -642,7 +676,7 @@ Para ello, seguimos los siguientes pasos:
 	También podemos revidar `iptables`, donde se indica que la IP en cuestión es rechazada.
 
 	<div align="center">
-		<img src="capturas/8_proteccion_de_otros_servicios/9_iptables.png"
+		<img src="capturas/8_proteccion_de_otros_servicios/9_iptables.png">
 	</div>
 
 	>Las peticiones procedentes de la máquina atacante son bloqueadas
@@ -652,10 +686,12 @@ Para ello, seguimos los siguientes pasos:
 	Por último, también podemos comprobar el log de `fail2ban` donde se registra el ataque y la acción de `fail2ban` ante el ataque al servidor Apache.
 
 	<div align="center">
-		<img src="capturas/8_proteccion_de_otros_servicios/10_fail2ban_log.png"
+		<img src="capturas/8_proteccion_de_otros_servicios/10_fail2ban_log.png">
 	</div>
 
 	>`fail2ban` detecta y bloquea el ataque a Apache
+
+---
 
 ### Bibliografía
 

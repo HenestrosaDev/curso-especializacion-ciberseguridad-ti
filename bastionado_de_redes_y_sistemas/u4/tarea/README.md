@@ -1,5 +1,21 @@
 # TAREA Unidad 4: Administración de credenciales para el acceso a sistemas informáticos
 
+## Índice
+
+- [¿Qué te pedimos que hagas?](#qué-te-pedimos-que-hagas)
+	- [Introducción](#introducción)
+	- [Instalación del servidor RADIUS](#instalación-del-servidor-radius)
+	- [Configuración del servidor RADIUS](#configuración-del-servidor-radius)
+	- [Configuración de router o sistema emulador](#configuración-de-router-o-sistema-emulador)
+- [Demostración del servidor RADIUS en funcionamiento](#demostración-del-servidor-radius-en-funcionamiento)
+	- [Demostración de que el usuario conecta correctamente](#demostración-de-que-el-usuario-conecta-correctamente)
+	- [Bibliografía](#bibliografía)
+- [Resultado](#resultado)
+	- [Calificación](#calificación)
+	- [Comentarios de retroalimentación y rúbrica](#comentarios-de-retroalimentación-y-rúbrica)
+
+<br>
+
 ## ¿Qué te pedimos que hagas?
 
 >[!NOTE]
@@ -26,6 +42,8 @@ En síntesis, este es el proceso que se sigue cuando un dispositivo intenta cone
 	- Si el acceso es aprobado, el dispositivo puede conectarse a la red
 	- Si el acceso es denegado, se le rechaza la conexión.
 
+---
+
 ### Instalación del servidor RADIUS
 
 En Ubuntu, se puede instalar un servidor RADIUS a través de FreeRADIUS, una de las implementaciones más populares de este protocolo. Para instalarlo, ejecutamos el siguiente comando:
@@ -49,6 +67,8 @@ Tras instalarlo, activamos el servicio ejecutando `sudo systemctl start freeradi
 >Iniciando y comprobando el correcto funcionamiento de `freeradius`
 
 Llegados a este punto, el servidor RADIUS ha sido instalado e iniciado correctamente
+
+---
 
 ### Configuración del servidor RADIUS
 
@@ -138,6 +158,8 @@ Este es el procedimiento desglosado en pasos:
 	
 	Pulsamos en **Apply** y, tras ello, ya tendremos configurado el servidor RADIUS en Ubuntu.
 
+---
+
 ### Configuración de router o sistema emulador
 
 Este punto puede variar en función de si el router que queremos configurar dispone del protocolo WPA2-Enterprise. En mi caso, mi router doméstico cuenta con él, por lo que voy a configurarlo directamente. Como método alternativo, podríamos utilizar software como OPNSense o RouterOS para emular un router que nos permita implementar la autenticación con usuario y contraseña, aunque sería por LAN en lugar de Wi-Fi. Todo este proceso debe realizarse desde una segunda máquina virtual que actuará como sistema emulador de router.
@@ -182,7 +204,9 @@ Dicho esto, procedemos a configurar el AP directamente siguiendo estos pasos:
 	
 	Una vez terminamos el proceso, pulsamos **Apply** para que la configuración surta efecto.
 
-## Demonstración del servidor RADIUS en funcionamiento
+---
+
+### Demostración del servidor RADIUS en funcionamiento
 
 Para comprobar si el servidor RADIUS está funcionando correctamente, usamos `radtest` para realzar pruebas de autenticación. Como las estamos ejecutando desde la misma máquina en la que está alojado el servidor FreeRADIUS, tenemos que usar la contraseña por defecto para `localhost`, la cual es `testing123`.
 
@@ -207,6 +231,8 @@ Donde:
 >Ejecución del comando `radtest usuario1 contraseña1 127.0.0.1 0 testing123`
 
 Como podemos apreciar, el usuario fue autenticado correctamente, ya que recibimos el mensaje `Access-Accept` por parte del servidor.
+
+---
 
 ### Demostración de que el usuario conecta correctamente
 
@@ -248,6 +274,8 @@ Pulsamos sobre el botón **Acceder** y veremos que el dispositivo se conecta a l
 		src="capturas/5_demostracion_usuario_correcto/5_detalles_conexion.png"
 	>
 </div>
+
+---
 
 ### Bibliografía
 

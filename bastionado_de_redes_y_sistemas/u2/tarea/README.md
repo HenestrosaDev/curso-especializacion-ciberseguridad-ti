@@ -1,5 +1,24 @@
 # TAREA Unidad 2: Diseño de planes de securización
 
+## Índice
+
+- [Caso práctico](#caso-práctico)
+	- [Activos críticos](#activos-críticos)
+	- [Infraestructura TI](#infraestructura-ti)
+	- [Estado actual de la ciberseguridad](#estado-actual-de-la-ciberseguridad)
+	- [Contexto financiero y organizativo](#contexto-financiero-y-organizativo)
+	- [Amenazas potenciales](#amenazas-potenciales)
+- [¿Qué te pedimos que hagas?](#qué-te-pedimos-que-hagas)
+	- [Apartado 1. Análisis de riesgos.](#apartado-1-análisis-de-riesgos)
+	- [Apartado 2. Propuesta de medidas técnicas.](#apartado-2-propuesta-de-medidas-técnicas)
+	- [Apartado 3. Políticas de seguridad.](#apartado-3-políticas-de-seguridad)
+	- [Apartado 4. Plan de contingencia.](#apartado-4-plan-de-contingencia)
+- [Resultado](#resultado)
+	- [Calificación](#calificación)
+	- [Comentarios de retroalimentación y rúbrica](#comentarios-de-retroalimentación-y-rúbrica)
+
+<br>
+
 ## Caso práctico
 
 **Nombre de la empresa**: TechHealth Solutions
@@ -119,6 +138,8 @@ Aquí se contemplan algunos de los riesgos posibles:
 
 Abordado en detalle en los apartados 2 (plan de securización) y 3 (implementación de políticas de seguridad).
 
+---
+
 ### Apartado 2. Propuesta de medidas técnicas.
 
 >[!NOTE]
@@ -197,6 +218,8 @@ Al igual que hemos hecho con las medidas técnicas preventivas, es oportuno mati
 
 	El _virtual patching_ bloquea o detiene los intentos de ataque a un sistema antes de que pueda comprometerlo. De este modo, se garantiza que los servicios funcionen sin interrupciones mientras se soluciona el problema causado por el ataque. Además, ayuda a mitigar el riesgo de incumplimiento del RGPD al proteger datos sensibles contra accesos no autorizados o infecciones por malware.
 
+---
+
 ### Apartado 3. Políticas de seguridad.
 
 >[!NOTE]
@@ -257,6 +280,8 @@ Dicho esto, a continuación indico algunas políticas organizativas que la empre
 	El personal encargado de ofrecer dicha formación puede ser tanto externo como interno. En este último supuesto, los responsables serían el equipo de TI. En cualquier caso, es necesario llevar a cabo un proceso de registro de las formaciones impartidas y realizar un seguimiento para identificar posibles mejoras.
 
 	Esta política mitiga la amenaza de ataques de phishing y asegura que el personal está capacitado para manejar datos sensibles de acuerdo con el RGPD y la LOPD. Además, como se ha mencionado previamente, convierte a los trabajadores en “firewall humano” que actúa en primera línea de defensa frente a las amenazas.
+
+---
 
 ### Apartado 4. Plan de contingencia.
 

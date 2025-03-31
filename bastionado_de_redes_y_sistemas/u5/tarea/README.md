@@ -1,5 +1,18 @@
 # TAREA Unidad 5: Diseño de redes seguras
 
+## Índice
+
+- [Recursos](#recursos)
+- [¿Qué te pedimos que hagas?](#qué-te-pedimos-que-hagas)
+	- [Seguridad Wi-Fi](#seguridad-wi-fi)
+	- [Implementación IDS](#implementación-ids)
+	- [Bibliografía](#bibliografía)
+- [Resultado](#resultado)
+	- [Calificación](#calificación)
+	- [Comentarios de retroalimentación y rúbrica](#comentarios-de-retroalimentación-y-rúbrica)
+
+<br>
+
 ## Recursos 
 
 - Nmap: [https://nmap.org/](https://nmap.org/)
@@ -69,7 +82,7 @@ Tras ello, añadimos las direcciones MAC del dispositivo Android y el equipo mac
 
 Con esto, ya tendríamos el filtro de conexión por dirección MAC listo.
 
-<br>
+---
 
 >[!NOTE]
 >Desde una distribución Kali u otra de Linux, ya sea en un entorno virtualizado o nativo, suplanta el dispositivo autorizado modificando su dirección MAC (**MAC Spoofing**) con la aplicación adecuada y demuéstralo con capturas de pantalla.
@@ -152,6 +165,8 @@ Como última prueba, podemos hacer un `ping` para comprobar que la conexión con
 
 Tal y como podemos comprobar, el proceso de spoofing se ha llevado a cabo con éxito. Como podemos ver, es bastante sencillo lanzar este tipo de ataques, por lo que esta capa de seguridad no es suficiente para proteger un punto de acceso. Para incrementar su seguridad, es necesario configurar el router para que use el protocolo de seguridad WPA2/3 con una contraseña fuerte en lugar de depender solo del filtrado MAC. Además, es conveniente establecer un IDS (Sistema de Detección de Intrusiones) y, si fuese necesario, un IPS (Sistema de Prevención de Intrusiones).
 
+---
+
 ### Implementación IDS
 
 >[!NOTE]
@@ -181,6 +196,8 @@ Al continuar, nos pedirá introducir el intervalo de direcciones IP para la red 
 
 >Configuración del intervalo de direcciones IP para la red local
 
+<br>
+
 Al aceptar, la instalación se completará correctamente. Para comprobar que, efectivamente, Snort está disponible en el sistema, ejecutamos `snort -V`, lo cual debe mostrar el número de versión instalada.
 
 <div align="center">
@@ -189,7 +206,7 @@ Al aceptar, la instalación se completará correctamente. Para comprobar que, ef
 
 >La versión de Snort aparece, lo que indica que ha sido instalado con éxito
 
-<br>
+---
 
 >[!NOTE]
 >Realiza un escaneo con Nmap que trate de identificar los servicios para ver cómo se comporta la herramienta. Para ello, se requiere una máquina de ataque, que puede ser Kali, y otra máquina para desplegar Snort (puede ser otra distribución Linux o Windows).
@@ -245,6 +262,9 @@ Donde:
 
 Como podemos ver, el ataque se ha ejecutado correctamente
 
+---
+
+>[!NOTE]
 >Interpreta los resultados de los logs del IDS tras lanzar el ataque con Nmap.
 
 Para comprobar la respuesta de Snort ante el ataque con Nmap, volvemos a la máquina virtual con Ubuntu para comprobar los logs, los cuales se encuentran en el directorio `/var/log/snort/`, tras y como indicamos al ejecutar el programa. Ahí encontraremos tres archivos: `snort.alert`, `snort.alert.fast` y `snort.log`.
@@ -301,6 +321,8 @@ Donde:
 Observamos, en definitiva, que las alertas almacenadas en el log están relacionadas con **intentos de consulta SNMP** desde la máquina `192.168.18.55` hacia la máquina `192.168.18.68`. Como ya hemos comentado, en uno de los registros se utiliza el puerto `705`, que es usado para AgentX (un protocolo para la extensión de SNMP), y en el otro se utiliza el puerto estándar `161` para SNMP.
 
 La clasificación de ambas alertas es "Attempted Information Leak" (Intento de fuga de información), lo que sugiere que estas solicitudes pueden estar intentando acceder a información sensible o configuración de la máquina de destino sin autorización.
+
+---
 
 ### Bibliografía
 

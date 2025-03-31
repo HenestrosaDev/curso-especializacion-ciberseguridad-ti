@@ -1,5 +1,21 @@
 # TAREA Unidad 3: Configuración de sistemas de acceso y autenticación de personas
 
+## Índice
+
+- [Introducción a los sistemas PAM](#introducción-a-los-sistemas-pam)
+- [Recursos necesarios y recomendaciones](#recursos-necesarios-y-recomendaciones)
+- [¿Qué te pedimos que hagas?](#qué-te-pedimos-que-hagas)
+	- [Instalar `libpam-google-authenticator`](#instalar-libpam-google-authenticator)
+	- [Login desde terminal de texto](#login-desde-terminal-de-texto)
+	- [Login en entorno gráfico](#login-en-entorno-gráfico)
+	- [Uso del comando sudo](#uso-del-comando-sudo)
+	- [Preguntas adicionales](#preguntas-adicionales)
+- [Resultado](#resultado)
+	- [Calificación](#calificación)
+	- [Comentarios de retroalimentación y rúbrica](#comentarios-de-retroalimentación-y-rúbrica)
+
+<br>
+
 ## Introducción a los sistemas PAM
 
 Los sistemas PAM (Pluggable Authentication Modules) son una tecnología ampliamente utilizada en sistemas Linux y Unix para gestionar la autenticación de usuarios y otros procesos relacionados con la seguridad. PAM permite que las aplicaciones y servicios del sistema implementen métodos de autenticación de manera flexible y modular, lo que facilita la personalización de políticas de seguridad sin necesidad de modificar el código fuente de cada aplicación.

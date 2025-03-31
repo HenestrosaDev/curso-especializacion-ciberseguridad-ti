@@ -1,5 +1,25 @@
 # TAREA Unidad 1: Introducción al bastionado
 
+## Índice
+
+- [Caso práctico](#caso-práctico)
+	- [Datos básicos](#datos-básicos)
+	- [Infraestructura tecnológica](#infraestructura-tecnológica)
+	- [Ciberseguridad actual](#ciberseguridad-actual)
+	- [Recursos necesarios y recomendaciones](#recursos-necesarios-y-recomendaciones)
+- [¿Qué te pedimos que hagas?](#qué-te-pedimos-que-hagas)
+	- [Apartado 1. Acceso a la herramienta.](#apartado-1-acceso-a-la-herramienta)
+	- [Apartado 2. Evaluación inicial.](#apartado-2-evaluación-inicial)
+	- [Apartado 3. Análisis de resultados.](#apartado-3-análisis-de-resultados)
+	- [Apartado 4. Propuesta de medidas.](#apartado-4-propuesta-de-medidas)
+	- [Apartado 5. Conclusión.](#apartado-5-conclusión)
+- [Resultado](#resultado)
+	- [Calificación](#calificación)
+	- [Comentarios de retroalimentación y rúbrica](#comentarios-de-retroalimentación-y-rúbrica)
+	- [Notas personales](#notas-personales)
+
+<br>
+
 ## Caso práctico
 
 ### Datos básicos
@@ -90,6 +110,8 @@ Una vez dentro, pulsamos sobre el botón "Calcula el riesgo de tu negocio", el c
 ![Pantalla de inicio del diagnóstico](capturas/diagnostico_inicio.png)
 >Herramienta de autodiagnóstico del INCIBE
 
+---
+
 ### Apartado 2. Evaluación inicial.
 
 >[!NOTE]
@@ -108,6 +130,8 @@ Una vez terminamos de contestar a todas las preguntas, recibimos el resultado de
 
 ![Test alto riesgo](capturas/test_alto_riesgo.png)
 >Resultado del diagnóstico
+
+---
 
 ### Apartado 3. Análisis de resultados.
 
@@ -131,6 +155,8 @@ Entre los puntos críticos detectados que provocan un riesgo tan elevado, destac
 4. **Conexiones y accesos no controlados.**
 	- **Uso de red Wi-Fi interna para todos los empleados**: Sin segmentación, aumenta el riesgo de que se comprometan dispositivos y sistemas críticos.
 	- **Reutilización de contraseñas**: Este hábito debilita la seguridad de acceso, sobre todo en caso de que se comprometan cuentas personales.
+
+---
 
 ### Apartado 4. Propuesta de medidas.
 
@@ -173,6 +199,8 @@ Para implementar las medidas expuestas, es necesario contar con una combinación
 Asimismo, es fundamental tener en mente el **cumplimiento normativo y estándares de ciberseguridad**. Aunque la empresa ya cumple con normativas como la GDPR, es necesario poner énfasis en el **cifrado de datos sensibles** almacenados en la base de datos para cumplir con la LOPD.
 
 Por otro lado, es necesario contar con los **recursos financieros** adecuados para la ejecución de dichas medidas. Para ello, es necesario formalizar un **presupuesto específico** destinado a este sector de la empresa e incluso considerar la **contratación de seguros** que cubran los riesgos asociados a posibles ciberataques.
+
+---
 
 ### Apartado 5. Conclusión.
 
