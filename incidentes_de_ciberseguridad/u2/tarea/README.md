@@ -1,5 +1,18 @@
 # TAREA Unidad 2: Auditoría de incidentes de ciberseguridad
 
+## Índice
+
+- [Introducción](#introducción)
+- [¿Qué te pedimos que hagas?](#qué-te-pedimos-que-hagas)
+	- [Diseño del Diagrama de Bloques del Clasificador Automático de Incidencias](#diseño-del-diagrama-de-bloques-del-clasificador-automático-de-incidencias)
+	- [Diseño del interior del bloque central con herramientas OSINT](#diseño-del-interior-del-bloque-central-con-herramientas-osint)
+	- [Bibliografía](#bibliografía)
+- [Resultado](#resultado)
+	- [Calificación](#calificación)
+	- [Comentarios de retroalimentación y rúbrica](#comentarios-de-retroalimentación-y-rúbrica)
+
+<br>
+
 ## Introducción
 
 **El Clasificador Automático de Incidentes**
@@ -34,7 +47,7 @@ graph TD;
     F --> I[Notificación y Registro];
 ```
 
-<br>
+---
 
 >[!NOTE]
 >Describe a alto nivel la funcionalidad en general y de cada bloque propuesto (sin entrar en detalle).
@@ -51,7 +64,7 @@ El bloque central del diagrama de flujo muestra el ciclo que va desde la obtenci
 8. Reentrenamiento del modelo: Los incidentes revisados manualmente pueden ser usados para mejorar el modelo.
 9. Notificación y registro: Finalmente, el incidente se notifica y registra en el sistema.
 
-<br>
+---
 
 ### Diseño del interior del bloque central con herramientas OSINT
 
@@ -81,7 +94,7 @@ Ahora que sabemos la funcionalidad en general a alto nivel del bloque central, n
 
 9. **Reentrenamiento del modelo**: Durante este proceso, se busca mejorar la precisión del modelo utilizando nuevos datos obtenidos de la revisión manual y los incidentes clasificados correctamente. Para ello, se optimizan los parámetros del modelo para mejorar su precisión y se vuelve a entrenar con los datos actualizados. Posteriormente, se mide la precisión y la capacidad del modelo optimizado para clasificar correctamente incidentes nuevos.
 
-<br>
+---
 
 >[!NOTE]
 >Propón las acciones de búsqueda que debe realizar el bloque central para realizar búsquedas automáticas en Google de la siguiente información:
@@ -107,7 +120,7 @@ Donde:
 	<img src="capturas/1_busqueda_xlsm.png">
 </div>
 
-<br>
+---
 
 >[!NOTE]
 >Busca en https://pastebin.com correos electrónicos pertenecientes al nombre de tu empresa y excluye las direcciones de Gmail y Hotmail.
@@ -128,7 +141,7 @@ Donde:
 	<img src="capturas/2_busqueda_emails.png">
 </div>
 
-<br>
+---
 
 >[!NOTE]
 >Ficheros SQL con volcado de una base de datos, excluyendo GitHub.
@@ -153,7 +166,7 @@ Donde:
 	>
 </div>
 
-<br>
+---
 
 >[!NOTE]
 >Propón que el sistema compruebe los dispositivos conectados a Internet que tengan el puerto 8080 abierto, dispongan de una captura de imagen y estén ubicados en España.
@@ -178,7 +191,7 @@ Donde:
 	>
 </div>
 
-<br>
+---
 
 ### Bibliografía
 

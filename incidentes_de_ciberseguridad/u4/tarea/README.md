@@ -1,5 +1,19 @@
 # TAREA Unidad 4: Implantación de medidas de ciberseguridad
 
+## Índice
+
+- [Introducción](#introducción)
+- [¿Qué te pedimos que hagas?](#qué-te-pedimos-que-hagas)
+	- [Estructura de la organización empresarial](#estructura-de-la-organización-empresarial)
+	- [Detalle del Procedimiento de Actuación](#detalle-del-procedimiento-de-actuación)
+	- [Detalle del procedimiento para restablecer los servicios afectados](#detalle-del-procedimiento-para-restablecer-los-servicios-afectados)
+	- [Bibliografía](#bibliografía)
+- [Resultado](#resultado)
+	- [Calificación](#calificación)
+	- [Comentarios de retroalimentación y rúbrica](#comentarios-de-retroalimentación-y-rúbrica)
+
+<br>
+
 ## Introducción
 
 **Las medidas de Ciberseguridad ante Incidentes**
@@ -12,7 +26,7 @@ Igualmente, otro procedimiento importante es el dedicado a restablecer los servi
 
 ## ¿Qué te pedimos que hagas?
 
-### Estructura de la Organización Empresarial
+### Estructura de la organización empresarial
 
 >[!NOTE]
 >Define o diseña el diagrama de bloques de la empresa ficticia a nivel hardware.
@@ -48,7 +62,7 @@ graph TD;
     B1 -->|Genera alertas a| B3;
 ```
 
-<br>
+---
 
 >[!NOTE]
 >Define o diseña el organigrama de una empresa ficticia para la que se definirá el Procedimiento de Actuación ante Incidentes.
@@ -113,6 +127,8 @@ Dentro del organigrama planteado, distinguimos tres áreas comandadas por el dir
 	- **Departamento de atención al cliente**: Brinda soporte a usuarios y gestiona las consultas y quejas.
 	- **Departamento de producción**: Supervisa la entrega de productos o servicios.
 
+---
+
 ### Detalle del Procedimiento de Actuación
 
 >[!NOTE]
@@ -174,6 +190,8 @@ Desglose del esquema del Procedimiento de Actuación ante Incidentes:
 	El director de seguridad actualizará al director general de la situación.
 
 	Si el incidente afecta a los clientes, el departamento de relaciones públicas elaborará un comunicado y coordinará la respuesta con los clientes y los medios.
+
+---
 
 ### Detalle del procedimiento para restablecer los servicios afectados
 
@@ -297,6 +315,8 @@ Dicho lo cual, procedemos a desglosar cada pilar en detalle:
 	- **Director de seguridad**: Decide el escalamiento del incidente y comunicación interna.
 		- Si el incidente afecta a clientes, las relaciones públicas tienen que informar a medios y usuarios.
 	- **Director de TI**: Coordina la restauración de los sistemas afectados.
+
+---
 
 ### Bibliografía
 

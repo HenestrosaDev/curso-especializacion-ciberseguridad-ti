@@ -1,5 +1,19 @@
 # TAREA Unidad 5: Detección y documentación de incidentes de ciberseguridad
 
+## Índice
+
+- [Introducción](#introducción)
+- [¿Qué te pedimos que hagas?](#qué-te-pedimos-que-hagas)
+	- [Diseño del Diagrama de Bloques del Notificador Automático de Incidencias (NAI)](#diseño-del-diagrama-de-bloques-del-notificador-automático-de-incidencias-nai)
+	- [Descripción detallada de la funcionalidad general y por bloques](#descripción-detallada-de-la-funcionalidad-general-y-por-bloques)
+	- [Diseño y descripción detallada de la funcionalidad de las notificaciones al resto de interesados](#diseño-y-descripción-detallada-de-la-funcionalidad-de-las-notificaciones-al-resto-de-interesados)
+	- [Bibliografía](#bibliografía)
+- [Resultado](#resultado)
+	- [Calificación](#calificación)
+	- [Comentarios de retroalimentación y rúbrica](#comentarios-de-retroalimentación-y-rúbrica)
+
+<br>
+
 ## Introducción
 
 **El notificador automático de Incidentes**
@@ -56,6 +70,8 @@ graph TD
     N --> O[Resolución y cierre]
 ```
 
+---
+
 ### Descripción detallada de la funcionalidad general y por bloques
 
 >[!NOTE]
@@ -98,6 +114,8 @@ En base a esto, este es el funcionamiento de un NAI desglosado en bloques, el cu
 	- **Registro de seguimiento**: Se documenta el seguimiento del incidente para futuras referencias.
 	- **Resolución y cierre**: Una vez gestionado el incidente, se cierra oficialmente con su debida documentación.
 
+---
+
 ### Diseño y descripción detallada de la funcionalidad de las notificaciones al resto de interesados
 
 >[!NOTE]
@@ -139,7 +157,7 @@ graph TD;
     G -->|No crítico| N[Monitoreo interno y mitigación];
 ```
 
-<br>
+---
 
 >[!NOTE]
 >Realiza un análisis funcional general del sistema notificador al resto de interesados e interpreta detalladamente el Diagrama de Bloques del punto anterior.
@@ -185,6 +203,8 @@ A partir de esta definición, procedemos a interpretar detalladamente el diagram
 	- Si el incidente tiene un impacto en la reputación de la empresa o podría ser difundido públicamente, las **relaciones públicas** tienen que emitir un comunicado oficial en el que se informe sobre el incidente.
 	- Si el incidente involucra la infraestructura o servicios de **proveedores**, estos deben ser informados para que tomen medidas preventivas.
 	- Si el incidente debe ser reportado a **reguladores o autoridades** según la legislación vigente, la empresa tiene que cumplir con sus obligaciones legales.
+
+---
 
 ### Bibliografía
 

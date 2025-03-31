@@ -1,5 +1,18 @@
 # TAREA Unidad 3: Investigación de los incidentes de ciberseguridad
 
+## Índice
+
+- [Introducción](#introducción)
+- [¿Qué te pedimos que hagas?](#qué-te-pedimos-que-hagas)
+	- [Fundamentos de la Plataforma de Defensa proactiva](#fundamentos-de-la-plataforma-de-defensa-proactiva)
+	- [Herramientas de defensa proactiva](#herramientas-de-defensa-proactiva)
+	- [Bibliografía](#bibliografía)
+- [Resultado](#resultado)
+	- [Calificación](#calificación)
+	- [Comentarios de retroalimentación y rúbrica](#comentarios-de-retroalimentación-y-rúbrica)
+
+<br>
+
 ## Introducción
 
 **Las Técnicas de Investigación de Incidentes**
@@ -44,6 +57,8 @@ En el ámbito de la ciberseguridad, **MITRE ATT&CK** es un marco ampliamente uti
 - **Desarrollo de casos de uso para SIEM**: Crear reglas y alertas en las plataformas SIEM basadas en las técnicas de MITRE ATT&CK. Esto mejora la capacidad de detección temprana y respuesta ante incidentes específicos.
 - **Formación y concienciación**: Capacitar al personal de seguridad en las tácticas y técnicas descritas en MITRE ATT&CK. Un equipo bien informado puede reconocer y responder más eficazmente a las actividades maliciosas.
 - **Evaluación continua de riesgos**: Utilizar MITRE ATT&CK para mantenerse actualizado sobre las técnicas que los ciberdelincuentes emplean para adaptar las estrategias de defensa en consecuencia.
+
+---
 
 ### Herramientas de defensa proactiva
 
@@ -123,6 +138,8 @@ Antes de entrar en más detalle sobre las herramientas, es importante señalar q
 	- **Xplico**: Herramienta de análisis forense de redes que reconstruye los contenidos de las capturas de tráfico, como correos electrónicos, navegación web y otros protocolos.
 	- **Bulk Extractor**: Programa que analiza imágenes de disco y archivos para extraer información relevante, como correos electrónicos, números de tarjetas de crédito y otros datos sensibles.
 	- **Bitdefender Sandbox Analyzer**: Herramienta que utiliza modelos de heurística del comportamiento y aprendizaje automático para analizar archivos sospechosos en un entorno aislado. Mejora la detección de amenazas avanzadas.
+
+---
 
 ### Bibliografía
 

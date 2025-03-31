@@ -1,6 +1,30 @@
 # TAREA Unidad 1: Desarrollo de planes de prevención y concienciación en ciberseguridad
 
-## Apartado 1: Diseño de una empresa ficticia
+## Índice
+
+- [¿Qué te pedimos que hagas?](#qué-te-pedimos-que-hagas)
+	- [Apartado 1: Diseño de una empresa ficticia](#apartado-1-diseño-de-una-empresa-ficticia)
+- [Apartado 2: Detalle de los puntos vulnerables del puesto de trabajo que se deberán tener en cuenta](#apartado-2-detalle-de-los-puntos-vulnerables-del-puesto-de-trabajo-que-se-deberán-tener-en-cuenta)
+- [Apartado 3: Detalle del plan de formación y concienciación](#apartado-3-detalle-del-plan-de-formación-y-concienciación)
+	- [Objetivos](#objetivos)
+	- [Evaluación de las necesidades de la formación](#evaluación-de-las-necesidades-de-la-formación)
+	- [Roles incluidos (concreción del plan)](#roles-incluidos-concreción-del-plan)
+	- [Contenidos (de la formación y los criterios)](#contenidos-de-la-formación-y-los-criterios)
+	- [Asociación de roles y contenidos (adecuados a los distintos puestos de trabajo)](#asociación-de-roles-y-contenidos-adecuados-a-los-distintos-puestos-de-trabajo)
+	- [Metodologías formativas](#metodologías-formativas)
+	- [Evaluación del plan de concienciación](#evaluación-del-plan-de-concienciación)
+- [Apartado 4: Detalle de los materiales de formación y concienciación utilizados](#apartado-4-detalle-de-los-materiales-de-formación-y-concienciación-utilizados)
+- [Apartado 5: Detalle de las auditorías internas de cumplimiento en prevención](#apartado-5-detalle-de-las-auditorías-internas-de-cumplimiento-en-prevención)
+- [Resultado](#resultado)
+	- [Calificación](#calificación)
+	- [Comentarios de retroalimentación y rúbrica](#comentarios-de-retroalimentación-y-rúbrica)
+
+
+<br>
+
+## ¿Qué te pedimos que hagas?
+
+### Apartado 1: Diseño de una empresa ficticia
 
 >[!NOTE]
 >Diseña una empresa con un esquema sencillo de Sistemas de Información, en el que se reflejen los puntos habituales de vulnerabilidad: bases de datos, puestos de trabajo en local o en remoto, conmutadores, servidores, etc.
@@ -61,7 +85,9 @@ flowchart TD
 	style M1 fill:#ffcccc,stroke:#ff0000,stroke-width:2px,color:black
 ```
 
-## Apartado 2: Detalle de los puntos vulnerables del puesto de trabajo que se deberán tener en cuenta
+---
+
+### Apartado 2: Detalle de los puntos vulnerables del puesto de trabajo que se deberán tener en cuenta
 
 >[!NOTE]
 >Tomando el diseño del apartado anterior, efectua una labor de inventariado de todos los elementos esenciales para el negocio (activos): hardware, software, comunicaciones, instalaciones, datos y personas, que se desea incluir (de media a una página).
@@ -102,7 +128,7 @@ De acuerdo con el esquema presentado en el [apartado 1](#apartado-1-diseño-de-u
 	- **Empleados de administración**: Gestionan clientes, proyectos y finanzas. Usan sistemas de monitoreo, aplicaciones SaaS y aplicaciones de gestión interna.
 	- **Socios y proveedores**: Acceden a partes del sistema para servicios de soporte o integración.
 
-<br>
+---
 
 >[!NOTE]
 >A continuación, identifica escenarios de riesgo de los elementos esenciales anteriormente indicados (entre 8-15 escenarios, aunque el listado anterior sea superior).
@@ -130,7 +156,7 @@ A su vez, se pueden dar los siguientes escenarios de riesgo a partir de los acti
 
 ---
 
-## Apartado 3: Detalle del plan de formación y concienciación
+### Apartado 3: Detalle del plan de formación y concienciación
 
 >[!NOTE]
 >El Plan de formación contará, al menos, con los siguientes apartados (entre 2 y 5 páginas aproximadamente):
@@ -153,7 +179,9 @@ El plan de formación contará con los siguientes objetivos:
 - **Reducir los riesgos** derivados de ataques cibernéticos, tales como phishing, malware, o accesos no autorizados, a través de la adopción de prácticas seguras.
 - **Fomentar una cultura de ciberseguridad** en la empresa que se mantenga a lo largo del tiempo mediante formación continua y prácticas de seguridad activa.
 
-### Evaluación de las necesidades de la formación
+<br>
+
+**Evaluación de las necesidades de la formación**
 
 Para determinar las necesidades formativas, se debe realizar una evaluación previa de los niveles de conocimiento y de los riesgos asociados a cada puesto de trabajo dentro de la empresa. Entre ellos, distinguimos los siguientes:
 - **Personal técnico (TI)**: Necesitan formación avanzada en ciberseguridad, detección de intrusiones, y protección de infraestructuras críticas.
@@ -162,7 +190,9 @@ Para determinar las necesidades formativas, se debe realizar una evaluación pre
 - **Alta dirección**: Necesitan formación en toma de decisiones en ciberseguridad, cumplimiento normativo y riesgos relacionados con la protección de datos.
 - **Todos los trabajadores**: Deben adquirir conocimientos básicos sobre amenazas como el phishing, el uso seguro de contraseñas y la gestión de datos confidenciales.
 
-### Roles incluidos (concreción del plan)
+<br>
+
+**Roles incluidos (concreción del plan)**
 
 Los roles que identificamos para impartir la formación son los siguientes:
 
@@ -173,7 +203,9 @@ Los roles que identificamos para impartir la formación son los siguientes:
 - **Alta dirección**.
 - **Todos los trabajadores**.
 
-### Contenidos (de la formación y los criterios)
+<br>
+
+**Contenidos (de la formación y los criterios)**
 
 La formación se adaptará a las necesidades de cada grupo, cubriendo los siguientes puntos clave:
 
@@ -203,7 +235,9 @@ La formación se adaptará a las necesidades de cada grupo, cubriendo los siguie
 	- Cumplimiento normativo y su impacto en la empresa.
 	- Planes de recuperación ante desastres y continuidad del negocio.
 
-### Asociación de roles y contenidos (adecuados a los distintos puestos de trabajo)
+<br>
+
+**Asociación de roles y contenidos (adecuados a los distintos puestos de trabajo)**
 
 Primero se menciona el contenido y, a continuación, se procede a asociar el personal correspondiente:
 
@@ -213,7 +247,9 @@ Primero se menciona el contenido y, a continuación, se procede a asociar el per
 - **Gestión avanzada de ciberseguridad**: Personal de TI.
 - **Toma de decisiones estratégicas en seguridad**: Alta dirección.
 
-### Metodologías formativas
+<br>
+
+**Metodologías formativas**
 
 El plan de formación utilizará diferentes enfoques según el grupo objetivo, con duración y periodicidad variables:
 
@@ -237,7 +273,9 @@ El plan de formación utilizará diferentes enfoques según el grupo objetivo, c
 	- **Periodicidad**: Anual.
 	- **Metodología**: Prácticas guiadas y configuraciones seguras.
 
-### Evaluación del plan de concienciación
+<br>
+
+**Evaluación del plan de concienciación**
 
 Para medir la efectividad del plan de formación y concienciación, se aplicarán las siguientes técnicas:
 
@@ -248,7 +286,7 @@ Para medir la efectividad del plan de formación y concienciación, se aplicará
 
 ---
 
-## Apartado 4: Detalle de los materiales de formación y concienciación utilizados
+### Apartado 4: Detalle de los materiales de formación y concienciación utilizados
 
 >[!NOTE]
 >Describe los materiales planteados con su contenido (al **menos 3 distintos**) tanto para la fase de formación como para la de evaluación. Debe ser un material inteligible por sí solo, es decir, que sea lo que uses para formar o concienciar a tus empleados. Pueden ser consejos, carteles, emails, vídeos, cuestionarios, etc. relacionados con cualquier elemento involucrado en la ciberseguridad.
@@ -261,7 +299,7 @@ He aquí materiales adecuados tanto para la fase de formación y evaluación par
 
 ---
 
-## Apartado 5: Detalle de las auditorías internas de cumplimiento en prevención
+### Apartado 5: Detalle de las auditorías internas de cumplimiento en prevención
 
 >[!NOTE]
 >Para los elementos esenciales establecidos en el [apartado 2](#apartado-2-detalle-de-los-puntos-vulnerables-del-puesto-de-trabajo-que-se-deberán-tener-en-cuenta), comprueba si disponen de las siguientes medidas de seguridad:
@@ -419,7 +457,7 @@ A continuación, se comprueba si los elementos esenciales del sistema de TechCor
 	- **Apto**: No se detectan accesos no autorizados, las políticas de acceso se aplican correctamente y no se han producido alteraciones maliciosas en los datos. Los registros de auditoría muestran que todas las actividades en la base de datos están documentadas y son legítimas.
 	- **No apto**: Se han detectado accesos no autorizados, alteraciones en los datos o actividades sospechosas que no se han registrado adecuadamente. Alguien ha manipulado los datos sensibles o ha extraído información de forma maliciosa.
 
-<br>
+---
 
 >[!NOTE]
 >Decide qué sistema (Esquema de Mejora Continua o Modelo de Madurez) se deberá aplicar para garantizar que los resultados de la auditoría tengan como fin la implantación continua de mejoras en materia de ciberseguridad y la consecución de los diferentes niveles de seguridad.
