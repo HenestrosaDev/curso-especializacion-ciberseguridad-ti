@@ -1,5 +1,18 @@
 # TAREA Unidad 3: Legislación para el cumplimiento de la responsabilidad penal
 
+## Índice
+
+- [Caso práctico](#caso-práctico)
+- [¿Qué te pedimos que hagas?](#qué-te-pedimos-que-hagas)
+	- [Apartado 1: Cumplimiento de la responsabilidad penal.](#apartado-1-cumplimiento-de-la-responsabilidad-penal)
+	- [Apartado 2. Sistema de gestión de compliance penal.](#apartado-2-sistema-de-gestión-de-compliance-penal)
+	- [Apartado 3. Sistema de gestión antisoborno y anticorrupción.](#apartado-3-sistema-de-gestión-antisoborno-y-anticorrupción)
+- [Resultado](#resultado)
+	- [Calificación](#calificación)
+	- [Comentarios de retroalimentación y rúbrica](#comentarios-de-retroalimentación-y-rúbrica)
+
+<br>
+
 ## Caso práctico
 
 La empresa FlutterTech Solutions S.A. se especializa en el desarrollo de aplicaciones móviles multiplataforma utilizando Flutter, un framework moderno y eficiente. Ofrece sus servicios a clientes en España y América Latina, trabajando con diversas industrias como el sector financiero, comercio electrónico y telecomunicaciones.
@@ -68,7 +81,7 @@ La dirección de la organización es consciente de que es sujeto obligado para m
 - Sección "**Análisis de riesgo y planificación**" del apartado "**1.1. Sistemas de gestión de compliance penal**" del material didáctico de la unidad 3 para identificar los delitos. 
 - [noticias.juridicas.com](noticias.juridicas.com]) para consultar las posibles penas de cada delito y adjuntar el artículo del código penal correspondiente.
 
-<br>
+---
 
 >[!NOTE]
 >¿Podrías elaborar una matriz de riesgo penal de la organización?
@@ -82,10 +95,11 @@ La dirección de la organización es consciente de que es sujeto obligado para m
 **Fuentes**:
 - Sección "**Identificación de riesgos penales**" del apartado "**1. Cumplimiento de la responsabilidad penal**" del material didáctico de la unidad 3 para identificar los delitos.
 
+---
+
 ### Apartado 2. Sistema de gestión de compliance penal.
 
 >Propón al menos una acción mitigante por cada riesgo identificado.
-
 
 | IMPACTO / PROBABILIDAD | PROBABILIDAD BAJA                                  | PROBABILIDAD MEDIA                              | PROBABILIDAD ALTA                                                 |
 |-------------------------|--------------------------------------------------|------------------------------------------------|------------------------------------------------------------------|
@@ -98,6 +112,8 @@ La dirección de la organización es consciente de que es sujeto obligado para m
 
 **Fuentes**:
 - Sección "**Medidas para reducir o mitigar el riesgo penal**" del apartado "**1.1. Sistemas de gestión de compliance penal**" del material didáctico de la unidad 3 para identificar los delitos.
+
+---
 
 ### Apartado 3. Sistema de gestión antisoborno y anticorrupción.
 

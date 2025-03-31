@@ -1,5 +1,18 @@
 # TAREA Unidad 4: Legislación y jurisprudencia en materia de protección de datos
 
+## Índice
+
+- [Caso práctico](#caso-práctico)
+- [¿Qué te pedimos que hagas?](#qué-te-pedimos-que-hagas)
+	- [Apartado 1: Principios de protección de datos.](#apartado-1-principios-de-protección-de-datos)
+	- [Apartado 2: Regulación General de Protección de Datos.](#apartado-2-regulación-general-de-protección-de-datos)
+	- [Apartado 3: Análisis de impacto en privacidad.](#apartado-3-análisis-de-impacto-en-privacidad)
+- [Resultado](#resultado)
+	- [Calificación](#calificación)
+	- [Comentarios de retroalimentación y rúbrica](#comentarios-de-retroalimentación-y-rúbrica)
+
+<br>
+
 ## Caso práctico
 
 La compañía FlutterTech Solutions S.A. se encarga de proveer servicios de desarrollo de aplicaciones móviles multiplataforma, especializándose en la creación de soluciones personalizadas tanto para particulares como para empresas.
@@ -37,7 +50,7 @@ Entre ellos, podemos distinguir los siguientes, en relación con los servicios d
 - Datos sobre el historial médico de los pacientes.
 - Datos biométricos para acceder a la aplicación.
 
-<br>
+---
 
 >[!NOTE]
 >¿Alguno de los datos enumerados es sensible? ¿Cuáles de ellos?
@@ -53,6 +66,8 @@ La Regulación General de Protección de Datos establece los siguientes datos co
 - Datos genéticos y biométricos.
 
 En base a esto, podemos identificar los datos sobre el historial médico de los pacientes y los datos biométricos como sensibles, ya que su uso indebido puede provocar discriminación o afectar a la intimidad del titular.
+
+---
 
 ### Apartado 2: Regulación General de Protección de Datos.
 
@@ -79,7 +94,7 @@ Aplicándolos al contexto de la FlutterTech, podemos identificar estos casos com
 | Realización de una actividad de interés público.                                                                                             | FlutterTech colabora con la Junta de Andalucía en el desarrollo de una plataforma educativa que requiere el tratamiento de datos de docentes y alumnos para su correcto funcionamiento.                       |
 | Existencia de intereses legítimos perseguidos por el responsable del tratamiento o por un tercero.                                           | Para garantizar la seguridad de sus clientes, FlutterTech implementa herramientas de análisis de tráfico en sus aplicaciones con el fin de detectar y bloquear accesos no autorizados o intentos de fraude.   |
 
-<br>
+---
 
 >[!NOTE]
 >Indica al menos un ejemplo de cada figura de tratamiento de datos. 
@@ -98,7 +113,7 @@ En base a esto, podemos presentar los siguientes ejemplos para FlutterTech:
 | Responsable del tratamiento de datos o controlador | FlutterTech actúa como responsable del tratamiento cuando recopila y gestiona los datos personales de sus clientes para la ejecución de un contrato de desarrollo de aplicaciones. Es quien decide cómo y con qué finalidad se tratan esos datos.                             |
 | Encargado de tratamiento o procesador              | FlutterTech subcontrata a una empresa de hosting en la nube para almacenar las bases de datos de sus aplicaciones. En este caso, la empresa de hosting actúa como encargado del tratamiento, ya que procesa los datos en nombre de FlutterTech y siguiendo sus instrucciones. |
 
-<br>
+---
 
 >[!NOTE]
 >Indica tres actividades de tratamiento que estén llevadas a cabo por FlutterTech.
@@ -108,6 +123,8 @@ En base a la información proporcionada en el caso práctico, podemos identifica
 1. **Gestión de clientes y facturación**: La empresa recopila y almacena datos personales de sus clientes, como los mencionados en el [apartado 1](#apartado-1-principios-de-protección-de-datos), para gestionar contratos, facturación y pagos, entre otros.
 2. **Gestión de credenciales**: FlutterTech recoge información de usuarios finales, como credenciales de acceso y datos de uso, para garantizar el correcto funcionamiento de las aplicaciones.
 3. **Análisis de seguridad y prevención de fraudes**: Como la organización trabaja para una entidad bancaria con altos requisitos de seguridad, FlutterTech tendrá implantadas medidas de ciberseguridad en las aplicaciones que desarrolla para detectar posibles amenazas y prevenir ciberataques. Para ello, se puede hacer uso de distintos datos, como las direcciones IP de los dispositivos que usan sus servicios para determinar si la actividad del usuario es legítima.
+
+---
 
 ### Apartado 3: Análisis de impacto en privacidad. 
 

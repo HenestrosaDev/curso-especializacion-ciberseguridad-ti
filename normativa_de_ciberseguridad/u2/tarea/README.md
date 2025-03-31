@@ -1,5 +1,18 @@
 # TAREA Unidad 2: Diseño de sistemas de gestión de cumplimiento normativo
 
+## Índice
+
+- [Caso práctico](#caso-práctico)
+- [¿Qué te pedimos que hagas?](#qué-te-pedimos-que-hagas)
+	- [Apartado 1: Entorno regulatorio de aplicación](#apartado-1-entorno-regulatorio-de-aplicación)
+	- [Apartado 2: Análisis y gestión de riesgos](#apartado-2-análisis-y-gestión-de-riesgos)
+	- [Apartado 3: Sistema de gestión de cumplimiento](#apartado-3-sistema-de-gestión-de-cumplimiento)
+- [Resultado](#resultado)
+	- [Calificación](#calificación)
+	- [Comentarios de retroalimentación y rúbrica](#comentarios-de-retroalimentación-y-rúbrica)
+
+<br>
+
 ## Caso práctico
 
 La empresa FlutterTech Solutions S.A. se especializa en el desarrollo de aplicaciones móviles multiplataforma utilizando Flutter, un framework moderno y eficiente. Ofrece sus servicios a clientes en España y América Latina, trabajando con diversas industrias como el sector financiero, comercio electrónico y telecomunicaciones.
@@ -22,12 +35,14 @@ He aquí dos leyes de obligada aplicación para la empresa:
 - **Ley Orgánica de Protección de Datos (LOPD)**: Dado que FlutterTech desarrolla aplicaciones móviles que probablemente procesan datos personales de usuarios en España, la empresa tiene que cumplir la LOPD con tal de garantizar la privacidad de los datos personales recopilados en sus aplicaciones, así como implementar medidas técnicas y organizativas para proteger la información.
 - **Ley de Contratos del Sector Público (LCSP)**: Durante 2023, FlutterTech resultó adjudicataria de una licitación de la Consejería de Desarrollo Educativo y Formación Profesional de la Junta de Andalucía para desarrollar una aplicación móvil. Esto implica que la empresa debe cumplir con la LCSP, que regula las relaciones contractuales con la administración pública española, con el fin de garantizar la transparencia y la correcta ejecución del contrato. Además, debe respetar los plazos, presupuestos y términos establecidos en la adjudicación, junto con la aplicación de medidas específicas para prevenir el fraude y la corrupción.
 
-<br>
+---
 
 >[!NOTE]
 >¿Está obligada FlutterTech a cumplir con los reglamentos de la Unión Europea?  Justifica tu respuesta.
 
 Sí, dado que la empresa opera desde España, un país miembro de la Unión Europea, y está implicada en contratos públicos dentro de la misma. Por tanto, FlutterTech está obligada a cumplir los reglamentos de la UE que sean relevantes para sus actividades, como el Reglamento General de Protección de Datos (RGPD).
+
+---
 
 ### Apartado 2: Análisis y gestión de riesgos
 
@@ -58,6 +73,8 @@ Sí, dado que la empresa opera desde España, un país miembro de la Unión Euro
 
 	**Impacto**: Medio. Una denuncia podría generar sanciones económicas y afectar su reputación como empresa inclusiva y responsable.
 
+---
+
 ### Apartado 3: Sistema de gestión de cumplimiento
 
 >[!NOTE]
@@ -71,7 +88,7 @@ Estas son algunas de las muchas partes interesadas en el sistema de gestión de 
 4. **Reguladores y autoridades gubernamentales**: Organismos encargados de supervisar el cumplimiento de leyes como el GDPR, la Ley de Contratos del Sector Público, y las normativas de igualdad de género. Entre ellos se encuentran la Agencia Española de Protección de Datos (AEPD) y la Inspección de Trabajo y Seguridad Social (ITSS).
 5. **Socios y proveedores**: Están interesados en el cumplimiento normativo de FlutterTech para asegurar relaciones comerciales confiables y alineadas con las regulaciones y leyes aplicables.
 
-<br>
+---
 
 >[!NOTE]
 >Propón al menos un control por cada riesgo identificado en el apartado 2.
@@ -82,7 +99,7 @@ He aquí un control por cada riesgo identificado en el [apartado 2](#apartado-2-
 2. **Control para evitar incumplimientos en la ejecución del contrato con la Junta de Andalucía**: Para evitar este riesgo, se puede incorporar un sistema de gestión de proyectos con supervisión continua del cumplimiento de los requisitos del contrato. Para ello, se podría designar un gestor de proyectos especializado para asegurar la alineación con los objetivos. De forma específica para este contexto, sería conveniente realizar revisiones periódicas con la Junta para identificar posibles desviaciones.
 3. **Control para evitar la discriminación indirecta en las políticas de igualdad de género**: Con tal de prevenir este riesgo, se puede implementar un plan de igualdad auditable que monitoree aspectos como el salario, promociones y asignaciones de proyectos. Por otro lado, esto se podría reforzar con auditorías externas regulares para verificar el cumplimiento y un canal confidencial de denuncias para detectar y abordar cualquier práctica discriminatoria.
 
-<br>
+---
 
 >[!NOTE]
 >Define 5 métricas de evaluación del sistema de gestión de cumplimiento normativo.
