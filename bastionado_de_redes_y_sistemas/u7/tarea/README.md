@@ -42,7 +42,7 @@ awk '{print $5}' datos_conexiones.dat
 ```
 
 - `cut`: Permite extraer secciones de un texto basándose en delimitadores o posiciones de caracteres.
-- `-d':'`: Especifica un delimitador para separar los campos.
+- `-d':'`: Especifica el delimitador `:` para separar los campos.
 - `-f1`: Indica qué parte extraer después de dividir la línea con el delimitador. Significa todo lo que está antes del primer `:` en cada línea. Si quisiéramos extraer también el puerto junto a la IP, utilizaríamos la opción `-f1,2`.
 
 <br>
@@ -69,7 +69,7 @@ Al ejecutar este comando, se creará el archivo `datos_conexiones_ips_unicas.txt
 >[!NOTE]
 >Geolocaliza e identifica las IPs filtradas
 
-Para geolocalizar las IPs, podemos usar el servicio `whois` indicando la IP. Esto nos devolverá información acerca de la IP, como el país. Para ello, podemos crear un script en Bash en el mismo directorio en el que se ubica el archivo con las IPs filtradas (`datos_conexiones_ips_unicas.txt`):
+Para geolocalizar las IPs, podemos usar el servicio `whois` indicando la IP. Esto nos devolverá información acerca de la IP, como el país. Para ello, podemos crear un script en Bash en el mismo directorio en el que se ubica el archivo con las IPs filtradas, al que llamaremos `datos_conexiones_ips_unicas.txt`:
 
 ```bash
 #!/bin/bash
@@ -162,10 +162,11 @@ Si le echamos un vistazo a dicho fichero, podemos identificar las siguientes her
 	- **Enumeración de archivos y directorios sensibles:**
 
 		```
-		GET /nice%20ports%2C/Tri%6Eity.txt%2ebak
+		GET /.git/HEAD
+		GET /sdk
 		```
 
-	- **Verificación de rutas personalizadas:**
+	- **Verificación de rutas personalizadas para fingerprinting:**
 
 		```
 		GET /nmaplowercheck1618132114
@@ -212,8 +213,7 @@ Si le echamos un vistazo a dicho fichero, podemos identificar las siguientes her
 	- **Pruebas de inyección basadas en tiempo y errores:**
 
 		```
-		GET /rest/products/search?q=1%27%20AND%201%3D1%20--%20
-		GET /rest/products/search?q=1%20AND%209700%3D9700
+		GET /rest/products/search?q=%28SELECT%20%28CASE%20WHEN%20%285972%3D5972%29%20THEN%201%20ELSE%200%20END%29%29
 		```
 
 	- **Intentos de extracción de información de la base de datos:**
@@ -461,7 +461,7 @@ Sun Apr 11 09:08:34 2021 [pid 8020] [ftp] OK LOGIN: Client "::ffff:192.168.10.5"
 Sun Apr 11 08:18:07 2021 [pid 6627] [ftp] OK LOGIN: Client "::ffff:127.0.0.1", anon password "ls"
 ```
 
-Respecto a los archivos descargados encontramos estos dos, los cuales se descargaron mediante el comando `DOWNLOAD` de FTP después de la autenticación anónima exitosa.
+Respecto a los archivos descargados, encontramos estos dos, los cuales se descargaron mediante el comando `DOWNLOAD` de FTP:
 
 - `/www-data.bak`
 - `/coupons_2013.md.bak`
