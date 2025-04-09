@@ -6,8 +6,8 @@
 
 1. ¿Cuáles son las cuestiones clave en la protección de la información?
 	- [ ] Acceso con credenciales.
-	- [ ] Respaldo y Cifrado.
-	- [x] Confidencialidad, Integridad y Disponibilidad. 
+	- [ ] Respaldo y cifrado.
+	- [x] Confidencialidad, integridad y disponibilidad. 
 
 2. En el Cifrado Asimétrico:
 	- [ ] Se cifra con la clave privada y se descifra con la pública.

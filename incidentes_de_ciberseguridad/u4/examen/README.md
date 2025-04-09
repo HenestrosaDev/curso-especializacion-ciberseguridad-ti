@@ -68,18 +68,18 @@
 	- [ ] Instalación de IDS, IPS, SIEM y NAS cifrado.
 	- [ ] Bastionado, alerta temprana y cuestiones preventivas.
 
-12. ¿Cuáles son las principales ventajas de disponer de un SOC?:
+12. ¿Cuáles son las principales ventajas de disponer de un SOC?
 	- [x] Todas las anteriores.
 	- [ ] La centralización de la actividad de ciberseguridad de la empresa.
 	- [ ] El análisis de los datos con posterioridad a una incidencia.
 	- [ ] El almacenamiento de datos relevantes en relación con los incidentes.
 
-13. ¿A qué se debe principalmente la repetición de ataques anteriores?:
+13. ¿A qué se debe principalmente la repetición de ataques anteriores?
 	- [ ] A no actualizar las medidas antimalware.
 	- [x] A no documentar adecuadamente la causa y el coste del incidente.
 	- [ ] A no aplicar medidas preventivas.
 
-14. ¿A qué metodología pertenece la Creación de Políticas de Lecciones Aprendidas?:
+14. ¿A qué metodología pertenece la Creación de Políticas de Lecciones Aprendidas?
 	- [ ] ITIL.
 	- [ ] Seis Sigma.
 	- [ ] Agile.
@@ -91,7 +91,7 @@
 	- [ ] Los que instalan un troyano que pasa desapercibido mucho tiempo.
 	- [x] Los que se efectúan a través de servicios legítimos.
 
-16. ¿Qué se deberá detallar durante el proceso de Documentación de un Ciberincidente?:
+16. ¿Qué se deberá detallar durante el proceso de Documentación de un Ciberincidente?
 	- [ ] La causa del incidente.
 	- [ ] Las medidas a tomar para prevenir futuros incidentes similares.
 	- [ ] El coste del incidente, por compromiso de información o por impacto en los servicios que se hayan visto afectados.
@@ -120,7 +120,7 @@
 	- [x] Tiempo de espera online.
 	- [ ] Daño potencial a la organización.
 
-21. ¿En caso de ausencia de procedimientos de actuación, qué suele ocurrir en los momentos iniciales de afectación por un incidente?:
+21. En caso de ausencia de procedimientos de actuación, ¿qué suele ocurrir en los momentos iniciales de afectación por un incidente?
 	- [x] Por lo general hay un cierto desconcierto en lo relativo a las medidas que se deben tomar.
 	- [ ] Se levantan inmediatamente todos los escudos antimalware.
 	- [ ] Se cortan súbitamente las comunicaciones LAN/WAN.
@@ -137,7 +137,7 @@
 	- [x] Cuando se han establecido requisitos de ciberresiliencia, pero no se han documentado.
 	- [ ] Cuando se gestionan, actualizan y verifican los requisitos de ciberresiliencia.
 
-24. ¿Cuál de estas medidas de mitigación está ligada a la Filosofía Lean?:
+24. ¿Cuál de estas medidas de mitigación está ligada a la Filosofía Lean?
 	- [ ] Recuperar la última copia de seguridad limpia.
 	- [ ] Determinar las causas y los síntomas del ciberincidente para decidir la estrategia más eficaz.
 	- [x] Identificar y eliminar todo el software utilizado por los atacantes.

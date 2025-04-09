@@ -15,7 +15,7 @@
 	- [ ] Monitorización de la información.
 	- [x] Almacenamiento de la información.
 
-3. ¿Para qué sirve el patrón Greedydata?:
+3. ¿Para qué sirve el patrón Greedydata?
 	- [ ] Para capturar sólo letras, mayúsculas y minúsculas.
 	- [x] Para capturar una cadena de caracteres completa y grabarla en una variable.
 	- [ ] Para capturar información en formato hexadecimal.

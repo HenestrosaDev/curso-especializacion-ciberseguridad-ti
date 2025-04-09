@@ -63,7 +63,7 @@
 	- [x] Siempre funciona con las reglas de la comunidad y las personalizadas a la vez.
 
 10. ¿En qué posición de una regla Snort se sitúa la "Acción de la Regla"?
-	- [ ] Header.
+	- [x] Header.
 	- [ ] No Aplica.
 	- [ ] Trailer.
 
@@ -84,11 +84,6 @@
 	- [ ] Capa Transporte.
 	- [ ] Capa Enlace de Datos.
 	- [ ] Capa Física.
-
-13. ¿Cuáles de las siguientes labores se asocian con el segundo principio pragmático de la Ciberseguridad?
-	- [x] La detección y análisis rápido de los incidentes de seguridad.
-	- [ ] La dotación de políticas de respaldo.
-	- [ ] La instalación de la última versión del software infraestructural y de aplicación.
 
 14. ¿Qué capa de la Torre ISO-OSI asegura que la información se transfiere de forma comprensible para un sistema?
 	- [ ] Capa Sesión.
@@ -118,15 +113,6 @@
 	- [ ] No Aplica.
 	- [x] Header.
 	- [ ] Trailer.
-
-19. Qué capa de la Torre ISO-OSI introduce el direccionamiento y la comunicación entre diferentes redes?
-	- [ ] Capa Sesión.
-	- [ ] Capa Presentación.
-	- [ ] Capa Aplicación.
-	- [x] Capa Red.
-	- [ ] Capa Transporte.
-	- [ ] Capa Enlace de Datos.
-	- [ ] Capa Física.
 
 20. ¿Qué capa de la Torre ISO-OSI introduce el concepto de Integridad, asegurando que los datos no se deterioran durante la transferencia?
 	- [ ] Capa Sesión.

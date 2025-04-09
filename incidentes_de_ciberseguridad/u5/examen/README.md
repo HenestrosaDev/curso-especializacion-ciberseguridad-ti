@@ -5,10 +5,10 @@
 ## Preguntas y respuestas
 
 1. Señalar cuál de los siguientes incidentes tiene un nivel de peligrosidad Crítico:
-	- [ ] Infección por Código Dañino.
-	- [ ] Scanning o Sniffing.
-	- [ ] Revelación de Información.
-	- [x] Amenaza Persistente Avanzada.
+	- [ ] Infección por código dañino.
+	- [ ] Scanning o sniffing.
+	- [ ] Revelación de información.
+	- [x] Amenaza persistente avanzada.
 
 2. Para la notificación de los incidentes de ciberseguridad se utiliza como referencia:
 	- [ ] Los datos recopilados por los sistemas de alerta temprana.
@@ -51,9 +51,9 @@
 	- [ ] Crítico.
 
 8. ¿Qué organismo edita y mantiene la Guía Nacional de Notificación y Gestión de Ciberincidentes?
-	- [ ] El INCIBE.
+	- [x] El INCIBE.
 	- [ ] El Esquema Nacional de Seguridad.
-	- [x] El Consejo Nacional de Ciberseguridad.
+	- [ ] El Consejo Nacional de Ciberseguridad.
 
 9. ¿Cuál es la misión de un Equipo de Respuesta a Incidentes de Seguridad?
 	- [ ] Es el SOC de una empresa privada.
@@ -100,7 +100,7 @@
 	- [ ] Muy Alto.
 	- [ ] Crítico.
 
-16. ¿Qué contiene, entre otras cosas, el ENS?:
+16. ¿Qué contiene, entre otras cosas, el ENS?
 	- [ ] La relación entre Niveles de Peligrosidad y Niveles de Impacto.
 	- [ ] Los Niveles de Peligrosidad de los incidentes.
 	- [ ] Los Niveles de Impacto de los incidentes.

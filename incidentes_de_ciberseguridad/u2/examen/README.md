@@ -6,8 +6,8 @@
 
 1. ¿En qué categoría se clasifica la Ingeniería Social?
 	- [ ] Compromiso de la Información.
-	- [x] Disponibilidad.
-	- [ ] Obtención de Información.
+	- [ ] Disponibilidad.
+	- [x] Obtención de Información.
 	- [ ] Contenido Abusivo.
 	- [ ] Intrusión.
 	- [ ] Intento de Intrusión.
@@ -73,19 +73,19 @@
 
 8. Los Stealers y Keyloggers son:
 	- [ ] Herramientas de captura de pulsaciones de teclas.
-	- [ ] Herramientas de Ingeniería Social.
-	- [ ] Herramienas de Robo de Datos.
+	- [ ] Herramientas de ingeniería social.
+	- [ ] Herramientas de robo de datos.
 	- [x] Todas las anteriores.
 
 9. ¿En qué categoría se clasifica un Sabotaje Físico?
-	- [ ] Compromiso de la Información.
-	- [ ] Contenido Abusivo.
+	- [ ] Compromiso de la información.
+	- [ ] Contenido abusivo.
 	- [ ] Fraude.
-	- [ ] Intento de Intrusión.
+	- [ ] Intento de intrusión.
 	- [ ] Intrusión.
-	- [ ] Contenido Dañino.
+	- [ ] Contenido dañino.
 	- [ ] Vulnerabilidad.
-	- [ ] Obtención de Información.
+	- [ ] Obtención de información.
 	- [x] Disponibilidad.
 
 10. ¿Cuál es la clave para combatir un incidente de ciberseguridad?
@@ -94,37 +94,26 @@
 	- [ ] Analizar su impacto
 	- [ ] Conocer su tipología.
 
-11. ¿En qué categoría se clasifica un Sabotaje Físico?
-	- [x] Compromiso de la Información.
-	- [ ] Contenido Abusivo.
-	- [ ] Fraude.
-	- [ ] Intento de Intrusión.
-	- [ ] Intrusión.
-	- [ ] Contenido Dañino.
-	- [ ] Vulnerabilidad.
-	- [ ] Obtención de Información.
-	- [ ] Disponibilidad.
-
 12. ¿En qué categoría se clasifica un Phishing?
-	- [ ] Compromiso de la Información.
-	- [ ] Contenido Abusivo.
+	- [ ] Compromiso de la información.
+	- [ ] Contenido abusivo.
 	- [x] Fraude.
-	- [ ] Intento de Intrusión.
+	- [ ] Intento de intrusión.
 	- [ ] Intrusión.
-	- [ ] Contenido Dañino.
+	- [ ] Contenido dañino.
 	- [ ] Vulnerabilidad.
-	- [ ] Obtención de Información.
+	- [ ] Obtención de información.
 	- [ ] Disponibilidad.
 
 13. ¿En qué categoría se clasifica una Denegación de Servicio Distribuida?
-	- [ ] Compromiso de la Información.
-	- [ ] Contenido Abusivo.
+	- [ ] Compromiso de la información.
+	- [ ] Contenido abusivo.
 	- [ ] Fraude.
-	- [ ] Intento de Intrusión.
+	- [ ] Intento de intrusión.
 	- [ ] Intrusión.
-	- [ ] Contenido Dañino.
+	- [ ] Contenido dañino.
 	- [ ] Vulnerabilidad.
-	- [ ] Obtención de Información.
+	- [ ] Obtención de información.
 	- [x] Disponibilidad.
 
 14. ¿Cuál es la clave para combatir un incidente de ciberseguridad?
@@ -134,76 +123,76 @@
 	- [ ] Reaccionar para contenerlo.
 	- [ ] Determinar su causa raíz.
 
-15. ¿Qué es un incidente de ciberseguridad?:
+15. ¿Qué es un incidente de ciberseguridad?
 	- [ ] Es una incursión en un sistema de información empresarial.
 	- [ ] Es el bloqueo de una página web.
 	- [ ] Es un robo de datos o activos informáticos.
 	- [x] Es un evento que compromete el negocio y amenaza la seguridad de la información.
 
 16. ¿En qué categoría se clasifica el Malware de Dominio DGA?
-	- [ ] Compromiso de la Información.
-	- [ ] Contenido Abusivo.
+	- [ ] Compromiso de la información.
+	- [ ] Contenido abusivo.
 	- [ ] Fraude.
-	- [ ] Intento de Intrusión.
+	- [ ] Intento de intrusión.
 	- [ ] Intrusión.
-	- [x] Contenido Dañino.
+	- [x] Contenido dañino.
 	- [ ] Vulnerabilidad.
-	- [ ] Obtención de Información.
+	- [ ] Obtención de información.
 	- [ ] Disponibilidad.
 
 17. ¿En qué categoría se clasifica una Fuga de Información Confidencial?
-	- [x] Compromiso de la Información.
-	- [ ] Contenido Abusivo.
+	- [x] Compromiso de la información.
+	- [ ] Contenido abusivo.
 	- [ ] Fraude.
-	- [ ] Intento de Intrusión.
+	- [ ] Intento de intrusión.
 	- [ ] Intrusión.
-	- [ ] Contenido Dañino.
+	- [ ] Contenido dañino.
 	- [ ] Vulnerabilidad.
-	- [ ] Obtención de Información.
+	- [ ] Obtención de información.
 	- [ ] Disponibilidad.
 
 18. ¿En qué categoría se clasifica un Acceso No Autorizado a Información?
-	- [x] Compromiso de la Información.
-	- [ ] Contenido Abusivo.
+	- [x] Compromiso de la información.
+	- [ ] Contenido abusivo.
 	- [ ] Fraude.
-	- [ ] Intento de Intrusión.
+	- [ ] Intento de intrusión.
 	- [ ] Intrusión.
-	- [ ] Contenido Dañino.
+	- [ ] Contenido dañino.
 	- [ ] Vulnerabilidad.
-	- [ ] Obtención de Información.
+	- [ ] Obtención de información.
 	- [ ] Disponibilidad.
 
 19. ¿En qué categoría se clasifica un Delito de Odio?
-	- [ ] Compromiso de la Información.
-	- [x] Contenido Abusivo.
+	- [ ] Compromiso de la información.
+	- [x] Contenido abusivo.
 	- [ ] Fraude.
-	- [ ] Intento de Intrusión.
+	- [ ] Intento de intrusión.
 	- [ ] Intrusión.
-	- [ ] Contenido Dañino.
+	- [ ] Contenido dañino.
 	- [ ] Vulnerabilidad.
-	- [ ] Obtención de Información.
+	- [ ] Obtención de información.
 	- [ ] Disponibilidad.
 
 20. ¿En qué categoría se clasifica el Escaneo de Redes?
-	- [ ] Compromiso de la Información.
-	- [ ] Contenido Abusivo.
+	- [ ] Compromiso de la información.
+	- [ ] Contenido abusivo.
 	- [ ] Fraude.
-	- [ ] Intento de Intrusión.
+	- [ ] Intento de intrusión.
 	- [ ] Intrusión.
-	- [ ] Contenido Dañino.
+	- [ ] Contenido dañino.
 	- [ ] Vulnerabilidad.
-	- [x] Obtención de Información.
+	- [x] Obtención de información.
 	- [ ] Disponibilidad.
 
 21. ¿En qué categoría se clasifica una Suplantación?
-	- [ ] Compromiso de la Información.
-	- [ ] Contenido Abusivo.
+	- [ ] Compromiso de la información.
+	- [ ] Contenido abusivo.
 	- [x] Fraude.
-	- [ ] Intento de Intrusión.
+	- [ ] Intento de intrusión.
 	- [ ] Intrusión.
-	- [ ] Contenido Dañino.
+	- [ ] Contenido dañino.
 	- [ ] Vulnerabilidad.
-	- [ ] Obtención de Información.
+	- [ ] Obtención de información.
 	- [ ] Disponibilidad.
 
 22. Un correo SPAM se clasifica como:
@@ -212,48 +201,37 @@
 	- [ ] Contenido dañino.
 	- [x] Contenido abusivo. 
 
-23. ¿En qué categoría se clasifica una Suplantación?
-	- [ ] Compromiso de la Información.
-	- [ ] Contenido Abusivo.
-	- [ ] Fraude.
-	- [ ] Intento de Intrusión.
-	- [ ] Intrusión.
-	- [x] Contenido Dañino.
-	- [ ] Vulnerabilidad.
-	- [ ] Obtención de Información.
-	- [ ] Disponibilidad.
-
 24. ¿En qué categoría se clasifica un Compromiso de Cuenta, con o sin Privilegios?
-	- [ ] Compromiso de la Información.
-	- [ ] Contenido Abusivo.
+	- [ ] Compromiso de la información.
+	- [ ] Contenido abusivo.
 	- [ ] Fraude.
-	- [ ] Intento de Intrusión.
+	- [ ] Intento de intrusión.
 	- [x] Intrusión.
-	- [ ] Contenido Dañino.
+	- [ ] Contenido dañino.
 	- [ ] Vulnerabilidad.
-	- [ ] Obtención de Información.
+	- [ ] Obtención de información.
 	- [ ] Disponibilidad.
 
 25. ¿En qué categoría se clasifica la Explotación de Vulnerabilidades Conocidas?
-	- [ ] Compromiso de la Información.
-	- [ ] Contenido Abusivo.
+	- [ ] Compromiso de la información.
+	- [ ] Contenido abusivo.
 	- [ ] Fraude.
-	- [x] Intento de Intrusión.
+	- [x] Intento de intrusión.
 	- [ ] Intrusión.
-	- [ ] Contenido Dañino.
+	- [ ] Contenido dañino.
 	- [ ] Vulnerabilidad.
-	- [ ] Obtención de Información.
+	- [ ] Obtención de información.
 	- [ ] Disponibilidad.
 
 26. ¿En qué categoría se clasifica las Conexiones con Servidor C&C?
-	- [ ] Compromiso de la Información.
-	- [ ] Contenido Abusivo.
+	- [ ] Compromiso de la información.
+	- [ ] Contenido abusivo.
 	- [ ] Fraude.
-	- [ ] Intento de Intrusión.
+	- [ ] Intento de intrusión.
 	- [ ] Intrusión.
-	- [x] Contenido Dañino.
+	- [x] Contenido dañino.
 	- [ ] Vulnerabilidad.
-	- [ ] Obtención de Información.
+	- [ ] Obtención de información.
 	- [ ] Disponibilidad.
 
 27. Señalar cuáles de las siguientes herramientas no se usan en OSINT:
@@ -263,12 +241,12 @@
 	- [ ] Google, Bing, Yahoo, Ask.
 
 28. ¿En qué categoría se clasifica la Infección de sistemas con Malware?
-	- [ ] Compromiso de la Información.
-	- [ ] Contenido Abusivo.
+	- [ ] Compromiso de la información.
+	- [ ] Contenido abusivo.
 	- [ ] Fraude.
-	- [ ] Intento de Intrusión.
+	- [ ] Intento de intrusión.
 	- [ ] Intrusión.
-	- [x] Contenido Dañino.
+	- [x] Contenido dañino.
 	- [ ] Vulnerabilidad.
-	- [ ] Obtención de Información.
+	- [ ] Obtención de información.
 	- [ ] Disponibilidad.

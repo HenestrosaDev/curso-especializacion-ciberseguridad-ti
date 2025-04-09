@@ -71,16 +71,16 @@
 	- [x] Por defecto no tiene ningún tipo de cifrado.
 
 13. ¿Qué se debe hacer para no invalidar el proceso de recolección de información?
-- [x] Todas las anteriores.
-- [ ] No confiar en la información proporcionada por los programas del sistema.
-- [ ] No apagar el ordenador hasta que se haya recopilado toda la información.
-- [ ] No ejecutar programas que modifiquen la fecha y hora de acceso de los ficheros del sistema.
+	- [x] Todas las anteriores.
+	- [ ] No confiar en la información proporcionada por los programas del sistema.
+	- [ ] No apagar el ordenador hasta que se haya recopilado toda la información.
+	- [ ] No ejecutar programas que modifiquen la fecha y hora de acceso de los ficheros del sistema.
 
 14. El grupo de defensa proactiva de los sistemas frente a los incidentes es el:
 	- [ ] Equipo Morado.
 	- [ ] Equipo Blanco.
 	- [ ] Equipo Rojo.
-	- [ ] Equipo Azul.
+	- [x] Equipo Azul.
 
 15. ¿Qué características deben tener los procesos que recopilan información con valor legal?
 	- [x] Deben ser conocidos, replicables y no deben alterar la información al recogerla.
@@ -99,7 +99,7 @@
 	- [x] Registros y contenido de la caché.
 	- [ ] Logs del sistema.
 
-18. ¿En qué consiste la correlación de información durante el análisis de evidencias?:
+18. ¿En qué consiste la correlación de información durante el análisis de evidencias?
 	- [ ] Ninguna de las anteriores.
 	- [x] En enlazar la información con otra información semejante que pueda facilitar la extracción de conclusiones.
 	- [ ] En complementar la información filtrada con información adicional que resulte valiosa o imprescindible.
@@ -120,7 +120,7 @@
 	- [ ] Primero estabilizar el sistema y luego recoger la información.
 	- [ ] Analizar la información directamente sobre el sistema y recoger después lo que resulte relevante.
 
-22. ¿Cuáles son las fases del procedimiento del CSIRT de referencia?:
+22. ¿Cuáles son las fases del procedimiento del CSIRT de referencia?
 	- [x] Apertura, Priorización y Resolución.
 	- [ ] Detección, Alerta y Mitigación.
 	- [ ] Notificación, Análisis y Conclusiones.
@@ -136,7 +136,7 @@
 	- [ ] La Norma ISO/IEC 27032.
 	- [x] La Norma RFC3227.
 
-25. ¿Cuál es el último paso de la recolección de evidencias, que además se suele olvidar?:
+25. ¿Cuál es el último paso de la recolección de evidencias, que además se suele olvidar?
 	- [ ] Comprobar el grado de sincronización del reloj del sistema.
 	- [ ] Fijar el orden de volatilidad para cada sistema.
 	- [ ] Documentar cada paso.
