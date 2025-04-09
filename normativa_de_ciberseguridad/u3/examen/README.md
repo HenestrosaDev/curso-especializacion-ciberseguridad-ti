@@ -8,14 +8,13 @@
 	- [x] Falso
 	- [ ] Verdadero
 
-2. Un ciberdelincuente accede a los datos de una organización para obtener información confidencial de la
-compañía. ¿Qué delito está cometiendo?
+2. Un ciberdelincuente accede a los datos de una organización para obtener información confidencial de la compañía. ¿Qué delito está cometiendo?
 	- [ ] Delito contra la propiedad intelectual e industrial, el mercado y los consumidores.
 	- [ ] Estafas y fraudes
 	- [ ] Daños informáticos.
 	- [x] Delito contra la intimidad, allanamiento informático y otros delitos informáticos
 
-3. ¿Que debe incluir una estrategia de comunicación de un sistema de gestión de compliance penal?
+3. ¿Qué debe incluir una estrategia de comunicación de un sistema de gestión de compliance penal?
 	- [ ] Recursos.
 	- [ ] La política de gestión de cumplimiento.
 	- [ ] Un riesgo.
@@ -27,12 +26,11 @@ compañía. ¿Qué delito está cometiendo?
 	- [ ] Convenio colectivo de la organización.
 	- [ ] Estrategia comercial de la organización.
 
-5. La política de gestión de compliance debe estar accesible a los empleados de la asesoría jurídica de la
-organización. ¿Verdadero o falso?
+5. La política de gestión de compliance debe estar accesible a los empleados de la asesoría jurídica de la organización. ¿Verdadero o falso?
 	- [ ] Verdadero
 	- [x] Falso
 
-6. Si una persona se instala una copia no autorizada de Windows ¿Qué delito esta cometiendo?
+6. Si una persona se instala una copia no autorizada de Windows, ¿qué delito esta cometiendo?
 	- [ ] Estafas y fraudes
 	- [ ] Delito contra la intimidad, allanamiento informático y otros delitos informáticos.
 	- [ ] Daños informáticos.
@@ -52,8 +50,7 @@ organización. ¿Verdadero o falso?
 	- [x] ISO 37001
 	- [ ] ISO 19601
 
-10. Un ciberdelincuente envía un correo electrónico a la secretaria de dirección suplantando al CEO de una
-organización con el objetivo de que realice un pago a un proveedor falso. ¿Qué delito está cometiendo?
+10. Un ciberdelincuente envía un correo electrónico a la secretaria de dirección suplantando al CEO de una organización con el objetivo de que realice un pago a un proveedor falso. ¿Qué delito está cometiendo?
 	- [x] Estafas y fraudes.
 	- [ ] Delito contra la intimidad, allanamiento informático y otros delitos informáticos.
 	- [ ] Daños informáticos.
@@ -73,8 +70,7 @@ organización con el objetivo de que realice un pago a un proveedor falso. ¿Qu�
 	- [ ] Falso
 	- [x] Verdadero	
 
-14. Los posibles delitos y sanciones que puede recibir una organización, están estipulados en la constitución,
-consultable en el BOE. ¿Verdadero o falso?
+14. Los posibles delitos y sanciones que puede recibir una organización, están estipulados en la constitución, consultable en el BOE. ¿Verdadero o falso?
 	- [x] Falso
 	- [ ] Verdadero
 
@@ -82,7 +78,7 @@ consultable en el BOE. ¿Verdadero o falso?
 	- [ ] Ser utilizado al menos con carácter anual.
 	- [ ] Publicar la información de los empleados sancionados.
 	- [x] Establecer las consecuencias de un incumplimiento.
-	- [ ] Establecer a que finalidad se dedicará el dinero de las sanciones.
+	- [ ] Establecer a qué finalidad se dedicará el dinero de las sanciones.
 
 16. La mejor manera de demostrar el liderazgo y la cultura de cumplimiento en una organización es:
 	- [x] Firmando, aprobando y promoviendo una política de compliance penal en la empresa.
@@ -100,8 +96,7 @@ consultable en el BOE. ¿Verdadero o falso?
 	- [ ] Falso
 	- [x] Verdadero
 
-19. ¿Cuál de las siguientes NO es una función de la dirección con respecto a la demostración de liderazgo y
-compromiso?
+19. ¿Cuál de las siguientes NO es una función de la dirección con respecto a la demostración de liderazgo y compromiso?
 	- [ ] Dotar de recursos humanos y financieros al sistema de gestión de compliance penal.
 	- [x] Adquirir un software de cumplimiento.
 	- [ ] Promover una cultura de compliance en la organización.

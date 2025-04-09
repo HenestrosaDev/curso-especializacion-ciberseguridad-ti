@@ -52,15 +52,13 @@
 	- [ ] Planificación del sistema.
 	- [ ] Soporte al sistema de gestión.
 
-9. ¿En que epígrafe del SGC se detallan las acciones realizadas para dar respuesta a unas observaciones
-identificadas tras una auditoría al sistema de gestión de compliance?
+9. ¿En que epígrafe del SGC se detallan las acciones realizadas para dar respuesta a unas observaciones identificadas tras una auditoría al sistema de gestión de compliance?
 	- [x] Mejora continua.
 	- [ ] Soporte al sistema de gestión.
 	- [ ] Operación del sistema.
 	- [ ] Planificación del sistema.
 
-10. La valoración cuantitativa de un riesgo consiste en asignar un valor numérico a un riesgo identificado.
-¿Verdadero o falso?
+10. La valoración cuantitativa de un riesgo consiste en asignar un valor numérico a un riesgo identificado. ¿Verdadero o falso?
 	- [ ] Falso
 	- [x] Verdadero
 
@@ -96,7 +94,7 @@ identificadas tras una auditoría al sistema de gestión de compliance?
 	- [ ] Verdadero
 	- [x] Falso
 
-17. El producto del impacto por la probabilidad, es:
+17. El producto del impacto por la probabilidad es:
 	- [ ] Una vulnerabilidad.
 	- [x] Un riesgo.
 	- [ ] Un impacto.
@@ -106,7 +104,7 @@ identificadas tras una auditoría al sistema de gestión de compliance?
 - [ ] Falso
 - [x] Verdadero
 
-19. ACME ha tomado la decisión de no prestar servicios de prestamos dispositivos móviles por los riesgos financieros que implica el proceso. ¿Qué opción del tratamiento del riesgo se está tomando?
+19. ACME ha tomado la decisión de no prestar servicios de préstamos dispositivos móviles por los riesgos financieros que implica el proceso. ¿Qué opciones del tratamiento del riesgo se están tomando?
 	- [x] Eliminar.
 	- [x] Evitar.
 	- [ ] Mitigar.

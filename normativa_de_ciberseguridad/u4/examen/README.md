@@ -1,22 +1,22 @@
 # EXAMEN Unidad 4: Legislación y jurisprudencia en materia de protección de datos
 
-[Test de Daypo](https://www.daypo.com/nc-04.html)
+[test de daypo](https://www.daypo.com/nc-04.html)
 
-## Preguntas y respuestas
+## preguntas y respuestas
 
-1. Cuando un responsable de tratamiento informa sobre la finalidad del tratamiento de datos. ¿A qué derecho está dando respuesta?
+1. Cuando un responsable de tratamiento informa sobre la finalidad del tratamiento de datos, ¿a qué derecho está dando respuesta?
 	- [ ] Derecho a la limitación de tratamiento.
-	- [ ] Derecho de Acceso.
+	- [ ] Derecho de acceso.
 	- [ ] Derecho a la portabilidad.
-	- [x] Derecho de Información
+	- [x] Derecho de información
 
-2. Un cliente de ACME que este ejerciendo un derecho de acceso. ¿Qué figura ejerce ante los datos?
+2. Un cliente de ACME que esté ejerciendo un derecho de acceso, ¿qué figura ejerce ante los datos?
 	- [x] Interesado.
 	- [ ] Delegado de información.
-	- [ ] encargado de tratamiento.
+	- [ ] Encargado de tratamiento.
 	- [ ] Responsable de tratamiento.
 
-3. ¿Cual de los siguientes NO es un dato sensible?
+3. ¿Cuál de los siguientes NO es un dato sensible?
 	- [ ] Origen racial.
 	- [ ] Salud.
 	- [ ] Afiliación política.
@@ -41,7 +41,7 @@
 7. Un usuario quiere que una empresa borre todos los datos que tiene sobre él, ¿qué derecho solicitará?
 	- [x] Derecho de supresión.
 	- [ ] Derecho a la limitación de tratamiento.
-	- [ ] Derecho de Acceso.
+	- [ ] Derecho de acceso.
 	- [ ] Derecho a la portabilidad.
 
 8. El tratamiento de datos biométricos está prohibido salvo que sea necesario para el control de acceso de los empleados. ¿Verdadero o falso?
@@ -132,7 +132,7 @@
 
 25. ACME subcontrata los servicios de atención al cliente en un tercero. ¿Qué figura ejerce este tercero ante los datos?
 	- [ ] Interesado.
-	- [x] encargado de tratamiento.
+	- [x] Encargado de tratamiento.
 	- [ ] Responsable de tratamiento.
 	- [ ] Propietario de información.
 
@@ -160,6 +160,6 @@
 
 30. Si soy cliente de ACME desde el año que fue fundada ¿Qué figura ejerce ACME ante los datos?
 	- [ ] Interesado.
-	- [ ] encargado de tratamiento.
+	- [ ] Encargado de tratamiento.
 	- [ ] Propietario de información.
 	- [x] Responsable de tratamiento.

@@ -46,15 +46,11 @@
 	- [ ] Verdadero
 	- [x] Falso
 
-9. ¿Con qué CERT de referencia de contar el SEPE para dar respuesta a una incidencia de seguridad?
+9. ¿Con qué CERT de referencia ha de contar el SEPE para dar respuesta a una incidencia de seguridad?
 	- [ ] SEPE-CERT
 	- [ ] INCIBE-CERT
 	- [ ] ESPDEF-CERT
 	- [x] CCN-CERT
-
-10. El objetivo del procedimiento administrativo común de las Administraciones Públicas es mejorar la seguridad de la información de la administración. ¿Verdadero o falso?
-	- [ ] Verdadero
-	- [x] Falso
 
 11. Los procesos de identificar, proteger, detectar, responder y recuperar, ¿a qué marco pertenecen?
 	- [ ] Marco SCF
@@ -62,7 +58,7 @@
 	- [ ] ISO 27001
 	- [ ] Modelo CobIT
 
-12. ¿En que proceso podriamos incluir la formación y capacitación en ciberseguridad?
+12. ¿En qué proceso podríamos incluir la formación y capacitación en ciberseguridad?
 	- [ ] Identificación
 	- [ ] Respuesta
 	- [ ] Detección
@@ -84,8 +80,8 @@
 
 16. ¿Qué tres grupos de medidas hay en el anexo 2 del Esquema nacional de seguridad?
 	- [ ] Marco preventivo, detectivo y operativo
-	- [ ] Medidas de protección, deteccion y organización
-	- [x] Marco Organizativo, operacional y medidas de protección
+	- [ ] Medidas de protección, detección y organización
+	- [x] Marco organizativo, operacional y medidas de protección
 	- [ ] Marco detectivo, operativo, y organizativo
 
 17. La directiva NIS recoge las medidas para garantizar un nivel de seguridad elevado en entidades tanto del sector privado como del sector público en toda Europa. ¿Verdadero o falso?
@@ -128,7 +124,7 @@
 	- [ ] El establecimiento de un marco de comunicación entre las diferentes instituciones para la compartición de información de seguridad.
 	- [ ] La homogeneización de las medidas de seguridad entre organizaciones de diferentes países.
 	- [ ] La mejora de los procesos de respuesta a eventos e incidencias de seguridad.
-	- [x] La formación de un conjunto de profesionales que dara servicio a las administraciones públicas europeas.
+	- [x] La formación de un conjunto de profesionales que dará servicio a las administraciones públicas europeas.
 
 25. ¿Cuál de los siguientes es el equipo de respuesta urgente a incidentes de seguridad?
 	- [x] CERT
@@ -140,7 +136,7 @@
 	- [ ] Analizar los riesgos identificados
 	- [ ] Determinar la mejor decisión de tratamiento de riesgos
 	- [x] Minimizar los riesgos
-	- [ ] Identificar riesgos para las actividades criticas para la organización
+	- [ ] Identificar riesgos para las actividades críticas para la organización
 
 27. ¿Cuál de las siguientes organizaciones no está obligada a cumplir con el Esquema Nacional de Seguridad?
 	- [ ] ACME, como empresa de telecomunicaciones dando servicio a Fuerzas y Cuerpos de Seguridad del Estado
