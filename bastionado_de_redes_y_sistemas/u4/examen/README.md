@@ -18,7 +18,7 @@
 
 3. Para cubrir las necesidades de protocolos de tipo AAA, Cisco creó:
 	- [ ] Ninguna respuesta es correcta.
-	- [ ] TACACS.
+	- [x] TACACS.
 	- [ ] FreeRadius.
 	- [ ] DIAMETER.
 
@@ -76,7 +76,7 @@
 	- [x] Falso
 	- [ ] Verdadero
 
-16. Uno de los principales problemas de un servidor RADIUS es usa el protocolo **** en su implementación:
+16. Uno de los principales problemas de un servidor RADIUS es usar el protocolo **** en su implementación:
 	- [x] UDP.
 	- [ ] SMTP.
 	- [ ] Ninguna respuesta es correcta.
@@ -118,7 +118,7 @@
 	- [ ] Verdadero
 	- [x] Falso
 
-25. Para cubrir las carencias en seguridad de RADIUS se creo TACACS. ¿Verdadero o falso?
+25. Para cubrir las carencias en seguridad de RADIUS se creó TACACS. ¿Verdadero o falso?
 	- [x] Falso
 	- [ ] Verdadero
 
@@ -131,7 +131,7 @@
 27. Los problemas más comunes en el uso de credenciales son:
 	- [ ] Contraseñas por defecto y las contraseñas seguras
 	- [ ] Ninguna es correcta
-	- [x] contraseñas por defecto y compartir contraseñas
+	- [x] Contraseñas por defecto y compartir contraseñas
 	- [ ] Las contraseñas seguras exclusivamente
 
 28. RADIUS y TACACS son protocolos orientados a la autenticación, autorización y conteo. ¿Verdadero o falso?

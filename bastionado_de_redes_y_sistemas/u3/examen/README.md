@@ -73,10 +73,10 @@
 	- [x] Verdadero
 
 15. Los tres tipos de factores son:
-	- [ ] Algo que se, algo que soy y algo que vendo.
-	- [ ] Algo que se, algo que soy y algo que tenía.
+	- [ ] Algo que sé, algo que soy y algo que vendo.
+	- [ ] Algo que sé, algo que soy y algo que tenía.
 	- [ ] Algo que conocía, algo que soy y algo que tengo.
-	- [x] Algo que se, algo que soy y algo que tengo.
+	- [x] Algo que sé, algo que soy y algo que tengo.
 
 16. El acrónimo para definir el doble factor de autenticación es:
 	- [ ] FA2
@@ -88,7 +88,7 @@
 	- [ ] Verdadero
 	- [x] Falso
 
-18. Las técnicas de acceso basadas en biometría, son infalibles ¿Verdadero o falso?
+18. Las técnicas de acceso basadas en biometría son infalibles ¿Verdadero o falso?
 	- [ ] Verdadero
 	- [x] Falso
 

@@ -4,7 +4,7 @@
 
 ## Preguntas y respuestas
 
-1. La inteligencia de amenazas (threat intelligence) nos puede ayudar a prevenir ataques de DoS. ¿Verdadero o falso?.
+1. La inteligencia de amenazas (threat intelligence) nos puede ayudar a prevenir ataques de DoS. ¿Verdadero o falso?
 	- [ ] Falso
 	- [x] Verdadero
 
@@ -32,7 +32,7 @@
 	- [ ] IP Spoofing
 	- [ ] Ping de la muerte
 
-7. Los procedimientos operativos del SOC que ayudan actuar en cada tipo de incidente de seguridad se denominan.
+7. Los procedimientos operativos del SOC que ayudan actuar en cada tipo de incidente de seguridad se denominan:
 	- [ ] Whitebook
 	- [x] Playbooks
 	- [ ] HideBooks
@@ -46,7 +46,7 @@
 	- [x] Verdadero
 	- [ ] Falso
 
-10. Qué servicio utiliza SPF(Sender Policy Framework) para validar a los remitentes:
+10. ¿Qué servicio utiliza SPF(Sender Policy Framework) para validar a los remitentes?
 	- [ ] SSH
 	- [x] DNS
 	- [ ] FTPS
@@ -96,7 +96,7 @@
 	- [ ] Investigación de alertas de seguridad
 	- [ ] Mejorar las reglas de detección
 
-20. Ante un incidente que deriva en un resultado de falso positivo no es necesario hacer nada sobre el SIEM o el dispositivo que la genera. ¿Verdadero o falso?.
+20. Ante un incidente que deriva en un resultado de falso positivo no es necesario hacer nada sobre el SIEM o el dispositivo que la genera. ¿Verdadero o falso?
 	- [ ] Verdadero
 	- [x] Falso
 

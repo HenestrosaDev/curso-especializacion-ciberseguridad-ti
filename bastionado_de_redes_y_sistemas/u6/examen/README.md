@@ -41,7 +41,7 @@
 	- [ ] Falso
 	- [x] Verdadero
 
-9. Los firewall para servicios Web (WAF). ¿Qué capa OSI analizan para poder para proteger la red de los ataque web?
+9. ¿Qué capa OSI analizan los firewall para servicios web (WAF) para proteger la red de los ataques web?
 	- [ ] Capa 1 física
 	- [ ] Capa 2 enlace
 	- [x] Capa 7 aplicación
@@ -79,7 +79,7 @@
 	- [x] Proveedor del servicio
 	- [ ] Gobierno del país que alberga la infraestructura
 
-17. Cuál es una metodología de desarrollo seguro?
+17. ¿Cuál es una metodología de desarrollo seguro?
 	- [ ] OSSTM
 	- [x] OWASP
 	- [ ] Kali
@@ -137,7 +137,7 @@
 	- [ ] Colocar los servidores en la planta más baja del edificio
 	- [ ] Ocultar todas las contraseñas en ficheros con nombres comunes del sistema operativo para que no sean rastreables.
 
-29. ¿Qué medida de seguridad podemos implementar contra el ataques de fuerza bruta en los servicios web?
+29. ¿Qué medida de seguridad podemos implementar contra los ataques de fuerza bruta en los servicios web?
 	- [ ] Política de contraseña de 5 caracteres con obligación de una mayúscula
 	- [ ] No permitir el registro de nombres de usuarios comunes
 	- [x] CAPTCHA

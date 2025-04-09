@@ -28,14 +28,14 @@
 	- [x] Falso
 	- [ ] Verdadero
 
-6. Para el paradigma Zero Trust los usuarios de confianza también pasar a ser no confiables y es necesario verificar su legitimidad. ¿Verdadero o falso?
+6. Para el paradigma Zero Trust los usuarios de confianza también pasan a ser no confiables y es necesario verificar su legitimidad. ¿Verdadero o falso?
 	- [ ] Falso
 	- [x] Verdadero
 
 7. ¿Por qué surgió el paradigma Zero Trust?
-	- [ ] El aumento del coste de la energia
-	- [x] Movilidad se los usuarios
-	- [ ] Cumplir los requisito de la ISO27001
+	- [ ] El aumento del coste de la energía
+	- [x] Movilidad de los usuarios
+	- [ ] Cumplir los requisitos de la ISO27001
 
 8. La aplicación de medidas de seguridad es una medida técnica que SOLO se aplica durante el proceso de instalación del sistema. ¿Verdadero o falso?
 	- [ ] Verdadero
@@ -49,7 +49,7 @@
 	- [x] Falso
 	- [ ] Verdadero
 
-11. ¿En qué 3 elemento se apoya la ciberseguridad?
+11. ¿En qué 3 elementos se apoya la ciberseguridad?
 	- [ ] Paquetes, tramas y segmentos
 	- [x] Procesos, personas y tecnologías
 	- [ ] Instalaciones, cámaras y tornos de acceso

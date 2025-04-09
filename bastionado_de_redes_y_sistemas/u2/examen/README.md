@@ -15,7 +15,7 @@
 	- [ ] Verdadero
 
 3. El NIST Framework se puede considerar como un marco de buenas prácticas en ciberseguridad. ¿Verdadero o falso?
-	- [ ] Verdadero
+	- [x] Verdadero
 	- [ ] Falso 
 
 4. Un evento de seguridad es similar a una notificación. ¿Verdadero o falso?
@@ -32,9 +32,9 @@
 	- [ ] Falso
 	- [x] Verdadero
 
-7. La limitación del alcance, nunca se debe considerar en una análisis de riesgos. ¿Verdadero o falso?
+7. La limitación del alcance nunca se debe considerar en un análisis de riesgos. ¿Verdadero o falso?
 	- [ ] Verdadero
-	- [ ] Falso
+	- [x] Falso
 
 8. "El residuo se convierte en recurso. Todo el material biodegradable vuelve a la naturaleza y el no biodegradable se reutiliza" es un principio fundamental de la economía circular. ¿Verdadero o falso?
 	- [ ] Falso

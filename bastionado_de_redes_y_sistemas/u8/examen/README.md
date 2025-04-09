@@ -29,7 +29,7 @@
 
 6. La comprobación de integridad de la nueva versión de la BIOS nos asegura:
 	- [ ] Que no tiene vulnerabilidades
-	- [ ] Autenticidad del software por parte del fabricante
+	- [x] Autenticidad del software por parte del fabricante
 	- [ ] La correcta funcionalidad
 
 7. El Bluetooth activado constituye un riesgo para la fuga de información del sistema. ¿Verdadero o falso?
@@ -50,7 +50,7 @@
 	- [ ] Tener un delay de 5 minutos
 	- [ ] Establecer un horario de funcionamiento
 
-11. ¿Cual de lo siguientes es el puerto que menos riesgo tiene dejar habilitado en un equipo a través de la BIOS?
+11. ¿Cuál de lo siguientes es el puerto que menos riesgo tiene dejar habilitado en un equipo a través de la BIOS?
 	- [ ] USB
 	- [ ] Bluetooth
 	- [x] Audio
@@ -83,7 +83,7 @@
 	- [ ] Verdadero
 	- [x] Falso
 
-18. En los sistema Linux, ¿qué mecanismo nos permite proteger la secuencia de arranque?:
+18. En los sistema Linux, ¿qué mecanismo nos permite proteger la secuencia de arranque?
 	- [ ] Network Deception
 	- [ ] Ansible
 	- [x] GRUB
@@ -118,7 +118,7 @@
 	- [ ] Permite conectar dispositivos "rogue" para captura de información, lineas de conexión no controladas, despliegue de malware, etc.
 	- [x] Aumenta la concienciación de los usuarios
 
-25. ¿Es considerada segura la UEFI de un fabricante que no publica actualizaciones de seguridad de su firmware?. ¿Verdadero o falso?
+25. ¿Es considerada segura la UEFI de un fabricante que no publica actualizaciones de seguridad de su firmware? ¿Verdadero o falso?
 	- [ ] Verdadero
 	- [x] Falso
 
@@ -127,13 +127,13 @@
 	- [x] Rootkit
 	- [ ] Spoofing
 
-27. ¿Es seguro habilitar por defecto las nuevas funcionalidades de actualización remota de la UEFI? ¿Verdadero o falso?
+27. Es seguro habilitar por defecto las nuevas funcionalidades de actualización remota de la UEFI. ¿Verdadero o falso?
 	- [ ] Verdadero
 	- [x] Falso
 
 28. ¿Cuál de los siguientes escenarios es el más seguro?
 	- [ ] Los equipos del departamento de seguridad deberá tener el USB autorizado
-	- [x] Los equipos qeu justifiquen la utilización del puerto USB podrán utilizarlo en base a las reglas de la organización
+	- [x] Los equipos que justifiquen la utilización del puerto USB podrán utilizarlo en base a las reglas de la organización
 	- [ ] Todos los dispositivos tienen el USB activo
 
 29. ¿Qué herramienta de Windows permite el cifrado de la información del sistema de archivos?
