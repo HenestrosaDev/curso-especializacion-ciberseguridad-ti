@@ -493,7 +493,7 @@ Adicionalmente, siempre es recomendable tener copias de seguridad seguras, actua
 
 ### Calificación
 
-- / 10,00
+8,29 / 10,00
 
 ### Comentarios de retroalimentación y rúbrica
 
