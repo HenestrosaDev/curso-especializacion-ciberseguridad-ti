@@ -6,6 +6,8 @@
 - [Requisitos iniciales](#requisitos-iniciales)
 - [¿Qué te pedimos que hagas?](#qué-te-pedimos-que-hagas)
 	- [Situación de partida](#situación-de-partida)
+	- [Técnica 1: Cambiar permisos al fichero](#técnica-1-cambiar-permisos-al-fichero)
+	- [Técnica 2: Incluir al usuario en el grupo `adm` o `root`](#técnica-2-incluir-al-usuario-en-el-grupo-adm-o-root)
 	- [Técnica 3: Cambiar propietario del fichero](#técnica-3-cambiar-propietario-del-fichero)
 	- [Técnica 4: Uso de ACLs](#técnica-4-uso-de-acls)
 	- [Técnica 5: Uso del permiso SetUID](#técnica-5-uso-del-permiso-setuid)
