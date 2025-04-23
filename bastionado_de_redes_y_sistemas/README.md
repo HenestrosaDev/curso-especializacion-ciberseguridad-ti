@@ -59,7 +59,7 @@
 				7. Configuración de dispositivos y sistemas informáticos II
 			</a>
 		</td>
-		<td>-</td>
+		<td>8,29 / 10,00</td>
 	</tr>
 	<tr>
 		<td>
@@ -67,7 +67,7 @@
 				8. Configuración de dispositivos para la instalación de sistemas informáticos
 			</a>
 		</td>
-		<td>-</td>
+		<td>8,75 / 10,00</td>
 	</tr>
 	<tr>
 		<td>
