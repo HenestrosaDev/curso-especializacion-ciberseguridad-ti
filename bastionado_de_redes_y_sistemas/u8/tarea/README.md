@@ -81,7 +81,7 @@ Iniciamos sesión con el usuario y comprobamos que, efectivamente, no se permite
 
 ---
 
-### Técnica 1: Cambiar permisos al fichero
+### Técnica 1: Cambiar permisos al fichero
 
 >[!NOTE]
 >Cambia los permisos mínimos necesarios para poder leer el fichero.
@@ -127,7 +127,7 @@ Acto seguido, cambiamos de nuevo al usuario IDEA para comprobar que los cambios 
 
 ---
 
-### Técnica 2: Incluir al usuario en el grupo `adm` o `root`
+### Técnica 2: Incluir al usuario en el grupo `adm` o `root`
 
 >[!NOTE]
 >Incluye al usuario IDEA en el grupo `adm` o `root` (según el estado inicial), de manera que pueda acceder al contenido del fichero. 
@@ -439,12 +439,12 @@ Para revertir el proceso, eliminamos la línea añadida al fichero `sudoers` y v
 
 <div align="center">
 
-![](capturas/8_tecnica_6/2-1_proceso.jpg)
+![](capturas/8_tecnica_6/2-1_revertir_proceso.jpg)
 </div>
 
 <div align="center">
 
-![](capturas/8_tecnica_6/2-2_proceso.jpg)
+![](capturas/8_tecnica_6/2-2_revertir_proceso.jpg)
 </div>
 
 >Captura del proceso
