@@ -547,7 +547,7 @@ sudo chwon root:root /var/log/syslog
 
 ### Calificación
 
-- / 10,00
+8,75 / 10,00
 
 ### Comentarios de retroalimentación y rúbrica
 
