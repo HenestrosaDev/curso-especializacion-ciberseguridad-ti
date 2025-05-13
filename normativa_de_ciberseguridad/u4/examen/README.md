@@ -24,7 +24,7 @@
 
 4. El tratamiento de datos sensibles estará siempre prohibido salvo...
 	- [x] que el interesado consienta explícitamente su tratamiento.
-	- [ ] el encargado de tratamiento este interesado.
+	- [ ] el encargado de tratamiento esté interesado.
 	- [ ] sea necesario para el proceso de negocio de la empresa.
 	- [ ] sea cedido a terceras empresas.
 
@@ -68,7 +68,7 @@
 	- [ ] Cuando se traten con tecnologías Blockchain.
 	- [ ] Cuando se traten con sistemas de Big Data.
 
-13. La facturación del servicio, es una de las finalidades de tratamiento de ACME. ¿Verdadero o falso?
+13. La facturación del servicio es una de las finalidades de tratamiento de ACME. ¿Verdadero o falso?
 	- [x] Verdadero
 	- [ ] Falso
 

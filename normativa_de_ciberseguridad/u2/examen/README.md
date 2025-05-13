@@ -146,7 +146,7 @@
 	- [ ] Reducir
 	- [ ] Mitigar.
 
-26. El proceso de gestión de riesgos implica, la identificación de riesgos, la evaluación de riesgos, y el tratamiento de riesgos.¿Verdadero o falso?
+26. El proceso de gestión de riesgos implica la identificación de riesgos, la evaluación de riesgos, y el tratamiento de riesgos.¿Verdadero o falso?
 	- [x] Verdadero
 	- [ ] Falso
 

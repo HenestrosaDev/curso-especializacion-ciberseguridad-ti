@@ -32,7 +32,7 @@
 	- [ ] ISO 37301
 	- [x] ISO 22301
 
-6. ¿Cuál de las siguientes organizaciones esta afectada por la directiva NIS?
+6. ¿Cuál de las siguientes organizaciones está afectada por la directiva NIS?
 	- [ ] Mercadona
 	- [x] Amazon
 	- [ ] Ferrovial
@@ -160,7 +160,7 @@
 	- [ ] Parcial
 	- [x] Repetible
 
-31. Los requisitos mínimos a cumplir con el ENS estan definidos en el anexo 2 de la norma. ¿Verdadero o falso?
+31. Los requisitos mínimos a cumplir con el ENS están definidos en el anexo 2 de la norma. ¿Verdadero o falso?
 	- [x] Verdadero
 	- [ ] Falso
 
