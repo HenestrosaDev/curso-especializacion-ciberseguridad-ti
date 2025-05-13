@@ -135,7 +135,7 @@
 	- [ ] En los años 90
 	- [x] En la década del 2000
 
-29. De cara a saber donde aplicar los esfuerzos de bastionado, ¿qué se debe realizar previamente al bastionado?
+29. De cara a saber dónde aplicar los esfuerzos de bastionado, ¿qué se debe realizar previamente al bastionado?
 	- [x] Análisis de riesgos
 	- [ ] Análisis de costes
 	- [ ] Pruebas de estrés

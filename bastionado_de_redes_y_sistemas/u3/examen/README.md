@@ -64,7 +64,7 @@
 	- [ ] Verdadero
 	- [x] Falso
 
-13. En la actualidad, usar un método de acceso basado en un único factor, se puede considerar arriesgado. ¿Verdadero o falso?
+13. En la actualidad, usar un método de acceso basado en un único factor se puede considerar arriesgado. ¿Verdadero o falso?
 	- [ ] Falso
 	- [x] Verdadero
 

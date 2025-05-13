@@ -9,7 +9,7 @@
 	- [x] 0-255
 	- [ ] 1-10 
 
-2. ¿Porque es útil conocer los métodos de evasión de las medidas de protección de un firewall?
+2. ¿Por qué es útil conocer los métodos de evasión de las medidas de protección de un firewall?
 	- [x] Para saber si soy vulnerable a ellas con las configuraciones de seguridad aplicadas.
 	- [ ] Para colocar el firewall en una capa más interna.
 	- [ ] Para ser nombrado hacker del mes

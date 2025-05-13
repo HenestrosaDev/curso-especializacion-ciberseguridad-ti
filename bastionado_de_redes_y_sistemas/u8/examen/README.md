@@ -22,7 +22,7 @@
 	- [ ] Falso
 	- [x] Verdadero
 
-5. ¿Por qué se ha tenido en consideración la utilización de productos ciberseguros acreditados?
+5. ¿Por qué se ha tenido en consideración lia utilización de productos ciberseguros acreditados?
 	- [x] Ataques a la cadena de suministros
 	- [ ] Por el continuo negocio de las blockchain
 	- [ ] El alto coste que tienen los productos de software libre

@@ -24,7 +24,7 @@
 	- [ ] Acceso 2FA
 	- [ ] Entrar con la cuenta de máximos privilegios
 
-5. ¿Qué herramienta del entorno Linux se utiliza para el control de la ejecución de software?:
+5. ¿Qué herramienta del entorno Linux se utiliza para el control de la ejecución de software?
 	- [x] AppArmour
 	- [ ] OSSEC
 	- [ ] AppLocker
@@ -96,7 +96,7 @@
 
 20. Con un antivirus estamos a salvo de cualquier ataque. ¿Verdadero o falso?
 	- [ ] Verdadero
-	- [ ] Falso
+	- [x] Falso
 
 21. Existe una versión segura del protocolo FTP. ¿Verdadero o falso?
 	- [x] Verdadero

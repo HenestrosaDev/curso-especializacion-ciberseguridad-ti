@@ -30,7 +30,7 @@
 	- [x] Verdadero
 	- [ ] Falso
 
-6. Un certificado autofirmado, es vulnerable por naturaleza y sería inseguro usarlo. ¿Verdadero o falso?
+6. Un certificado autofirmado es vulnerable por naturaleza y sería inseguro usarlo. ¿Verdadero o falso?
 	- [x] Falso
 	- [ ] Verdadero
 
