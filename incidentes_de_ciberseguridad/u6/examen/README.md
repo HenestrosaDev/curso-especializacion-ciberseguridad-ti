@@ -18,7 +18,7 @@
 	- [x] Capa Enlace de Datos.
 	- [ ] Capa Física.
 
-3. ¿Que estrategia permite estar preparado ante cualquier incidente?
+3. ¿Qué estrategia permite estar preparado ante cualquier incidente?
 	- [ ] Las instalaciones gemelas que pueden entrar en acción en cualquier momento.
 	- [ ] El análisis forense.
 	- [ ] Los planes de respuesta.
