@@ -43,6 +43,7 @@
 				5. Normativa vigente de ciberseguridad de ámbito nacional e internacional
 			</a>
 		</td>
+		<td>10,00 / 10,00</td>
 		<td>-</td>
 	</tr>
 </table>
