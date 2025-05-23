@@ -44,6 +44,13 @@
 			</a>
 		</td>
 		<td>10,00 / 10,00</td>
-		<td>-</td>
+	</tr>
+	<tr>
+		<td colspan="2"></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><strong>CALIFICACIÓN MEDIA</strong></td>
+		<td>9,23 / 10,00</td>
 	</tr>
 </table>
