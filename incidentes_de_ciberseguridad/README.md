@@ -51,7 +51,7 @@
 				6. IDS/IPS Snort
 			</a>
 		</td>
-		<td>-</td>
+		<td>8,63 / 10,00</td>
 	</tr>
 	<tr>
 		<td>
