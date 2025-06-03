@@ -75,7 +75,7 @@
 				9. Configuración de sistemas informáticos
 			</a>
 		</td>
-		<td>-</td>
+		<td>9,50 / 10,00</td>
 	</tr>
 </table>
 

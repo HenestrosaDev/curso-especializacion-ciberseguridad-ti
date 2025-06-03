@@ -579,7 +579,7 @@ Como podemos comprobar, los logs se almacenan correctamente con el nivel indicad
 
 ### Calificación final
 
-- / 10,00
+9,50 / 10,00
 
 ### Comentarios de retroalimentación y rúbrica
 
