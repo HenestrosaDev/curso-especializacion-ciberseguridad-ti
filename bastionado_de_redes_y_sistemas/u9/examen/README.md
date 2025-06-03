@@ -20,8 +20,8 @@
 	- [x] 2
 
 4. ¿Qué medida de refuerzo implementarías para el acceso remoto de un administrador?
-	- [x] Contraseña mínima de 30 caracteres
-	- [ ] Acceso 2FA
+	- [ ] Contraseña mínima de 30 caracteres
+	- [x] Acceso 2FA
 	- [ ] Entrar con la cuenta de máximos privilegios
 
 5. ¿Qué herramienta del entorno Linux se utiliza para el control de la ejecución de software?
