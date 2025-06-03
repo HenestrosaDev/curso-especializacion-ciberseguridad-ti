@@ -1,5 +1,8 @@
 # Bastionado de Redes y Sistemas (24/25)
 
+>[!NOTE]
+>Los errores de las tareas marcadas con un asterisco (*) han sido corregidos, por lo que, según las correcciones del profesorado, deberían tener una calificación de 10,00 en su estado actual.
+
 <table>
 	<tr>
 		<th>UNIDAD</th>
@@ -77,6 +80,12 @@
 		</td>
 		<td>9,50 / 10,00</td>
 	</tr>
+	<tr>
+		<td colspan="2"></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><strong>CALIFICACIÓN MEDIA</strong></td>
+		<td>9,20 / 10,00</td>
+	</tr>
 </table>
-
->Los errores de las tareas marcadas con un asterisco (*) han sido corregidos, por lo que, según las correcciones del profesorado, deberían tener una calificación de 10,00 en su estado actual.
