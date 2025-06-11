@@ -1,4 +1,5 @@
 # Incidentes de Ciberseguridad (24/25)
+>Cada tarea tiene su correspondiente corrección en el archivo `rubrica.png`, el cual está adjunto en cada `README`.
 
 <table>
 	<tr>

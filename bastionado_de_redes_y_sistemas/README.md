@@ -1,6 +1,7 @@
 # Bastionado de Redes y Sistemas (24/25)
 
 >[!NOTE]
+>Cada tarea tiene su correspondiente corrección en el archivo `rubrica.png`, el cual está adjunto en cada `README`.
 >Los errores de las tareas marcadas con un asterisco (*) han sido corregidos, por lo que, según las correcciones del profesorado, deberían tener una calificación de 10,00 en su estado actual.
 
 <table>

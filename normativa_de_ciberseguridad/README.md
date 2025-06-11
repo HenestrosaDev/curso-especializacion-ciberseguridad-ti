@@ -1,5 +1,8 @@
 # Normativa de Ciberseguridad (24/25)
 
+>[!NOTE]
+>Cada tarea tiene su correspondiente corrección en el archivo `rubrica.png`, el cual está adjunto en cada `README`.
+
 <table>
 	<tr>
 		<th>UNIDAD</th>
