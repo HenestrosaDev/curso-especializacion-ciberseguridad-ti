@@ -90,7 +90,7 @@ El curso cuenta con una duración de **720 horas**, repartidas, aproximadamente,
 
 >[!NOTE]
 >- Los números entre paréntesis al final del nombre de cada módulo indican el curso escolar en el que se realizó.
->- En la raíz del repositorio se encuentra el archivo [`anki.apkg`](anki.apkg), el cual es una baraja de [Anki](https://es.wikipedia.org/wiki/Anki) que contiene las preguntas tipo test de todos los exámenes del curso (a excepción de aquellos módulos que no se han cursado aún).
+>- En la raíz del repositorio se encuentra el archivo [`anki.apkg`](anki.apkg), el cual es una baraja de [Anki](https://es.wikipedia.org/wiki/Anki) que contiene las preguntas tipo test de todos los exámenes del curso.
 
 <table>
 	<tr>

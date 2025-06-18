@@ -1,5 +1,8 @@
 # EXAMEN Unidad 2: Auditoría de incidentes de ciberseguridad
 
+>[!NOTE]
+>Este examen está incluido en la baraja de Anki disponible en la raíz del repositorio (`anki.apkg`).
+
 [Test de Daypo](https://www.daypo.com/ic-02.html)
 
 ## Preguntas y respuestas

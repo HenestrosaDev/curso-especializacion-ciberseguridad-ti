@@ -1,5 +1,8 @@
 # EXAMEN Unidad 4: Legislación y jurisprudencia en materia de protección de datos
 
+>[!NOTE]
+>Este examen está incluido en la baraja de Anki disponible en la raíz del repositorio (`anki.apkg`).
+
 [test de daypo](https://www.daypo.com/nc-04.html)
 
 ## preguntas y respuestas

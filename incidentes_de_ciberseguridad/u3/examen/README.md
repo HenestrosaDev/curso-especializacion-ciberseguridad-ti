@@ -1,5 +1,8 @@
 # EXAMEN Unidad 3: Investigación de los Incidentes de Ciberseguridad
 
+>[!NOTE]
+>Este examen está incluido en la baraja de Anki disponible en la raíz del repositorio (`anki.apkg`).
+
 [Test de Daypo](https://daypo.com/ic-03.html)
 
 ## Preguntas y respuestas

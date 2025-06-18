@@ -1,5 +1,8 @@
 # EXAMEN Unidad 5: Diseño de redes seguras
 
+>[!NOTE]
+>Este examen está incluido en la baraja de Anki disponible en la raíz del repositorio (`anki.apkg`).
+
 [Test en Daypo](https://www.daypo.com/br-5.html)
 
 ## Preguntas y respuestas

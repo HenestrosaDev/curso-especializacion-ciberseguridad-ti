@@ -1,5 +1,8 @@
 # EXAMEN Unidad 3: Configuración de sistemas de acceso y autenticación de personas
 
+>[!NOTE]
+>Este examen está incluido en la baraja de Anki disponible en la raíz del repositorio (`anki.apkg`).
+
 [Test de Daypo](https://www.daypo.com/br-3.html)
 
 ## Preguntas y respuestas

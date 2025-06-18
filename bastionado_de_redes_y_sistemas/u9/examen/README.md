@@ -1,5 +1,8 @@
 # EXAMEN Unidad 9: Configuración de sistemas informáticos
 
+>[!NOTE]
+>Este examen está incluido en la baraja de Anki disponible en la raíz del repositorio (`anki.apkg`).
+
 [Test en Daypo](https://www.daypo.com/br-9.html)
 
 ## Preguntas y respuestas

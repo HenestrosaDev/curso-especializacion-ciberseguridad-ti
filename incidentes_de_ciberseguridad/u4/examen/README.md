@@ -1,5 +1,8 @@
 # EXAMEN Unidad 4: Implementación de medidas de ciberseguridad
 
+>[!NOTE]
+>Este examen está incluido en la baraja de Anki disponible en la raíz del repositorio (`anki.apkg`).
+
 [Test de Daypo](https://daypo.com/ic-04.html)
 
 ## Preguntas y respuestas
