@@ -16,7 +16,6 @@
 			</a>
 		</td>	
 		<td>
-		<td>
 			<a href="u1/examen">Enlace</a>
 		</td>
 		<td>9,00 / 10,00</td>
