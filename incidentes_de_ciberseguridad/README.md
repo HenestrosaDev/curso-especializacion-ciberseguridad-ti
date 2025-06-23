@@ -1,5 +1,7 @@
 # Incidentes de Ciberseguridad (24/25)
 
+## Desglose de las unidades
+
 >[!NOTE]
 >- Cada tarea tiene su correspondiente corrección en el archivo `rubrica.png`, el cual está adjunto en cada `README`.
 >- (*) La tarea de la unidad 7 no está disponible, ya que tuve un error con las máquinas virtuales que no pude resolver antes de su fecha de entrega.
@@ -96,3 +98,7 @@
 		<td><strong>8,34 / 10,00</strong></td>
 	</tr>
 </table>
+
+## Desglose de la calificación final
+
+![](desglose_calificacion_final.png)
