@@ -96,6 +96,7 @@ El curso cuenta con una duración de **720 horas**, repartidas, aproximadamente,
 	<tr>
 		<th>MÓDULO</th>
 		<th>UNIDAD</th>
+		<th>CALIFICACIÓN</th>
 	</tr>
 	<tr>
 		<td rowspan="9">
@@ -107,6 +108,9 @@ El curso cuenta con una duración de **720 horas**, repartidas, aproximadamente,
 			<a href="https://github.com/HenestrosaDev/curso-especializacion-ciberseguridad-ti/tree/main/bastionado_de_redes_y_sistemas/u1">
 				1. Introducción al bastionado
 			</a>
+		</td>
+		<td rowspan="9">
+			9 / 10
 		</td>
 	</tr>
 	<tr>
@@ -176,6 +180,9 @@ El curso cuenta con una duración de **720 horas**, repartidas, aproximadamente,
 				1. Desarrollo de planes de prevención y concienciación en ciberseguridad
 			</a>
 		</td>	
+		<td rowspan="7">
+			8 / 10
+		</td>
 	</tr>
 	<tr>
 		<td>
@@ -230,6 +237,9 @@ El curso cuenta con una duración de **720 horas**, repartidas, aproximadamente,
 				1. Puntos principales sobre el cumplimiento normativo
 			</a>
 		</td>	
+		<td rowspan="5">
+			10 / 10
+		</td>
 	</tr>
 	<tr>
 		<td>
