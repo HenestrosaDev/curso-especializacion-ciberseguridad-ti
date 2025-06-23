@@ -8,6 +8,9 @@
 	- [Apartado 2. Sistema de gestión de seguridad de la información basado en ISO 27001.](#apartado-2-sistema-de-gestión-de-seguridad-de-la-información-basado-en-iso-27001)
 	- [Apartado 3. Sistema de gestión de continuidad de negocio basado en ISO 22301.](#apartado-3-sistema-de-gestión-de-continuidad-de-negocio-basado-en-iso-22301)
 	- [Apartado 4: Esquema nacional de seguridad.](#apartado-4-esquema-nacional-de-seguridad)
+- [Resultado](#resultado)
+	- [Calificación](#calificación)
+	- [Comentarios de retroalimentación y rúbrica](#comentarios-de-retroalimentación-y-rúbrica)
 
 <br>
 
