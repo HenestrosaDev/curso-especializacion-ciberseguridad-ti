@@ -1,7 +1,8 @@
 # Incidentes de Ciberseguridad (24/25)
 
 >[!NOTE]
->Cada tarea tiene su correspondiente corrección en el archivo `rubrica.png`, el cual está adjunto en cada `README`.
+>- Cada tarea tiene su correspondiente corrección en el archivo `rubrica.png`, el cual está adjunto en cada `README`.
+>- (*) La tarea de la unidad 7 no está disponible, ya que tuve un error con las máquinas virtuales que no pude resolver antes de su fecha de entrega.
 
 <table>
 	<tr>
@@ -80,17 +81,18 @@
 			<a href="u7">
 				7. SIEM ELK
 			</a>
+			*
 		</td>
 		<td>
 			<a href="u7/examen">Enlace</a>
 		</td>
-		<td>-</td>
+		<td>4,50 / 10,00</td>
 	</tr>
 	<tr>
 		<td colspan="3"></td>
 	</tr>
 	<tr>
 		<td colspan="2"><strong>CALIFICACIÓN MEDIA</strong></td>
-		<td>- / 10,00</td>
+		<td><strong>8,34 / 10,00</strong></td>
 	</tr>
 </table>
