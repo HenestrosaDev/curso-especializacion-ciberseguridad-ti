@@ -13,6 +13,9 @@
 	- [Técnica 5: Uso del permiso SetUID](#técnica-5-uso-del-permiso-setuid)
 	- [Técnica 6: Configuración del fichero `sudoers` (`visudo`)](#técnica-6-configuración-del-fichero-sudoers-visudo)
 	- [Conclusiones](#conclusiones)
+- [Resultado](#resultado)
+	- [Calificación](#calificación)
+	- [Comentarios de retroalimentación y rúbrica](#comentarios-de-retroalimentación-y-rúbrica)
 
 <br>
 
