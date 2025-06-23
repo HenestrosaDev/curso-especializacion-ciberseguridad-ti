@@ -1,5 +1,7 @@
 # Normativa de Ciberseguridad (24/25)
 
+## Desglose de las unidades
+
 >[!NOTE]
 >Cada tarea tiene su correspondiente corrección en el archivo `rubrica.png`, el cual está adjunto en cada `README`.
 
@@ -72,3 +74,7 @@
 		<td>9,23 / 10,00</td>
 	</tr>
 </table>
+
+## Desglose de la calificación final
+
+![](desglose_calificacion_final.png)
