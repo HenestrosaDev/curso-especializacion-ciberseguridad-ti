@@ -268,6 +268,8 @@ De forma más extensa, el broker permitió que un dispositivo ajeno al invernade
 
 Como pudimos extraer el _payload_ en hexadecimal y traducirlo directamente a JSON, sabemos que la comunicación no estaba cifrada con TLS/SSL. Esto facilitó que el atacante pudiera capturar el tráfico previo para aprender la estructura de los _topics_ y el formato de los comandos legítimos antes de inyectar el suyo.
 
+<br>
+
 #### Recomendaciones
 
 >[!NOTE]
@@ -282,6 +284,8 @@ Para evitar que el invernadero vuelva a ser comprometido, el equipo de ingenier�
 2. **Cifrado de las comunicaciones**
 
 	Tienen que configurar MQTT para usar MQTTS (MQTT sobre TLS) para evitar que cualquier atacante en la red local pueda aplicar ingeniería inversa a los comandos leyendo los paquetes en texto plano.
+
+<br>
 
 ## Resultado
 
