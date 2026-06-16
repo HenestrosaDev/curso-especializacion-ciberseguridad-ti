@@ -62,10 +62,10 @@
 	- [x] Problemas de coherencia en la línea temporal.
 
 13. En entornos de IoT una amplia gama de dispositivos diferentes provoca:
-	- [x] Tener un enfoque estandarizado para la recopilación de evidencias.
+	- [ ] Tener un enfoque estandarizado para la recopilación de evidencias.
 	- [ ] Incremento del entorno cloud y local
 	- [ ] Muchas comunicaciones unificadas.
-	- [ ] Modelos de servicio diferente.
+	- [x] Modelos de servicio diferente.
 
 14. A día de hoy hay definida una metodología y un marco para el análisis forense de IoT desarrollada por la Unión Europea. ¿Verdadero o falso?
 	- [ ] Verdadero
