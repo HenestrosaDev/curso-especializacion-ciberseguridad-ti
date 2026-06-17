@@ -146,3 +146,9 @@
 28. Las redes de tipo WEP se encuentran en desuso. ¿Verdadero o falso?
 	- [x] Verdadero
 	- [ ] Falso
+
+29. Indica cual de las siguientes afirmaciones de las redes de tipo OPEN son ciertas:
+	- [ ] Aunque no disponen de contraseña de acceso cifran el canal de comunicaciones.
+	- [ ] Cualquier usuario que monitorice la red puede acceder a la información transmitida que se haya transmitido a través de HTTP, FTP o telnet entre otros.
+	- [ ] Cualquier persona puede acceder a la red sin necesidad de conocer la contraseña.
+	- [ ] Los clientes suelen tener visibilidad entre ellos pudiendo sufrir ataques de otro equipo de la red.
