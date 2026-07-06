@@ -1,0 +1,166 @@
+[
+	{
+		"eventTime": "2025-05-09T10:00:00Z",
+		"eventName": "ConsoleLogin",
+		"eventSource": "signin.amazonaws.com",
+		"sourceIPAddress": "192.168.1.120",
+		"userIdentity": {
+			"type": "IAMUser",
+			"userName": "dev_admin"
+		},
+		"additionalEventData": {
+			"MFAUsed": "Yes"
+		}
+	},
+	{
+		"eventTime": "2025-05-09T10:01:00Z",
+		"eventName": "ConsoleLogin",
+		"eventSource": "signin.amazonaws.com",
+		"sourceIPAddress": "203.0.113.5",
+		"userIdentity": {
+			"type": "IAMUser",
+			"userName": "iot_service"
+		},
+		"errorMessage": "Failed authentication"
+	},
+	{
+		"eventTime": "2025-05-09T10:02:00Z",
+		"eventName": "ConsoleLogin",
+		"eventSource": "signin.amazonaws.com",
+		"sourceIPAddress": "203.0.113.5",
+		"userIdentity": {
+			"type": "IAMUser",
+			"userName": "iot_service"
+		},
+		"additionalEventData": {
+			"MFAUsed": "No"
+		}
+	},
+	{
+		"eventTime": "2025-05-09T10:03:00Z",
+		"eventName": "ListUsers",
+		"eventSource": "iam.amazonaws.com",
+		"sourceIPAddress": "203.0.113.5",
+		"userIdentity": {
+			"type": "IAMUser",
+			"userName": "iot_service"
+		}
+	},
+	{
+		"eventTime": "2025-05-09T10:04:00Z",
+		"eventName": "ListBuckets",
+		"eventSource": "s3.amazonaws.com",
+		"sourceIPAddress": "203.0.113.5",
+		"userIdentity": {
+			"type": "IAMUser",
+			"userName": "iot_service"
+		}
+	},
+	{
+		"eventTime": "2025-05-09T10:05:00Z",
+		"eventName": "DescribeInstances",
+		"eventSource": "ec2.amazonaws.com",
+		"sourceIPAddress": "203.0.113.5",
+		"userIdentity": {
+			"type": "IAMUser",
+			"userName": "iot_service"
+		}
+	},
+	{
+		"eventTime": "2025-05-09T10:06:00Z",
+		"eventName": "AttachUserPolicy",
+		"eventSource": "iam.amazonaws.com",
+		"sourceIPAddress": "203.0.113.5",
+		"userIdentity": {
+			"type": "IAMUser",
+			"userName": "iot_service"
+		},
+		"requestParameters": {
+			"policyArn": "arn:aws:iam::aws:policy/AdministratorAccess",
+			"userName": "iot_service"
+		}
+	},
+	{
+		"eventTime": "2025-05-09T10:07:00Z",
+		"eventName": "CreateAccessKey",
+		"eventSource": "iam.amazonaws.com",
+		"sourceIPAddress": "203.0.113.5",
+		"userIdentity": {
+			"type": "IAMUser",
+			"userName": "iot_service"
+		},
+		"requestParameters": {
+			"userName": "iot_service"
+		}
+	},
+	{
+		"eventTime": "2025-05-09T10:08:00Z",
+		"eventName": "GetObject",
+		"eventSource": "s3.amazonaws.com",
+		"sourceIPAddress": "203.0.113.5",
+		"userIdentity": {
+			"type": "IAMUser",
+			"userName": "iot_service"
+		},
+		"requestParameters": {
+			"bucketName": "customer-backups",
+			"key": "records/confidential_0.zip"
+		}
+	},
+	{
+		"eventTime": "2025-05-09T10:09:00Z",
+		"eventName": "GetObject",
+		"eventSource": "s3.amazonaws.com",
+		"sourceIPAddress": "203.0.113.5",
+		"userIdentity": {
+			"type": "IAMUser",
+			"userName": "iot_service"
+		},
+		"requestParameters": {
+			"bucketName": "customer-backups",
+			"key": "records/confidential_1.zip"
+		}
+	},
+	{
+		"eventTime": "2025-05-09T10:10:00Z",
+		"eventName": "GetObject",
+		"eventSource": "s3.amazonaws.com",
+		"sourceIPAddress": "203.0.113.5",
+		"userIdentity": {
+			"type": "IAMUser",
+			"userName": "iot_service"
+		},
+		"requestParameters": {
+			"bucketName": "customer-backups",
+			"key": "records/confidential_2.zip"
+		}
+	},
+	{
+		"eventTime": "2025-05-09T10:11:00Z",
+		"eventName": "GetObject",
+		"eventSource": "s3.amazonaws.com",
+		"sourceIPAddress": "203.0.113.5",
+		"userIdentity": {
+			"type": "IAMUser",
+			"userName": "iot_service"
+		},
+		"requestParameters": {
+			"bucketName": "customer-backups",
+			"key": "records/confidential_3.zip"
+		}
+	},
+	{
+		"eventTime": "2025-05-09T10:12:00Z",
+		"eventName": "GetObject",
+		"eventSource": "s3.amazonaws.com",
+		"sourceIPAddress": "203.0.113.5",
+		"userIdentity": {
+			"type": "IAMUser",
+			"userName": "iot_service"
+		},
+		"requestParameters": {
+			"bucketName": "customer-backups",
+			"key": "records/confidential_4.zip"
+		}
+	}
+]
